@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+
+
+<style>
+
+input {
+  width: 20%;
+}
+
+body {
+       counter-reset: h2counter;
+   }
+   h1 {
+       counter-reset: h2counter;
+   }
+
+
+.draft {
+	color: red;
+}
+
+h2:before {
+        content: counter(h2counter) ".\0000a0\0000a0";
+        counter-increment: h2counter;
+        counter-reset: h3counter;
+    }
+
+@media screen {
+  div.divHeader {
+    display: none;
+  }
+}
+@media print {
+  div.divHeader {
+    position: fixed;
+        top: 0;
+      }
+      .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    }
+
+    @media all {
+    	.page-break	{ display: none; }
+    }
+
+    @media print {
+    	.page-break	{ display: block; page-break-before: always; }
+    }
+
+div#inputArea {
+  background-color: lightblue;
+  font-size: 9px;
+}
+
+</style>
+
+<div id="inputArea" class="no-print">
+<h1>Inputs</h1>
+<p>Salary<input id="i-companyAddress" value="20 Ropemaker St, London EC2Y 9AR">
+
+<br>Title<input id="i-title" value = "Mr">
+<br>Candidate<input id="i-candidate" value = "FirstName LastName">
+<br>First name<input id="i-firstName" value = "FirstName">
+
+<br>Role<input id="i-role" value = "Business analyst">
+
+<br>Salary<input id="i-salary" value = "GBP 1 monthly">
+<br>Options (if zero, options clauses will disappear)<input id="i-options" value= "0">
+
+<br>Holiday days<input id="i-holidayDays" value = "Twenty (20)">
+
+<br>Signing date<input id="i-signingDate" value = "Mar 23, 2017">
+<br>Offer expiry<input id="i-offerExpiry" value = "Mar 27, 2017">
+<br>Start date<input id="i-startDate" value = "Apr 1, 2017">
+<br>End date (if blank, will be a permanent contract)<input id="i-endDate" value = "Sep 1, 2017" >
+
+<br>Probation termination<input id="i-probationTermination" value = "1 week">
+
+<br>Disclaimer<input id="i-disclaimer" value = "This is a draft, subject to reference checks by True AI.">
+
+<br>Manager<input id="i-manager" value = "Abhishek Aggarwal and Pyry Takala">
+
+<p><button id="refresh" onclick="refresh()">Refresh</button>
+</div>
+
+
+<script>
+  function refresh() {
+
+    var rawInputs = document.querySelectorAll('*[id]')
+    var inp = {}
+
+    for (i = 0; i < rawInputs.length; i++) {
+      var id = rawInputs[i].id;
+      var value = rawInputs[i].value;
+      var variable = id.substring(2, id.length)
+      if (id.substring(0,2) == 'i-') {
+        inp[variable] = value
+      }
+    }
+
+    if (inp['endDate'] != "") {
+        inp['duration'] = "for the period of " + inp['startDate'] + " to " + inp['endDate']
+    }
+
+    else {
+        inp['duration'] = "starting " + inp['startDate']
+    }
+
+    if (inp['options'] != "0") {
+      inp['optionSentence1'] = "In addition to salary, you will be entitled to " + inp['options'] + " stock options."
+    }
+    else {
+      inp['optionSentence1'] = "";
+    }
+
+    if (inp['options'] != "0") {
+      inp['optionSentence2'] = "<p>In addition to salary, the Employee will be entitled to " + inp['options'] + " stock options. These options will be subject to True AI's options plan."
+    }
+    else {
+      inp['optionSentence2'] = "";
+    }
+
+
+    if (inp['endDate'] != "") {
+        inp['endSentence'] = "The employment ends on " + inp['endDate'] + "."
+    }
+    else {
+      inp['endSentence'] = ""
+    }
+
+
+    console.log('----- refreshing values -----')
+    for (const [key, value] of Object.entries(inp)) {
+      try {
+        document.getElementById(key).innerHTML = value;
+      }
+      catch(err){
+        console.log('could not update value ' + key + ' with value ' + value)
+    }
+  }
+
+
+
+  }
+</script>
+
+<body>
+
+
+<p><b><span id="title"></span> <span id="candidate"></span></b>
+
+  <p><span id="signingDate"></span>
+
+
+<p class="draft"><span id="disclaimer"></span></p>
+
+<p>Dear <span id="firstName"></span>,
+
+<p>We are pleased to offer you a position as a <span id="role"></span> with True AI Ltd. (the "Company"),
+<span id="duration"></span>, reporting to <span id="manager"></span>.
+If you decide to join us, you will receive gross salary of <span id="salary"></span>, which will be paid in monthly instalments.
+<span id="optionSentence1"></span>
+
+
+<p>By accepting this offer you warrant and agree that:
+
+<ol type='a'>
+	<li>you are under no employment contract, bond, proprietary information agreement, invention agreement, confidentiality agreement or other obligation which would breach or be in conflict with the terms and conditions of your employment with us or encumber your performance of duties assigned to you by us;
+	<li>you have not signed or committed to any employment or consultant duties or other obligations which would divert your full attention from the duties assigned to you by us under your employment;
+	<li>as a pre-condition of your employment with the Company, you will provide to the Company, before you commence your employment, your passport (which will be copied and returned to you).
+	<li>we may hold relevant details relating to you and we may pass relevant details relating to you to other True AI group companies in any country to which you are transferred.  Your details will continue to be handled with appropriate care although you may no longer have rights under UK or European data protection law.
+</ol>
+
+<p>If you decide to join us and upon meeting the Company's eligibility requirements mentioned above, you will be eligible to participate certain employee benefits as detailed in your employment contract. To the extent that any of the benefits offered to you in your employment package constitute taxable income you will be responsible for all related tax liabilities.
+<p>This offer of employment with the Company comprises of this letter, the contract of employment and the confidentiality and proprietary information agreement.  Your acceptance of this offer requires you signing this letter and the attached confidentiality and proprietary information agreement and returning them to us by <span id="offerExpiry"></span>, failing which the offer shall lapse. You are also given the contract of employment in the form attached, which you will be required to sign prior to start date.
+<p>No prior promises, representations or understandings relative to any terms or conditions of your employment are to be considered as part of the offer of employment to you unless expressed in writing in this offer package.
+
+<br>
+<p>Yours sincerely
+<br><br><br><br>
+_____________________________________________________________
+<p>Pyry Takala
+<br>Director
+<br>For and on behalf of True AI Ltd.
+
+
+<p>I accept the offer of employment with True AI Ltd.
+
+<p>SIGNED by <span id="candidate"</span>
+
+<br><br><br><br>
+_____________________________________________________________
+<br><br><br><br>
+Date: _____________________________________________
+
+
+
+
+
+
+
+
+<div class="page-break"></div>
+
+
+<h1>Contract of employment</h1>
+
+<p class="draft"><span id="disclaimer"</span></p>
+
+<h2>Parties</h2>
+<ol>
+	<li> True AI Ltd. of <span id="companyAddress"</span> (the "Employer")
+	<li> <span id="candidate"</span> , of _________________________________________________________________ (insert address) (the "Employee").
+</ol>
+
+
+<h2>Date of Employment</h2>
+<p>The Employee's employment commencement Date: <span id="startDate"</span> </p>
+<span id="endSentence"></span>
+
+
+<h2>Nature of Employment</h2>
+<p>The Employee is employed as a <span id="role"</span>.</p>
+<p>The Employee shall carry out such duties as shall from time to time be assigned to him/her by the Employer.</p>
+<p>The Employee will be expected, on a daily basis, to report to and liaise with <span id="manager"</span> (his/her "Line Manager(s)"). The Line Manager(s) may be altered at the discretion of the Employer.</p>
+<p>The Employee agrees that he/she will spend the whole of his/her time and attention on the Employer's business during normal working hours.</p>
+<p>There are no collective agreements applicable to the Employee's employment.</p>
+
+
+<h2>Right to work in the UK</h2>
+<p>The Employee warrants that he/she has the unrestricted right to work in the United Kingdom without any additional immigration approvals and that he has provided the Employer with all necessary assistance to enable the Employer to comply with its duties under the Immigration Asylum and Nationality Act 2006.  The Employee undertakes to notify the Employer immediately if any such right ceases, or is reasonably expected to cease during his employment and to immediately provide the Employer with written details of changes to his/her personal circumstances that might affect his/her immigration permission.
+<p>In order for the Employer to comply with its duties to prevent illegal working, if the Employee is a sponsored migrant under the Points Based System, the Employee is required to notify the Employer in writing within five working days of any change in the Employee's personal contact details (home address, home telephone number and mobile telephone number).
+<p>The Employee undertakes to provide on request, and if necessary at least once in every 12 month period, the Employee's original passport and other satisfactory documentary evidence of his/her right to work in the UK.  The Employee acknowledges that his/her continuing employment with the Employer is conditional on compliance with this obligation and the other duties in this clause, and that failure to comply to the Employer's satisfaction may result in disciplinary action under the Employer's Disciplinary Procedure.
+
+
+<h2>Probationary Period</h2>
+<p>There will be an initial probationary period of three (3) months during which time holidays shall accrue pursuant to clause 12 below but may not be taken until the expiry of the probationary period (2) save to the extent that it is from time to time required by law to do so,
+the disciplinary procedure will not apply and (3) either the Employer or the Employee may terminate the Employee's employment on <span id="probationTermination"</span>'s notice.
+After the probationary period either party may terminate the contract by giving written notice in accordance with clause 6 below.
+
+
+<h2>Notice of Termination</h2>
+<p>In order to terminate the employment under this contract the Employee is required to give to the Employer and the Employer is required to give to the Employee, after completion of the probationary period a 1 month's notice.
+<p>The Employer reserves the right to pay the relevant net basic salary in lieu of notice.
+<p>After notice has been served by the Employer or the Employee the Employer may:
+<ol type="a">
+	<li>Require the Employee to carry out no duties; or
+	<li>Require the Employee to remain away from the office; or
+	<li>Require the Employee to carry out such duties as the Employer may require Provided that such duties are of a standard appropriate to the Employee's job desspan id="cription.
+</ol>
+<p>For the avoidance of doubt the Employee shall remain an employee of the Employer during the notice period and will continue to be bound by the terms of this contract.
+
+
+<h2>Remuneration</h2>
+<p>The Employee's base salary remuneration will be <span id="salary"</span> and shall be paid monthly in arrears net of tax and national insurance and shall be deemed to accrue from day to day based on a 5 day working week.
+
+<span id="optionSentence2"></span>
+
+
+<h2>Expenses</h2>
+<p>The Employee shall be reimbursed all reasonable expenses properly incurred in the discharge of the Employee's duties in accordance with this contract and subject to any other instructions or regulations issued by the Employer from time to time.  As a pre-condition of payment, the Employee will be expected to produce vouchers, receipts, or other evidence of the expenses in respect of which the Employee claims reimbursement.
+
+
+<h2>Other Benefits</h2>
+<p>In addition to the above remuneration the Employee shall be entitled to:
+<ol type="a">
+	<li> <span id="holidayDays"</span> holiday (vacation) days per year, as well as the usual UK public holidays.  To the extent that any of the benefits offered to you in your employment package constitute taxable income you will be responsible for all related tax liabilities. (See section 12)
+</ol>
+<p>For part-time employees, entitlement to holidays, sick pay, and all other benefits is pro rata based on the hours worked compared to those worked by a full time employee.
+<p>To the extent that any of the benefits are taxable the Employee will be responsible for all those liabilities.
+<br>
+<p>A contracting out certificate is not in force in respect of the employment.
+<br>
+<p>Participation in any insurance-based benefit (including Private Medical Insurance, Death in Service and PHI) is subject to the terms and conditions from time to time in force, is conditional on the Employee satisfying any applicable requirements of the insurer and being accepted at normal rates of premium. The Employer shall have no liability to pay any benefit to the Employee unless it receives payment from the insurer.
+<p>The Employer reserves the right to amend, alter or cease to provide (without compensation) any benefit (including any commission plan or incentive based pay) at any time.
+<p>Nothing in this agreement shall constrain or prevent the Employer from terminating the Employee's employment, notwithstanding that the Employee is or may be entitled to receive benefit payments or other benefits under any PHI Scheme from time to time in force.
+
+<h2>Place of Work</h2>
+<p>The Employee's primary place of work will be the company's office or such other place within London.
+<p>In addition, the Employee will be required to work at such other places as the Employer may from time to time specify for the performance of the Employee's duties. This will be limited to short business trips, for the duration of several days at most.
+
+
+<h2>Hours of Work</h2>
+<p>The normal working hours of the Employee will be from 8:30a.m. to 5:30p.m. on Mondays to Fridays.  The Employee will be entitled to an hour's lunch break during each working day. The hours are flexible, and the Employee and the Employer can mutually agree different working hours from week to week.
+<p>In addition, the Employee shall be required to work at such other times as the Employer may reasonably require to meet the needs of the business.  The Employee will not receive additional payment for such further work. The Employee accepts that by signing this agreement he/she has agreed that regulation 4(1) of the Working Time Regulations 1998 shall not apply. The Employee may terminate his/her agreement to this provision by giving three months' notice in writing.
+
+<h2>Holidays</h2>
+<p><b>Annual Holidays</b>
+<p>The Employee's annual paid holiday entitlement is <span id="holidayDays"</span> working days in each holiday year.  Holiday entitlement will accrue pro-rata to each completed month of employment.
+<p>The Employee is required to submit a holiday request form to his/her Line Manager for approval for all periods of leave.
+<p>The holiday year runs from January 1 to December 31.
+<p>It is not permitted to carry forward holiday entitlement from one holiday year to the next nor will payments in lieu be made in respect of holiday not taken in the relevant holiday year.
+<p>The Employee must ensure that there is no unnecessary overlapping with the holidays of other staff who would be responsible for the Employee's duties whilst he/she is on holiday.
+<p>Holiday pay on termination of employment will be calculated by establishing the number of days holiday accrued in the holiday year up to the date of termination and subtracting from this the number of days taken during the current holiday year.  The number of days remaining, if any, will be paid.
+<p><b>Bank Holidays and Public Holidays</b>
+<p>In addition to annual holidays the Employee shall be entitled to paid holidays on all statutory and public holidays together with any additional holidays awarded by the Employer.
+
+<h2>Sickness or Injury</h2>
+<ol type="a">
+	<li>If the Employee is absent from work due to sickness, he/she may be entitled to statutory sick pay.  Any other payment will be at the discretion of the Employer.
+	<li>If the Employee is prevented by sickness from performing his/her duties properly, he/she shall report this fact promptly to his/her manager before 10.00 a.m. on the first day of sickness together with an estimate of the period of absence envisaged.  Any change in the estimated period of absence must be notified as soon as possible.
+		<p>If the absence continues for more than 3 continuous working days a "fit-note" from the Employee's doctor should be submitted explaining the nature of the sickness or injury.
+
+		<p>During all periods of absence due to sickness or injury the Employee should keep the Employer informed as to his/her likely date of return.
+
+		<p>A Form SC2 (Self Certification of Sickness) is required in all cases of uncertified sickness.
+
+<li>If the Employee is absent for more than 12 weeks in any 12-month period due to sickness or injury then the Employer is entitled to terminate the employment.
+</ol>
+
+<h2>Maternity Leave/Maternity Pay/Parental Leave/Paternity Leave</h2>
+<p>Employees with the requisite period of service will, if pregnant, be entitled to statutory maternity pay and statutory maternity leave.
+<p>Employees with the requisite period of service may be entitled to statutory parental leave and/or paternity leave.
+<p>Full details of the relevant regulations and entitlements may be obtained on request.
+
+<h2>Health and Safety</h2>
+<p>The Employee is bound to comply with the duties imposed by the Health and Safety at Work Act 1974 or any substitution thereof or amendment or alteration thereto ("the Act") and the Health and Safety Regulations made or to be made under the Act and in particular with the duties set out under section 7 of the Act which require an employee to:
+<ol type="a">
+	<li>take reasonable care for the health and safety of him or herself and of others who may be affected by his/her acts or omissions at work;
+	<li>as regards any duty imposed on the Employer or any other person, co-operate with the Employer so far as is necessary to enable that duty to be performed or complied with.
+</ol>
+
+<h2>Grievance Procedure</h2>
+<p>It is expected that most grievances may be resolved informally.  However, if the Employee wishes to raise a formal grievance relating to his/her employment he/she should raise it in the first instance in writing with his/her Line Manager setting out the nature of the grievance.  The Line Manager will then invite the Employee to a hearing to discuss the grievance. The hearing will be scheduled to allow time for the Employer to consider the issues raised.  After the meeting, the Employer will inform the Employee of the decision and of his/her right to appeal.
+
+<p>If the grievance is not satisfactorily resolved in this way then the Employee should appeal the matter in writing to a Director of Employer.  The Director will invite the Employee to an appeal hearing, following which the Director shall communicate that decision in writing to the Employee.  The decision of the Director shall be final.
+<p>This policy does not form part of the contract of employment, save and only to the extent expressly required by law. If the Employee wishes, he/she may be accompanied at either or both hearings by a colleague or trade union official.
+
+<h2>Summary Dismissal</h2>
+<ol type="a">
+	<li>In the following circumstances, which are intended by way of example only of what may be regarded as gross misconduct, and not by way of a complete list, the Employee will be dismissed summarily by written notice to operate from the date of such notice and the Employee will not be entitled to any further payment under his/her terms of employment except such sum as has accrued and is due at the date of termination:
+	<ol type="i">
+		<li>refusing to carry out any proper direction given in the course of the employment;
+		<li>improperly divulging to any third party any confidential or non-public information regarding the Employer, its employees or any person with whom the Employer deals;
+		<li>committing any act or divulging any information which is contrary to or damages the interests or objectives of the Employer;
+		<li>committing any criminal offence which in the opinion of the Employer makes the Employee unsuitable for the type of work that the Employee is employed to do or may reasonably be expected to do or which makes him/her unacceptable to other employees;
+		<li>dishonest conduct;
+		<li>violent, obscene or abusive behaviour towards other employees or officers of the Employer;
+		<li>serious or wilful breach of the Employee's duties;
+		<li>if the warranties given by the Employee at clause 4 are found to be misleading or incorrect; or
+		<li>attending the Employer's premises or engaging in the Employer's business whilst under the influence of alcohol or unlawful drugs.
+	</ol>
+	<li>Any other serious or irreparable act or omission by the Employee may be regarded as gross misconduct where such act or omission is, in the reasonable opinion of the Employer likely to (or has) cause(d) serious harm to the business or reputation of the Employer.
+</ol>
+
+<h2>Disciplinary Procedure</h2>
+<ol type="a">
+	<li>This disciplinary procedure does not form part of the Employee's contract of employment (save and only to the extent that it may from time to time be required to do so by law).  The Employer accepts that it is in the interests of good relations with its staff to ensure that there is a fair and proper disciplinary procedure.
+	<li>Any Employee who departs from normally expected standards or who violates the Employer's rules will be liable to disciplinary action.
+	<li>If disciplinary action which may lead to disciplinary measures is to be taken against the Employee (other than suspension under (d) and (e) below or issuing of a warning - where modified procedures may apply), the following procedure will normally apply. The Employee will receive a letter setting out the alleged conduct or other circumstances and inviting the Employee to attend a disciplinary hearing. The hearing will be set at a time and date to allow the Employee time to consider the allegations against him/her.  At the disciplinary hearing (which the Employee must take all reasonable steps to attend) the Employee will be given the opportunity to respond to the issues raised.  The decision on the hearing will be notified to the Employee after the hearing, along with details of the right to appeal. The Employee will have the right to be accompanied to any disciplinary hearing and subsequent appeal by a colleague or trade union official.
+	<li>The Employer reserves the right to suspend the Employee on full pay pending investigation where the Employer has reasonable grounds to believe that the Employee's continued employment might be prejudicial to the Employer's business or other employees.
+	<li>The Employer reserves the right to suspend the Employee without pay and benefits as a disciplinary measure.
+	<li>Disciplinary action will vary in accordance with the seriousness of the Employee's offence.  Minor instances of wrongdoing may result in a verbal or written warning. More serious offences or repeated infringements may result in a final written warning. The most serious offences or repeated infringements following a final written warning may result in dismissal with or without notice.
+	<li>The Employee may appeal against any disciplinary action taken to a Company Director. The Employee will then be invited to attend an appeal hearing (and must take all reasonable steps to do so).  Following any such appeal, the Employee will be informed of the outcome.
+</ol>
+
+<h2>Sexual Harassment</h2>
+<p>True AI Ltd. considers that sexual harassment in the workplace is unacceptable and will treat all complaints seriously.
+<p>An Employee who feels that he/she has been subjected to sexual harassment should raise the matter with his/her Line Manager under the terms of the grievance procedure set out in the corresponding clause above.
+<p>An Employee who is found to be the perpetrator of harassment will be liable to disciplinary action under the terms of the disciplinary procedure set out in the corresponding clause above.  The Employer may exercise its discretion as to the disciplinary measures which will be taken, depending on the nature of the conduct.
+
+<h2>Data Protection</h2>
+<p>The Employee agrees that personal data relating to the Employee (including sensitive personal data such as medical details) may to the extent that it is reasonably necessary in connection with the Employee's employment or the business of the Employer:
+<ol type="a">
+	<li>be collected and held (in hard copy and computer readable form) and processed by the Employer; and
+	<li>be disclosed to:
+	<ol type="i">
+		<li>other employees of the Employer and the Employer's group companies;
+		<li>any other persons as may be reasonably necessary (such as third party benefit providers or administrators) or as authorised by the Employee; or
+		<li>as otherwise required or permitted by law.
+	</ol>
+</ol>
+<p>This consent applies regardless of the country to which the data is to be transferred.  Where the disclosure or transfer is to a destination outside the European Economic Area, the Employer shall take reasonable steps to ensure that the Employee's personal data continues to be adequately protected, though the Employee may no longer have rights under data protection law.
+<p>If the Employee has any queries regarding the Employee's personal data, these should be raised with the Line Manager.
+
+<h2>Deductions</h2>
+<p>The Employee consents to the deduction from any sum otherwise payable to the Employee by reason of his/her employment (or its termination) the value of any claim of whatever nature and in whatever capacity that the Employer may bona fide have against the Employee, including but not limited to:
+<ol type="a">
+	<li>overpayment of wages;
+	<li>overpayment in respect of expenses incurred by the Employee in carrying out his/her duties;
+	<li>loans which the Employer may from time to time make to the Employee; and
+	<li>advances on wages which the Employer may from time to time make to the Employee.
+</ol>
+<p>The Employee further consents that the Employer has the right to deduct from the employee's salary or other sums due to the Employee a sum in respect of accrued holiday entitlement if at the date of termination of the Employee's employment he/she has taken in excess of his/her accrued holiday entitlement.
+
+<h2>Choice of Law</h2>
+<p>This contract shall be governed by and construed in accordance with the law of England and Wales and each party to this agreement submits to the non-exclusive jurisdiction of the courts and tribunals of England and Wales.
+
+
+<br>
+<br>
+
+
+<p>SIGNED by Pyry Takala, Director, True AI Ltd.<br>
+for and on behalf of the Employer
+
+<br><br><br><br>
+_____________________________________________________________
+
+<p>Date: <span id="signingDate"</span>
+
+
+<br><br>
+
+<p>SIGNED by <span id="candidate"</span>
+
+<br><br><br><br>
+_____________________________________________________________
+<br><br><br><br>
+Date: _____________________________________________
+
+
+
+
+<div class="page-break"></div><h1></h1>
+
+
+<p><b>THIS CONFIDENTIALITY AND PROPRIETARY INFORMATION DEED is made the <span id="signingDate"</span></b>
+
+<p>BETWEEN:
+<p>True AI Ltd. of <span id="companyAddress"</span> (the "Company"); and
+<p><span id="candidate"</span> _______________________________________________________ (insert address) (the "Employee").
+
+<p class="draft"><span id="disclaimer"</span></p>
+
+<p><b>AGREED TERMS</b>
+
+<p>The Employee is to be offered employment with or is engaged in employment with the Company and in consideration of his/her employment or intended employment as the case may be and the compensation to be received from the Company from time to time, the Employee has agreed as follows:
+
+<h2>Confidential Information and Trade Secrets</h2>
+<p>1.1	The Employee acknowledges that during the ordinary course of his/her employment he/she will be exposed to information about the Company's and the Parent's business and that of its suppliers and customers which amounts to a trade secret, is confidential or is commercially sensitive and which may not be readily available to others engaged in a similar business to that of the Company or the Parent or to the general public and which if disclosed will be liable to cause significant harm to the Company and the Parent.
+<p>1.2	The Employee shall keep secret and shall not at any time during or after his/her employment or after termination of the same for whatever reason, use, communicate or reveal to any person for the Employee's own or another's benefit, any secret or confidential information concerning the Parent or the Company's business, finances, organisation, systems, techniques, proprietary information, know-how, suppliers and/or customers of the Company and/or of the Parent and/or similar information regarding the customers and the suppliers of the Company and/or of the Parent which shall have come to his/her knowledge during his/her employment with the Company.  The Employee shall also use his/her best endeavours to prevent the publication, disclosure or use of any such information.  In addition, the Employee agrees that he/she will not during his/her employment with the Company improperly use or disclose any secret or confidential information of any former or concurrent employer or any other person or entity and that he/she will not bring on to the premises of the Company or the Parent any such information belonging to any such employer, person or entity unless consented to in writing by such employer, person or entity.
+<p>1.3	For the purposes of this clause and by way of illustration and not limitation information will prima facie be secret and confidential if it is not in the public domain and relates to any of the following:
+<ol type='i'>
+	<li>raw materials;
+	<li>proprietary information, inventions, technology, software, hardware configuration information, research and development, know how and technical data;
+	<li>formulae and formulations and recipes;
+	<li>methods of treatment, processing, techniques, manufacture or production, process and production controls including quality controls;
+	<li>suppliers and their production and delivery capabilities;
+	<li>customers and details of their particular requirements;
+	<li>potential customers and details of their particular requirements where such potential customers have been solicited by the Company or the Parent in the past 12 months or in respect of which plans for solicitation have been made in respect of the same period;
+	<li>costings, profit margins, discounts, rebates and other financial information;
+	<li>marketing strategies and tactics;
+	<li>current activities and current and future plans relating to all or any of development, production, marketing or sales including the timing of all or any such matters;
+	<li>the development of new products and services;
+	<li>production or design secrets;
+	<li>technical design, drawings or specifications of the Company's products;
+	<li>pricing, credit policies, credit procedures, payment policies, payment procedures and systems for the same whether of the Company or of any customer or supplier.
+</ol>
+<p>In addition, information protected by sub-clause 1.2 shall also include:
+<ol type='i'>
+	<li>documents or other intangible materials clearly marked "confidential" and delivered to the Employee by the Company; and/or
+	<li>oral or other information delivered in another intangible form if at the time of the first disclosure by the Company the Employee was told that the information was confidential.
+</ol>
+<p>1.4	The restrictions contained in this clause shall not apply to:
+<ol type='a'>
+	<li>any disclosure or use authorised by the Company or required in the ordinary and proper course of the employment or as required by the order of a court of competent jurisdiction or an appropriate regulatory authority; or
+	<li>any information which;
+	<ol type='i'>
+		<li>is or becomes publicly known or is readily ascertainable by the public, through no wrongful act of the Employee; or
+		<li>is received by the Employee from a third party without breaching an obligation owed to the Company, if the Employee is not restricted by the third party from disclosing such information; or
+		<li>the Employee demonstrates was in the Employee's possession or known by him prior to receipt of the information from the Company; or
+		<li>was independently developed by the Employee without any use of information from the Company.
+	</ol>
+</ol>
+<p>1.5	Upon termination of the employment for whatever reason, the Employee shall immediately:
+<ol type='a'>
+	<li>hand over to the Company all documents, books, materials, records, correspondence, papers and information (on whatever media and wherever located) relating to the business of the Company or the Parent any magnetic discs on which information relating to the business is stored and any keys, credit cards and other property of the Company or the Parent (including in particular any car provided to the Employee) which may be in his/her possession or under his/her control and shall provide a signed statement that he has complied fully with the terms of this clause; and
+	<li>irretrievably delete any information relating to the business of the Company or the Parent stored on any magnetic or optical disc or memory and all matter derived therefrom which is in his/her possession, custody, care or control outside the premises of the Company and shall produce such evidence of compliance with this sub-clause as the Company may require.
+</ol>
+<h2>Inventions</h2>
+<p>2.1	Subject to the provisions of the Patents Act 1977, if the Employee shall alone or jointly make or conceive an invention, discovery, design, improvement or trade mark (together called "the invention") relating to or suitable for or capable of being used in the business of the Company during his/her employment he/she shall promptly disclose to the Company full details of the invention to enable the Company to assess the invention and to determine whether under the applicable law the invention is the property of the Company.
+<p>2.2	If the invention is the property of the Company then either (i) the Company shall hold it on trust for the Parent and shall assign the same to the Parent, on request, or (ii) where vested in the Employee the Employee shall hold it on trust for the Company and the Company shall hold it on trust for the Parent and the Employee shall at the request and expense of the Company assign the same to the Parent and do all things necessary to enable the Parent to obtain the world-wide benefit of the invention and to secure patent or other appropriate forms of protection for the invention.
+<p> 2.3	If the invention is not the property of the Company, the Parent shall, subject to the provisions of the Patents Act 1977, have the right to acquire the Employee's rights therein within three months after disclosure pursuant to sub-clause 2.1 on fair and reasonable terms to be agreed or settled by a single arbitrator who shall be agreed between the parties, or in default of agreement within 7 days and shall be nominated by the President for the time being of the Institute of Chartered Accountants in England and Wales on the application of either party and the Employee shall hold the invention in trust for the Parent on such terms.
+<p>2.4	The Employee shall not except as provided in this clause or as may be necessary in the course of his/her employment disclose or make use of any invention which is the property of or is held on trust for the Company or the Parent or (unless and until the Parent's right under sub-clause 2.3 shall have expired) any other invention subject to this clause.
+<p>2.5	The Employee hereby irrevocably appoints the Company and the Parent as his/her attorney with full power in his/her name to execute or sign any document and do any other thing which the Company or the Parent may consider desirable for the purpose of giving effect to the provisions of this clause 2 and agrees to ratify and confirm whatever the Company and the Parent may lawfully do as his/her attorney.
+<p>2.6	The Employee undertakes that neither he/she nor his/her successors in title will at any time object to the exploitation of any invention (with or without modification) by the Company or the Parent in any part of the world or any omission by the Company or the Parent to indicate in any part of the world the author of the invention.
+
+<h2>Copyright</h2>
+<p>3.1	The Employee hereby assigns to the Parent by way of present assignment of past and future copyright (to the extent not already vested in the Parent by operation of law) all copyright, design rights and other proprietary rights (if any) for their full terms throughout the world in respect of all copyright works and designs originated, conceived, written or made by him/her alone or with others during the term of his/her employment which relate, or could relate, to the business of the Company or which are otherwise capable of commercial exploitation, including any works generated outside office hours or at home and also including any preparatory work predating such employment done in contemplation of or in relation to such employment.
+<p>3.2	The Employee shall promptly disclose to the Company all work and materials in which copyright, design rights or other proprietary rights may exist which are originated, conceived, written or made by him/her alone or with others within the scope of sub-clause 3.1 above and shall (to the extent that they do not automatically vest in the Parent by operation of law) hold them in trust for the Parent until such rights have been fully and absolutely vested in the Parent.
+<p>3.3	The Employee irrevocably and unconditionally waives in favour of the Parent any and all moral rights conferred on him/her by Chapter IV, Part I, Copyright Designs and Patents Act 1988 and any other moral rights provided for under the laws now or in future in force in any part of the world for any work the rights in which are vested in the Parent whether by sub-clause 3.1 or otherwise.
+<p>3.4	The Employee shall, at the request and expense of the Company, do all things necessary or desirable to evidence or perfect the rights of the Parent under this clause 3.
+
+<h2>Restrictions</h2>
+<p>4.1	For the purposes of this clause the following words have the following meanings:
+<table border=0>
+	<tr><td style="white-space: nowrap; vertical-align: top;">"the Restricted Business"<td>
+the design, sale of and procuring of customers for the Products and the sale and procuring of customers for maintenance training and consultancy services in respect of the installation and running of the Products but limited to products and services for which the Employee has been responsible on behalf of the Company or the Parent or any branch of the Company or the Parent during the 12 months prior to the Employee ceasing to be employed;
+	<tr><td>"the Restricted Area" -<td>
+the countries with which the Employee has been responsible on behalf of the Company or the Parent or in respect of any branch of the Company or the Parent during the 12 months prior to the Employee ceasing to be employed;
+	<tr><td>"the Products" -<td>
+the computer storage and storage nodes hardware and software of a type written by or distributed by the Company or the Parent and/or any branch of the Company or the Parent and any hardware and software currently being written or developed.
+</table>
+
+
+<p>4.2	The Employee hereby undertakes to the Company that:
+<ol type='a'>
+	<li>the Employee shall not for the period of twelve months after ceasing to be employed by the Company whether directly or indirectly:
+	<ol type='i'>
+		<li>take up or hold any office in or with any business which is engaged or is intended to be engaged in the field of the Restricted Business within the Restricted Area;
+		<li>take up or hold any post or position which enables or permits the Employee to exercise whether personally or by an agent and whether on his/her own account or in association with or for the benefit of any other person either a dominant influence or a controlling influence over any business which is engaged or is intended to be engaged in the field of the Restricted Business within the Restricted Area; or
+		<li>take up or hold any employment or consultancy with any person which is engaged or is intended to be engaged in the field of the Restricted Business within the Restricted Area
+which would have the necessary or probable result of the Employee being engaged within the Restricted Area in business activities which are the same or similar to the Restricted Business.
+	</ol>
+	<li>the Employee shall not for a period of twelve months after the termination of his/her employment either personally or by an agent and either on his/her own account or by or in association with any other person directly or indirectly canvass or by any other means solicit, approach or seek out or cause to be canvassed, solicited, approached or sought out any person for orders or instructions in respect of any goods or services provided or supplied in the course of the Restricted Business who or which has within the period of 12 months prior to the Employee ceasing to be employed transacted the Restricted Business as a customer or client and with whom the Employee dealt or transacted business pursuant to his/her employment in the 12 months prior to its termination;
+	<li>the Employee shall not for a period of twelve months after the termination of his/her employment either personally or by an agent and either on his/her own account or by or in association with any person directly or indirectly, in competition with the Company have any business dealings with any person who or which has within the period of 12 months prior to the Employee ceasing to be employed transacted the restricted business as a customer or client of the Company and with whom the Employee dealt or transacted business pursuant to his/her employment in the 12 months prior to its termination;
+	<li>the Employee shall not for a period of twelve months after the termination of his/her employment either personally or by an agent and either on his/her own account or for or in association with any other person interfere or seek to interfere or take such steps as may interfere with the continuance of supplies to the Company or the Parent in respect of the Restricted Business (or the terms relating to such supplies) from any supplier who has supplied goods or services to the Company or the Parent at any time during the 12 months prior to the Employee ceasing to be employed;
+	<li>the Employee shall not for a period of twelve months after the termination of his/her employment either personally or by an agent or either on his/her own account or for or in association with any other person approach solicit seek out or by any other means endeavour to entice away from the Company or induce to break their contract of employment with the Company, or aid or assist any other person or persons in employing or otherwise retaining the services of any one who is employed by the Company or who is a consultant to the Company and in either case was engaged in any senior, executive, technical, advisory, or sales capacity at the Company or at any branch of the Company (excluding clerical and administrative staff) at the time when notice to terminate the employment has been given by or to the Employee provided that this sub-clause shall only apply in relation to consultants or employees or employees of the Company who were known to or who dealt or worked with the Employee during the 12 months prior to the termination of the Employee's employment;
+	<li>the Employee shall not for a period of twelve months after the termination of his/her employment either personally or by an agent and either on his/her own account or for or in association with any other person in connection with the carrying on of business in the field of the Restricted Business offer employment (whether by way of a contract of services, partnership or howsoever and whether on his/her own behalf or on behalf of any other person) to any person who is employed by the Company or any branch of the Company or who is a consultant to the Company or any branch of the Company and in either case is engaged in any senior, executive, technical, advisory, or sales capacity (excluding clerical and administrative work) at the time when notice to terminate the employment is given by or to the Employee provided that this sub-clause shall only apply in relation to consultants or employees or employees of the Company who were known to or who dealt or worked with the Employee during the 12 months prior to the termination of the Employee's employment.
+</ol>
+<p>4.3	The Employee hereby agrees that he/she will at the request and cost of the Company enter into a direct agreement or undertaking with any associated company whereby he/she will accept restrictions and provisions corresponding to the restrictions and provisions above (or such of them as may be appropriate in the circumstances) in relation to such activities and such areas and/or such periods not including those set out above as any such associated company may require for the protection of its legitimate interests.
+<p>4.4	The Employee hereby agrees and acknowledges that having had the opportunity to take legal advice as to the effect and reasonableness of the above covenants:
+<ol type='a'>
+	<li>the Company has a legitimate interest in protecting its business after the termination of his/her employment against inter alia the exploitation by the Employee of connections with customers acquired during the Employment and misuse including innocent misuse by the Employee of all secrets and confidential information belonging to the Company and the Parent; and
+	<li>that the restrictive covenants set out above are no greater than are reasonably necessary to give the Company and the Parent protection of their legitimate interests.
+</ol>
+<h2>Notices</h2>
+<p>5.1	Any notice or other written communication given under or in connection with this agreement may be delivered personally or sent by first class post (airmail if overseas) or email.
+<p>5.2	The address for service of the Company shall be their addresses as stated in this agreement marked for the attention of the managing director or if any other permanent address has been previously notified to the Employee to the address so notified and, in the case of the Employee shall be his/her address stated in this agreement or if any other permanent address has been previously notified to the Company to the address so notified.
+<p>5.3	Any notice or other written communication shall be deemed to have been served:
+<ol type='a'>
+	<li>if delivered personally, at the time of delivery;
+	<li>if posted, at the expiry of two Business Days or in the case of airmail four Business Days after it was posted;
+</ol>
+<p>In this clause the expression Business Day shall mean any day other than a Saturday, Sunday or any other day which is a public holiday in the place from which the notice or other written communications in questions was sent.
+<p>5.4	In proving service it shall be sufficient to prove that personal delivery was made, or that such notice or other written communication was properly addressed stamped and posted.
+<h2>Miscellaneous</h2>
+<p>6.1	If at any time any term or provision in this agreement shall be held to be illegal, invalid or unenforceable, in whole or in part, under any rule of law or enactment, such term or provision or part shall to that extent be deemed not to form part of this agreement, but the enforceability of the remainder of this agreement shall not be affected.
+<p>6.2	Rights and obligations under this agreement shall continue in force after the termination of this agreement and shall be binding upon the personal representatives of the Employee.
+<p>6.3	Nothing in this agreement shall confer any rights on any third party not being the Employee, the Company or the Parent.  For the avoidance of doubt, any rights conferred on third parties pursuant to the Contracts (Rights of Third Parties) Act 1999 shall be excluded.
+<p>6.4	The Employee agrees that he/she will execute a similar agreement to this Agreement should the Company merge with another Company or should the shares in the Company be transferred, or where the group of companies of which the Company is part is subject to restructuring, such agreement to be in favour of the party/ies to whom the intellectual property rights will be vested.
+<p>6.5	This agreement shall be governed by and construed in accordance with English law and each party to this agreement submits to the exclusive jurisdiction of the English courts.
+<p>6.6	Executed as a deed on the day and in the year first written above.
+
+
+
+<p>EXECUTED as a DEED for and on behalf of True AI Ltd. by:
+<p>Pyry Takala
+
+
+
+<br><br><br><br>
+_____________________________________________________________
+<p>(signature)
+
+
+<p>EXECUTED as a DEED by the EMPLOYEE:
+<p><span id="candidate"</span>
+
+
+<br><br><br><br>
+_____________________________________________________________
+<p>(signature)
+
+
+<script>
+  refresh()
+
+  </script>
+
+</body>
+</html>
