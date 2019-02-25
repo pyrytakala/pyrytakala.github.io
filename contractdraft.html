@@ -64,7 +64,7 @@ div#inputArea {
 
 <div id="inputArea" class="no-print">
 <h1>Inputs</h1>
-<p>Salary<input id="i-companyAddress" value="20 Ropemaker St, London EC2Y 9AR">
+<p>Company address<input id="i-companyAddress" value="20 Ropemaker St, London EC2Y 9AR">
 
 <br>Title<input id="i-title" value = "Mr">
 <br>Candidate<input id="i-candidate" value = "FirstName LastName">
@@ -75,18 +75,27 @@ div#inputArea {
 <br>Salary<input id="i-salary" value = "GBP 1 monthly">
 <br>Options (if zero, options clauses will disappear)<input id="i-options" value= "0">
 
+<br>Last date of incentive validity<input id="i-incentivesEnd" value = "1 Dec 2019">
+<br>Incentives<input id="i-incentives" value = "">
+<br>Incentives cap<input id="i-incentivesCap" value = "1 GBP">
+
+
 <br>Holiday days<input id="i-holidayDays" value = "Twenty (20)">
 
-<br>Signing date<input id="i-signingDate" value = "Mar 23, 2017">
-<br>Offer expiry<input id="i-offerExpiry" value = "Mar 27, 2017">
+<br>Signing date<input id="i-signingDate" value = "Mar 23, 2019">
+<br>Offer expiry<input id="i-offerExpiry" value = "Mar 27, 2019">
 <br>Start date<input id="i-startDate" value = "Apr 1, 2017">
-<br>End date (if blank, will be a permanent contract)<input id="i-endDate" value = "Sep 1, 2017" >
+<br>End date (if blank, will be a permanent contract)<input id="i-endDate" value = "Sep 1, 2019" >
 
 <br>Probation termination<input id="i-probationTermination" value = "1 week">
 
 <br>Disclaimer<input id="i-disclaimer" value = "This is a draft, subject to reference checks by True AI.">
 
-<br>Manager<input id="i-manager" value = "Abhishek Aggarwal and Pyry Takala">
+<br>Manager<input id="i-manager" value = "Pyry Takala">
+
+
+
+<br>Other conditions<input id="i-other" value = "">
 
 <p><button id="refresh" onclick="refresh()">Refresh</button>
 </div>
@@ -395,6 +404,8 @@ After the probationary period either party may terminate the contract by giving 
 <h2>Choice of Law</h2>
 <p>This contract shall be governed by and construed in accordance with the law of England and Wales and each party to this agreement submits to the non-exclusive jurisdiction of the courts and tribunals of England and Wales.
 
+<h2>Other conditions</h2>
+<p><span id="other"></span>
 
 <br>
 <br>
@@ -561,6 +572,87 @@ _____________________________________________________________
 <br><br><br><br>
 _____________________________________________________________
 <p>(signature)
+
+
+
+<div class="page-break"></div><h1></h1>
+
+
+  <h1>Incentive Plan</h1><br />
+  <h2>Purpose</h2>
+  <p>1.1 The purpose of an Incentive Compensation Plan is to motivate and reward key employees for accomplishing individual performance goals established in accordance with the business targets of the organization and Company.
+
+  <h2>Effective Dates</h2>
+  <p>2.1 This Plan goes into effect from <b><span id="startDate"></span></b> and will remain in effect until <b><span id="incentivesEnd"></span></b>.</p>
+  <p>2.2 After <b><span id="incentivesEnd"></span></b>, incentive plan shall be revised based on performance evaluation.
+
+  <h2>Eligiblity</h2>
+  <p>3.1 This Plan document and any oral, written or electronic communication related to the Plan or the subject matter in this Plan document are not intended and shall not be read to create an express or implied contract or promise of specific treatment or benefits in specific situations.</p>
+  <p>3.2 The payment of incentive compensation awards under this Plan shall not be construed as an indication that overall job performance is satisfactory.</p>
+
+  <h2>Interpretation and Administration</h2>
+  <b> Management Discreetion</b>
+  <p>4.1 This Plan states the general policy of the True AI Ltd. Incentive Plan. Interpretation of the policy will be solely within the discretion of True AI Ltd. management. </p>
+
+  <p>4.2 This Plan supersedes all previous incentive compensation plans, agreements regarding incentive compensation, and/or other documents relating to incentive compensation for sales employees of True AI ltd.</p>
+
+  <p>4.3 Incentive awards will be computed using financial data determined in accordance with the Company's standard practices and generally accepted accounting principles.</p>
+
+  <p>4.4 Participation in this plan does not in any way represent an explicit or implied right to receive an incentive payment pursuant to the terms of this Plan. Incentive payments are based on management's discretion with respect to performance and contributions. </p>
+
+  <p>4.5 Any commission awards must be approved by the management of True AI Ltd. prior to payment. The managers and/or directors must not hold the rewards on unreasonable grounds<p>
+
+  <p>4.7 The Company reserves the right at any time, in its absolute discretion, to vary the amount of commission payable and/or to vary the terms of the commission arrangements (including the cap) and/or to withdraw the commission arrangements in their entirety on giving you
+
+  <b>Credit Splitting</b>
+  <p>4.8 Based on applicable credit splitting policies, management reserves the right and has full discretion to determine the splitting of credit among two or more salespersons, and when credit splitting should apply. </p>
+
+  <b>Not Transferable or Assignable</b>
+   <p>4.9 Incentive compensation payments are not transferable or assignable. Any attempt by an employee to transfer or assign his or her incentive compensation payments will result in the forfeiture of such incentive compensation payments and may result in corrective action up to and including termination. </p>
+
+  <b>Assignment and Goal Adjustment</b>
+  <p>4.10 Management reserves to right to adjust territory and/or account assignments and related quotas, other objectives, and other Plan provisions during the year based on overall business or individual circumstances. </p>
+
+  <b>Capping on cash commission</b>
+  <p>4.11 All incentives and commission which is not awarded in forms of stock options is capped to <span id="incentivesCap"></span></p>
+
+  <b>Limited Involvement</b>
+  <p>4.12 In the event that a plan participant has no, little or shared involvement or impact on obtaining an order of significant value, management reserves the right to reduce or adjust the incentive paid to that employee.</p>
+
+  <b>Sales of Others' Products or Services</b>
+  <p>4.13 Participants may not sell products or services for any other company in connection with any transaction in which True AI Ltd. may be involved.</p>
+
+  <b>Plan Changes</b>
+   <p>4.14 Management intends that the basic structure of this program remain in effect for the fiscal year. However, management reserves the right to modify, revise, or terminate the program at any time, including but not limited to the current Plan Year. Any such amendment, suspension or termination may be retroactive to the beginning of any Plan. No such amendment, suspension or termination shall adversely affect any employee's rights under the Plan in any amounts previously earned by him/her.</p>
+
+  <b>Claims of Eligibility</b>
+  <p>4.15 No individual employee or other person has any claim or right to be included in the Plan or to be granted an Incentive Award Payment under the Plan until he or she has been declared an eligible participant and has been properly notified. In addition, all of the requirements and applicable rules and regulations of the Plan must have been met, including but not limited to, the availability of funds for Incentive Award Payments, the determination of the extent to which goals have been met, the determination of the amount and receipt of each Incentive Award Payment, and approval of the incentive payments.</p>
+
+  <p>4.16 You will not be entitled to receive any commission which falls due for payment after the termination of your employment (whether by resignation or dismissal), even if the sale was completed by you during your employment.</p>
+
+  <b>Confidentiality</b>
+  <p>4.17 This Plan is confidential and proprietary information of True AI Ltd. Employees are bound to refrain from discussing the contents of the Plan with persons outside of True AI ltd. management, and to refrain from sharing copies of the Plan.</p>
+
+  <p>4.18 Sales reports and records are the confidential and proprietary information of True AI Ltd. Sales reports and records, as well as the information contained in them, shall be kept confidential and shall be disclosed only to employees of True AI Ltd. who need this information.</p>
+
+  <b>Payout</b>
+  <p>4.19 All payouts in cash or stock options must be made by the management on or before the end of Plan period, ie. on or before <span id="incentivesEnd"></span>
+  <p>4.20 Any cash commission is subject to payment by customer and will only be accounted for once the customer has paid into the accounts of True AI Ltd.</p>
+  <p>4.21 If customer paid after the plan period is over, then subject to other provisions of this Plan are met, you shall receive only the cash component of the commission</p>
+
+  <h2>Plan</h2>
+  <p>5.1 You will be incentivised based on your performance in following plan components:
+
+  <ul>
+    <li>
+
+      <span id="incentives"></span>
+      </li>
+  </ul>
+
+  </p>
+
+
 
 
 <script>
