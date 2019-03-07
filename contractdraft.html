@@ -87,7 +87,7 @@ div#inputArea {
 <br>Start date<input id="i-startDate" value = "Apr 1, 2017">
 <br>End date (if blank, will be a permanent contract)<input id="i-endDate" value = "Sep 1, 2019" >
 
-<br>Probation termination<input id="i-probationTermination" value = "1 week">
+<br>Probation termination (if -1, no probation)<input id="i-probationTermination" value = "1 week">
 
 <br>Disclaimer<input id="i-disclaimer" value = "This is a draft, subject to reference checks by True AI.">
 
@@ -145,6 +145,17 @@ div#inputArea {
     else {
       inp['endSentence'] = ""
     }
+
+
+    if (inp['probationTermination'] != "-1") {
+        inp['probationParagraph'] = "<h2>Probationary Period</h2> <p>There will be an initial probationary period of three (3) months during which time holidays shall accrue pursuant to clause 12 below but may not be taken until the expiry of the probationary period (2) save to the extent that it is from time to time required by law to do so, the disciplinary procedure will not apply and (3) either the Employer or the Employee may terminate the Employee's employment on " + probationTermination + "'s notice. After the probationary period either party may terminate the contract by giving written notice in accordance with clause 6 below."
+
+    }
+    else {
+      inp['probationParagraph'] = ""
+    }
+
+
 
 
     console.log('----- refreshing values -----')
@@ -250,12 +261,7 @@ Date: _____________________________________________
 <p>In order for the Employer to comply with its duties to prevent illegal working, if the Employee is a sponsored migrant under the Points Based System, the Employee is required to notify the Employer in writing within five working days of any change in the Employee's personal contact details (home address, home telephone number and mobile telephone number).
 <p>The Employee undertakes to provide on request, and if necessary at least once in every 12 month period, the Employee's original passport and other satisfactory documentary evidence of his/her right to work in the UK.  The Employee acknowledges that his/her continuing employment with the Employer is conditional on compliance with this obligation and the other duties in this clause, and that failure to comply to the Employer's satisfaction may result in disciplinary action under the Employer's Disciplinary Procedure.
 
-
-<h2>Probationary Period</h2>
-<p>There will be an initial probationary period of three (3) months during which time holidays shall accrue pursuant to clause 12 below but may not be taken until the expiry of the probationary period (2) save to the extent that it is from time to time required by law to do so,
-the disciplinary procedure will not apply and (3) either the Employer or the Employee may terminate the Employee's employment on <span id="probationTermination"</span>'s notice.
-After the probationary period either party may terminate the contract by giving written notice in accordance with clause 6 below.
-
+<span id="probationParagraph"</span>
 
 <h2>Notice of Termination</h2>
 <p>In order to terminate the employment under this contract the Employee is required to give to the Employer and the Employer is required to give to the Employee, after completion of the probationary period a 1 month's notice.
