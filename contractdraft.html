@@ -84,7 +84,7 @@ div#inputArea {
 
 <br>Signing date<input id="i-signingDate" value = "Mar 23, 2019">
 <br>Offer expiry<input id="i-offerExpiry" value = "Mar 27, 2019">
-<br>Start date<input id="i-startDate" value = "Apr 1, 2017">
+<br>Start date<input id="i-startDate" value = "Apr 1, 2019">
 <br>End date (if blank, will be a permanent contract)<input id="i-endDate" value = "Sep 1, 2019" >
 
 <br>Probation termination (if -1, no probation)<input id="i-probationTermination" value = "1 week">
@@ -97,7 +97,7 @@ div#inputArea {
 
 <br>Other conditions<input id="i-other" value = "">
 
-<p><button id="refresh" onclick="refresh()">Refresh</button>
+<p><button onclick="refresh()">Refresh</button>
 </div>
 
 
@@ -148,7 +148,7 @@ div#inputArea {
 
 
     if (inp['probationTermination'] != "-1") {
-        inp['probationParagraph'] = "<h2>Probationary Period</h2> <p>There will be an initial probationary period of three (3) months during which time holidays shall accrue pursuant to clause 12 below but may not be taken until the expiry of the probationary period (2) save to the extent that it is from time to time required by law to do so, the disciplinary procedure will not apply and (3) either the Employer or the Employee may terminate the Employee's employment on " + probationTermination + "'s notice. After the probationary period either party may terminate the contract by giving written notice in accordance with clause 6 below."
+        inp['probationParagraph'] = "<h2>Probationary Period</h2> <p>There will be an initial probationary period of three (3) months during which time holidays shall accrue pursuant to clause 12 below but may not be taken until the expiry of the probationary period (2) save to the extent that it is from time to time required by law to do so, the disciplinary procedure will not apply and (3) either the Employer or the Employee may terminate the Employee's employment on " + inp['probationTermination'] + "'s notice. After the probationary period either party may terminate the contract by giving written notice in accordance with clause 6 below."
 
     }
     else {
@@ -156,39 +156,41 @@ div#inputArea {
     }
 
 
-
-
     console.log('----- refreshing values -----')
-    for (const [key, value] of Object.entries(inp)) {
+
+    for (const [id, value] of Object.entries(inp)) {
       try {
-        document.getElementById(key).innerHTML = value;
-      }
-      catch(err){
-        console.log('could not update value ' + key + ' with value ' + value)
+          var elems = document.getElementsByClassName(id)
+          for (j = 0; j < elems.length; j++) {
+            elems[j].innerHTML = inp[id];
+          }
+          
+        }
+        catch(err){
+          console.log('could not update value ' + id + ' with value ' + inp[id])
+        }
+        }
     }
-  }
 
 
-
-  }
 </script>
 
 <body>
 
 
-<p><b><span id="title"></span> <span id="candidate"></span></b>
+<p><b><span class="title"></span> <span class="candidate"></span></b>
 
-  <p><span id="signingDate"></span>
+  <p><span class="signingDate"></span>
 
 
-<p class="draft"><span id="disclaimer"></span></p>
+<p class="draft"><span class="disclaimer"></span></p>
 
-<p>Dear <span id="firstName"></span>,
+<p>Dear <span class="firstName"></span>,
 
-<p>We are pleased to offer you a position as a <span id="role"></span> with True AI Ltd. (the "Company"),
-<span id="duration"></span>, reporting to <span id="manager"></span>.
-If you decide to join us, you will receive gross salary of <span id="salary"></span>, which will be paid in monthly instalments.
-<span id="optionSentence1"></span>
+<p>We are pleased to offer you a position as a <span class="role"></span> with True AI Ltd. (the "Company"),
+<span class="duration"></span>, reporting to <span class="manager"></span>.
+If you decclass to join us, you will receive gross salary of <span class="salary"></span>, which will be paclass in monthly instalments.
+<span class="optionSentence1"></span>
 
 
 <p>By accepting this offer you warrant and agree that:
@@ -201,7 +203,7 @@ If you decide to join us, you will receive gross salary of <span id="salary"></s
 </ol>
 
 <p>If you decide to join us and upon meeting the Company's eligibility requirements mentioned above, you will be eligible to participate certain employee benefits as detailed in your employment contract. To the extent that any of the benefits offered to you in your employment package constitute taxable income you will be responsible for all related tax liabilities.
-<p>This offer of employment with the Company comprises of this letter, the contract of employment and the confidentiality and proprietary information agreement.  Your acceptance of this offer requires you signing this letter and the attached confidentiality and proprietary information agreement and returning them to us by <span id="offerExpiry"></span>, failing which the offer shall lapse. You are also given the contract of employment in the form attached, which you will be required to sign prior to start date.
+<p>This offer of employment with the Company comprises of this letter, the contract of employment and the confidentiality and proprietary information agreement.  Your acceptance of this offer requires you signing this letter and the attached confidentiality and proprietary information agreement and returning them to us by <span class="offerExpiry"></span>, failing which the offer shall lapse. You are also given the contract of employment in the form attached, which you will be required to sign prior to start date.
 <p>No prior promises, representations or understandings relative to any terms or conditions of your employment are to be considered as part of the offer of employment to you unless expressed in writing in this offer package.
 
 <br>
@@ -215,7 +217,7 @@ _____________________________________________________________
 
 <p>I accept the offer of employment with True AI Ltd.
 
-<p>SIGNED by <span id="candidate"</span>
+<p>SIGNED by <span class="candidate"</span>
 
 <br><br><br><br>
 _____________________________________________________________
@@ -234,24 +236,24 @@ Date: _____________________________________________
 
 <h1>Contract of employment</h1>
 
-<p class="draft"><span id="disclaimer"</span></p>
+<p class="draft"><span class="disclaimer"</span></p>
 
 <h2>Parties</h2>
 <ol>
-	<li> True AI Ltd. of <span id="companyAddress"</span> (the "Employer")
-	<li> <span id="candidate"</span> , of _________________________________________________________________ (insert address) (the "Employee").
+	<li> True AI Ltd. of <span class="companyAddress"</span> (the "Employer")
+	<li> <span class="candidate"</span> , of _________________________________________________________________ (insert address) (the "Employee").
 </ol>
 
 
 <h2>Date of Employment</h2>
-<p>The Employee's employment commencement Date: <span id="startDate"</span> </p>
-<span id="endSentence"></span>
+<p>The Employee's employment commencement Date: <span class="startDate"</span> </p>
+<span class="endSentence"></span>
 
 
 <h2>Nature of Employment</h2>
-<p>The Employee is employed as a <span id="role"</span>.</p>
+<p>The Employee is employed as a <span class="role"</span>.</p>
 <p>The Employee shall carry out such duties as shall from time to time be assigned to him/her by the Employer.</p>
-<p>The Employee will be expected, on a daily basis, to report to and liaise with <span id="manager"</span> (his/her "Line Manager(s)"). The Line Manager(s) may be altered at the discretion of the Employer.</p>
+<p>The Employee will be expected, on a daily basis, to report to and liaise with <span class="manager"</span> (his/her "Line Manager(s)"). The Line Manager(s) may be altered at the discretion of the Employer.</p>
 <p>The Employee agrees that he/she will spend the whole of his/her time and attention on the Employer's business during normal working hours.</p>
 <p>There are no collective agreements applicable to the Employee's employment.</p>
 
@@ -261,7 +263,7 @@ Date: _____________________________________________
 <p>In order for the Employer to comply with its duties to prevent illegal working, if the Employee is a sponsored migrant under the Points Based System, the Employee is required to notify the Employer in writing within five working days of any change in the Employee's personal contact details (home address, home telephone number and mobile telephone number).
 <p>The Employee undertakes to provide on request, and if necessary at least once in every 12 month period, the Employee's original passport and other satisfactory documentary evidence of his/her right to work in the UK.  The Employee acknowledges that his/her continuing employment with the Employer is conditional on compliance with this obligation and the other duties in this clause, and that failure to comply to the Employer's satisfaction may result in disciplinary action under the Employer's Disciplinary Procedure.
 
-<span id="probationParagraph"</span>
+<span class="probationParagraph"</span>
 
 <h2>Notice of Termination</h2>
 <p>In order to terminate the employment under this contract the Employee is required to give to the Employer and the Employer is required to give to the Employee, after completion of the probationary period a 1 month's notice.
@@ -270,15 +272,15 @@ Date: _____________________________________________
 <ol type="a">
 	<li>Require the Employee to carry out no duties; or
 	<li>Require the Employee to remain away from the office; or
-	<li>Require the Employee to carry out such duties as the Employer may require Provided that such duties are of a standard appropriate to the Employee's job desspan id="cription.
+	<li>Require the Employee to carry out such duties as the Employer may require Provided that such duties are of a standard appropriate to the Employee's job description.
 </ol>
 <p>For the avoidance of doubt the Employee shall remain an employee of the Employer during the notice period and will continue to be bound by the terms of this contract.
 
 
 <h2>Remuneration</h2>
-<p>The Employee's base salary remuneration will be <span id="salary"</span> and shall be paid monthly in arrears net of tax and national insurance and shall be deemed to accrue from day to day based on a 5 day working week.
+<p>The Employee's base salary remuneration will be <span class="salary"</span> and shall be paid monthly in arrears net of tax and national insurance and shall be deemed to accrue from day to day based on a 5 day working week.
 
-<span id="optionSentence2"></span>
+<span class="optionSentence2"></span>
 
 
 <h2>Expenses</h2>
@@ -288,7 +290,7 @@ Date: _____________________________________________
 <h2>Other Benefits</h2>
 <p>In addition to the above remuneration the Employee shall be entitled to:
 <ol type="a">
-	<li> <span id="holidayDays"</span> holiday (vacation) days per year, as well as the usual UK public holidays.  To the extent that any of the benefits offered to you in your employment package constitute taxable income you will be responsible for all related tax liabilities. (See section 12)
+	<li> <span class="holidayDays"</span> holiday (vacation) days per year, as well as the usual UK public holidays.  To the extent that any of the benefits offered to you in your employment package constitute taxable income you will be responsible for all related tax liabilities. (See section 12)
 </ol>
 <p>For part-time employees, entitlement to holidays, sick pay, and all other benefits is pro rata based on the hours worked compared to those worked by a full time employee.
 <p>To the extent that any of the benefits are taxable the Employee will be responsible for all those liabilities.
@@ -310,7 +312,7 @@ Date: _____________________________________________
 
 <h2>Holidays</h2>
 <p><b>Annual Holidays</b>
-<p>The Employee's annual paid holiday entitlement is <span id="holidayDays"</span> working days in each holiday year.  Holiday entitlement will accrue pro-rata to each completed month of employment.
+<p>The Employee's annual paid holiday entitlement is <span class="holidayDays"</span> working days in each holiday year.  Holiday entitlement will accrue pro-rata to each completed month of employment.
 <p>The Employee is required to submit a holiday request form to his/her Line Manager for approval for all periods of leave.
 <p>The holiday year runs from January 1 to December 31.
 <p>It is not permitted to carry forward holiday entitlement from one holiday year to the next nor will payments in lieu be made in respect of holiday not taken in the relevant holiday year.
@@ -411,7 +413,7 @@ Date: _____________________________________________
 <p>This contract shall be governed by and construed in accordance with the law of England and Wales and each party to this agreement submits to the non-exclusive jurisdiction of the courts and tribunals of England and Wales.
 
 <h2>Other conditions</h2>
-<p><span id="other"></span>
+<p><span class="other"></span>
 
 <br>
 <br>
@@ -423,12 +425,12 @@ for and on behalf of the Employer
 <br><br><br><br>
 _____________________________________________________________
 
-<p>Date: <span id="signingDate"</span>
+<p>Date: <span class="signingDate"</span>
 
 
 <br><br>
 
-<p>SIGNED by <span id="candidate"</span>
+<p>SIGNED by <span class="candidate"</span>
 
 <br><br><br><br>
 _____________________________________________________________
@@ -441,13 +443,13 @@ Date: _____________________________________________
 <div class="page-break"></div><h1></h1>
 
 
-<p><b>THIS CONFIDENTIALITY AND PROPRIETARY INFORMATION DEED is made the <span id="signingDate"</span></b>
+<p><b>THIS CONFIDENTIALITY AND PROPRIETARY INFORMATION DEED is made the <span class="signingDate"</span></b>
 
 <p>BETWEEN:
-<p>True AI Ltd. of <span id="companyAddress"</span> (the "Company"); and
-<p><span id="candidate"</span> _______________________________________________________ (insert address) (the "Employee").
+<p>True AI Ltd. of <span class="companyAddress"</span> (the "Company"); and
+<p><span class="candidate"</span> _______________________________________________________ (insert address) (the "Employee").
 
-<p class="draft"><span id="disclaimer"</span></p>
+<p class="draft"><span class="disclaimer"</span></p>
 
 <p><b>AGREED TERMS</b>
 
@@ -572,7 +574,7 @@ _____________________________________________________________
 
 
 <p>EXECUTED as a DEED by the EMPLOYEE:
-<p><span id="candidate"</span>
+<p><span class="candidate"</span>
 
 
 <br><br><br><br>
@@ -589,8 +591,8 @@ _____________________________________________________________
   <p>1.1 The purpose of an Incentive Compensation Plan is to motivate and reward key employees for accomplishing individual performance goals established in accordance with the business targets of the organization and Company.
 
   <h2>Effective Dates</h2>
-  <p>2.1 This Plan goes into effect from <b><span id="startDate"></span></b> and will remain in effect until <b><span id="incentivesEnd"></span></b>.</p>
-  <p>2.2 After <b><span id="incentivesEnd"></span></b>, incentive plan shall be revised based on performance evaluation.
+  <p>2.1 This Plan goes into effect from <b><span class="startDate"></span></b> and will remain in effect until <b><span class="incentivesEnd"></span></b>.</p>
+  <p>2.2 After <b><span class="incentivesEnd"></span></b>, incentive plan shall be revised based on performance evaluation.
 
   <h2>Eligiblity</h2>
   <p>3.1 This Plan document and any oral, written or electronic communication related to the Plan or the subject matter in this Plan document are not intended and shall not be read to create an express or implied contract or promise of specific treatment or benefits in specific situations.</p>
@@ -620,7 +622,7 @@ _____________________________________________________________
   <p>4.10 Management reserves to right to adjust territory and/or account assignments and related quotas, other objectives, and other Plan provisions during the year based on overall business or individual circumstances. </p>
 
   <b>Capping on cash commission</b>
-  <p>4.11 All incentives and commission which is not awarded in forms of stock options is capped to <span id="incentivesCap"></span></p>
+  <p>4.11 All incentives and commission which is not awarded in forms of stock options is capped to <span class="incentivesCap"></span></p>
 
   <b>Limited Involvement</b>
   <p>4.12 In the event that a plan participant has no, little or shared involvement or impact on obtaining an order of significant value, management reserves the right to reduce or adjust the incentive paid to that employee.</p>
@@ -642,7 +644,7 @@ _____________________________________________________________
   <p>4.18 Sales reports and records are the confidential and proprietary information of True AI Ltd. Sales reports and records, as well as the information contained in them, shall be kept confidential and shall be disclosed only to employees of True AI Ltd. who need this information.</p>
 
   <b>Payout</b>
-  <p>4.19 All payouts in cash or stock options must be made by the management on or before the end of Plan period, ie. on or before <span id="incentivesEnd"></span>
+  <p>4.19 All payouts in cash or stock options must be made by the management on or before the end of Plan period, ie. on or before <span class="incentivesEnd"></span>
   <p>4.20 Any cash commission is subject to payment by customer and will only be accounted for once the customer has paid into the accounts of True AI Ltd.</p>
   <p>4.21 If customer paid after the plan period is over, then subject to other provisions of this Plan are met, you shall receive only the cash component of the commission</p>
 
@@ -652,7 +654,7 @@ _____________________________________________________________
   <ul>
     <li>
 
-      <span id="incentives"></span>
+      <span class="incentives"></span>
       </li>
   </ul>
 
