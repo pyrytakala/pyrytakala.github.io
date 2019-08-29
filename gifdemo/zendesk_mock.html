@@ -1,0 +1,437 @@
+<head>
+<style>
+.zd-textbox {
+  margin: 0px 0px 0px 0;
+  display: block;
+  padding: 0px 10px 10px 10px;
+  min-height: 250px;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+  outline: none;
+  color: #333;
+  cursor: text;
+  transition: min-height linear 0.1s;
+  overflow: auto;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 20px;
+  
+}
+
+.zd-boxunder {
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  border: 1px solid #ddd;
+  border-radius: 0 0 4px 4px;
+  background-color: white;
+  box-sizing: border-box;
+  list-style-type: none;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  display: flex;
+  vertical-align: baseline;
+  background: transparent;
+  justify-content: space-between;
+}
+
+.zd-svg {
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  color: #999999;
+  line-height: 0;
+}
+
+.zd-button {
+  padding: 2px;
+  margin: 6px;
+  border: none;
+}
+
+.zd-p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333;
+  cursor: text;
+}
+
+.tab {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+}
+
+.active {
+  border-bottom-color: #1F73B7;
+  font-weight: 600;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-radius: 0px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-right: 25px;
+  padding: 0 0 5px 0;
+  background: none;
+  box-shadow: none;
+}
+
+.messagebox {
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  /*border: thick solid #0000FF;*/
+}
+
+.messagebox2 {
+  display: flex;
+  flex-direction: column;
+  /*border: thick solid #0000FF;*/
+  width: 800px;
+}
+.messagebox3 {
+  display: flex;
+  flex-direction: row;
+  /*border: thick solid #FF00FF;*/
+}
+
+.gap1 {
+  width: 10px;
+}
+
+#demo {
+  /*border: thick solid #FF00FF;*/
+  margin: 10 0 0 0;
+}
+
+.heading {
+  border: none;
+}
+
+#settings{
+  margin-left: 60px;
+}
+
+
+
+
+</style>
+</head>
+
+<div class="messagebox">
+<div><img id="headImg" src="heads/celeste.png" width=60px></div><div class="gap1"></div>
+
+<div class="messagebox2">
+<div class="messagebox3">
+<div class="active tab">Public reply</div><div class="tab">Internal note</div>
+</div>
+  <div class="zd-textbox"><p class="zd-p" id="demo"></p></div>
+  <div class="zd-boxunder">
+    <div>
+      <button class="zd-button">
+        <svg class="zd-svg" id="text" viewBox="0 0 14 14">  <path fill="currentColor" d="M6.3 3.1H3V2h8v1.1H7.7V12H6.3V3.1z"></path></svg>
+      </button>
+      <button class="zd-button">
+        <svg class="zd-svg" id="attachment" viewBox="0 0 14 14">  <path fill="none" stroke="currentColor" d="M6 4.6v5c0 .6.5 1.1 1.1 1.1s1.1-.5 1.1-1.1V2.7C8.2 1.5 7.2.5 6 .5s-2.2 1-2.2 2.2v7.5c0 1.8 1.5 3.3 3.3 3.3s3.3-1.5 3.3-3.3V4.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </button>
+    </div>
+
+      <button class="zd-button">
+        <svg class="zd-svg" width="15px" height="12px" viewBox="0 0 15 12" version="1.1" >
+          <path fill="currentColor" d="M1.5,1.5 L1.5,4.21698129 C3.18861423,4.19590415 4.53141016,5.11560376 4.49977889,6.97424551 C4.53222993,8.86398979 3.18691137,9.76223624 1.5,9.75519246 L1.5,10.5 L10.5,10.5 L10.5,7.5 L12,7.5 C12.1629191,7.5 12.5123875,7.44175527 12.8291796,7.28335921 C13.2753116,7.06029322 13.5,6.72326062 13.5,6 C13.5,5.27673938 13.2753116,4.93970678 12.8291796,4.71664079 C12.5123875,4.55824473 12.1629191,4.5 12,4.5 L10.5,4.5 L10.5,1.5 L8.75207143,1.5 C8.75311566,3.16818745 7.86350084,4.5 6,4.5 C4.13649916,4.5 3.24688434,3.16818745 3.24792858,1.5 L1.5,1.5 Z M5,0 C5,0 3.99447737,3 6,3 C8.00552263,3 7,0 7,0 L12,0 L12,3 C12,3 15,3 15,6 C15,9 12,9 12,9 L12,12 L0,12 L0,8 C0,8 3.03458378,9.01394127 3,7 C3.03458378,4.91183998 0,6 0,6 L0,0 L5,0 Z"></path>
+        </svg>
+      </button>
+  </div>
+</div>
+</div>
+
+<div id="settings">
+  <p><div id="inputArea"></div>
+  <select id="head">
+    <option>abhi</option>
+    <option>celeste</option>
+    <option>emil</option>
+    <option>julia</option>
+    <option>omkar</option>
+    <option>pyry</option>
+  </select>
+  <p><button id="refresh">Refresh</button>
+</div>
+
+<script>
+
+
+// settings
+var startTime = 500
+var defaultTypingSpeed = 120
+var suggestionReadingBaseTime = 300
+var suggestionExtraCharTime = 15
+var flushTime = 500
+
+
+var time = 0 + startTime;
+var greyHtmlStart = "<font color=\"#D6D1D0\">"
+var greyHtmlEnd = "</font>"
+var greyCaret = greyHtmlStart + "|" + greyHtmlEnd
+
+
+function randBetween(min, max) {
+  diff = max - min
+  return Math.floor(Math.random() * diff) + min  
+}
+
+function addText(text, typingSpeed = defaultTypingSpeed) {
+  time += typingSpeed;
+  setTimeout(function(){
+    currentText = document.getElementById("demo").innerHTML
+    currentTextNoCaret = currentText.replace(greyCaret, "").replace("|", "")
+    if (currentText.length % 2 == 0) {
+      caret = "|"
+      }
+    else {
+      caret = "|" //caret = greyCaret
+      }
+
+    document.getElementById("demo").innerHTML = currentTextNoCaret + text + caret;
+  },
+  time);
+}
+
+
+function addEmoji(emoji) {
+  time += defaultTypingSpeed;
+  setTimeout(function(){
+    currentText = document.getElementById("demo").innerHTML
+    currentTextNoCaret = currentText.replace(greyCaret, "").replace("|", "")
+    document.getElementById("demo").innerHTML = currentTextNoCaret + emoji + "|";
+  },
+  time);
+}
+
+function type(typeBuffer, typingSpeed = -1){
+  if (typingSpeed == -1){
+    minSpeed = defaultTypingSpeed * 5 / 6
+    maxSpeed = defaultTypingSpeed * 7 / 6
+    typingSpeed = randBetween(minSpeed, maxSpeed)
+  }
+
+  // first character always typed w slightly slower speed
+  charTypingSpeed = typingSpeed * randBetween(4,6) / 3
+  addText(typeBuffer.charAt(0), charTypingSpeed);
+  typeBuffer = typeBuffer.substring(1,typeBuffer.length);
+  prevChar = typeBuffer.charAt(0)
+
+  while (typeBuffer.length > 0) {
+
+    // first letter in word always typed w slightly slower speed
+    if (prevChar == " ") {
+      charTypingSpeed = typingSpeed * randBetween(4,6) / 3
+    }
+    else {
+      // randomise speed
+      minCharSpeed = typingSpeed * 1 / 2
+      maxCharSpeed = typingSpeed * 3 / 2
+      charTypingSpeed = randBetween(minCharSpeed, maxCharSpeed)
+    }
+
+    addText(typeBuffer.charAt(0), charTypingSpeed);
+    prevChar = typeBuffer.charAt(0)
+    typeBuffer = typeBuffer.substring(1,typeBuffer.length);
+  }
+}
+
+function suggest(text){
+  setTimeout(function(){
+    document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML.replace(greyCaret, "").replace("|", "") + greyHtmlStart + text + greyHtmlEnd;
+    },
+  time);
+}
+
+function accept(extraTime){
+    if (typeof extraTime === 'undefined') { extraTime = 0; }
+    time +=suggestionReadingBaseTime + extraTime;
+    setTimeout(function(){
+      content = document.getElementById("demo").innerHTML;
+      content = content.replace(greyHtmlStart, "")
+      content = content.replace(greyHtmlEnd,"");
+      document.getElementById("demo").innerHTML = content;
+      },
+  time);
+}
+
+function meep(text, extraTime) {
+  suggest(text);
+  extraTime = text.length * suggestionExtraCharTime;
+  accept(extraTime);
+}
+
+function line(){
+  addText("<br>");
+}
+
+
+function flush(){
+  time += flushTime;
+  setTimeout(function(){
+      document.getElementById("demo").innerHTML = ""
+    },
+  time);
+
+}
+
+
+async function demo3 (){
+  flush()
+
+  type("Hi Cynthia,");
+
+  line();
+  line();
+  type("Hope you ");
+  meep("had a great week so far.");
+
+  line();
+  line();
+  type("I thought this might be the easiest way to ", 70);
+  meep("show you how TypeGenie works. ");
+  type("Basically, you can exp");
+  meep("ect to finish your tickets 10-20% faster.", 60);
+
+  line();
+  line();
+  type("And it is super ea");
+  meep("sy to start a trial. ");
+  type("Would you like to try this?");
+  addEmoji(" 😉");
+
+}
+
+
+function demo1() {
+for (i=0; i<2; i++) {
+  demo()
+}
+}
+
+
+function demoDefault() {
+  console.log("triggered");
+  flush()
+  type("Hi there,");
+
+  line();
+  line();
+  type("customer ser");
+  meep("vice requires a lot of work.");
+
+  line();
+  line();
+  type("We he");
+  meep("lp you by");
+  type(" sugg");
+  meep("esting you how to complete sentences.");
+
+  line();
+  line();
+  type("Simply cl");
+  meep("ick \"Tab\" to");
+  type(" ac");
+  meep("cept a completion. ")
+
+  line();
+  line();
+  type("Give i");
+  meep("t a try");
+  type(", and sta");
+  meep("rt saving time!");
+}
+
+function demoA() {
+  flush()
+  var lastLine = -1
+
+  // determine last line so wont do extra lines after
+  for (i=0; i<10; i++) {
+    inputA = document.getElementById("l" + i.toString() + "a").value
+    if (inputA.length != 0)
+      lastLine = i
+  }  
+
+  // run
+  for (i=0; i<10; i++) {
+    inputA = document.getElementById("l" + i.toString() + "a").value
+    inputB = document.getElementById("l" + i.toString() + "b").value
+    inputC = document.getElementById("l" + i.toString() + "c").value
+    inputD = document.getElementById("l" + i.toString() + "d").value
+    if (inputA.length != 0) {
+      type(inputA)
+      if (inputB.length != 0) {
+        meep(inputB)
+        if (inputC.length != 0) {
+          type(inputC)
+          if (inputD.length != 0) {
+            meep(inputD)
+          }
+        }
+      }
+    }
+    if (i<lastLine)
+      line()
+  }
+}
+
+function updateHead() {
+  head = document.getElementById("head").value
+  document.getElementById("headImg").src = "heads/" + head + ".png"
+  console.log(head)
+}
+
+function demo() {
+  updateHead()
+  for (a=0; a<99; a++) {
+    demoA()
+  }
+}
+
+
+demoDefault()
+
+
+inputAreaHTML = "<p>";
+inputAreaHTML += "<input class=\"heading\">";
+inputAreaHTML += "<input class=\"heading\" value=Typing>";
+inputAreaHTML += "<input class=\"heading\" value=Completion>";
+inputAreaHTML += "<input class=\"heading\" value=Typing 2>";
+inputAreaHTML += "<input class=\"heading\" value=Completion 2>";
+for (i=0; i<10; i++) {
+  inputAreaHTML += "<br><input class=\"heading\" value=Line" + i.toString() + ">"
+  inputAreaHTML += "<input id=\"l" + i.toString() + "a\">"
+  inputAreaHTML += "<input id=\"l" + i.toString() + "b\">"
+  inputAreaHTML += "<input id=\"l" + i.toString() + "c\">"
+  inputAreaHTML += "<input id=\"l" + i.toString() + "d\">"
+}
+
+document.getElementById("inputArea").innerHTML = inputAreaHTML;
+
+document.getElementById("refresh").onclick = demo;
+
+
+
+
+/* 
+
+lastTime = 0
+document.onkeydown = function (e) {
+  diff = lastTime - e.timeStamp
+  console.log(e.key + '  ' + diff.toString());
+  lastTime = e.timeStamp
+};
+*/
+
+</script>
+
+
