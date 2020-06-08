@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TypeGenie - Faster and friendlier customer service</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	<script>
+		function getEmail(button) {
+			console.log("capturing email... ")
+			var email = button.previousSibling
+			if (!email.validity.patternMismatch) {
+				email = email.value
+				var HOOKURL = "https://hooks.slack.com/services/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"
+				var body = JSON.stringify({
+					"text": "New website signup: " + email
+				})
+				var xhttp = new XMLHttpRequest();
+				xhttp.open("POST", HOOKURL, true);
+				xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+				// xhttp.send(body);
+				console.log("capturing email... DONE")
+			}
+		}
+	</script>
+
+	<script>
+		var getStartedBox = '<div class="wrapper"> \
+	 	  <div class="inline"><input class="email-capture" placeholder="Your email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"\
+	 	  ><button onClick="getEmail(this)" type="submit" id="email-submit" data-toggle="modal" data-target="#myModal">Get started</button>\
+	  	  </div>\
+		  <div class="child mt-2" style="text-align: center">\
+			  <small class="text-center" style="color: grey; text-align: center; width: 100%; ">\
+		  <i class="fa fa-check" style="color:grey"></i> 2-minute setup &nbsp;&nbsp; <i class="fa fa-check" style="color:grey"></i> Free 14-day trial\
+	  		</small>\
+		  </div>\
+	       </div>'
+	</script>
+
+</head>
+
+<body>
+
+
+	<!-- navigation -->
+	<nav class="navbar navbar-expand-sm bg-light navbar-light">
+		<a class="navbar-brand ml-3" href="#">
+			<img src="i/tg_logo.png" alt="">
+		</a>
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Pricing</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Blog</a>
+			</li>
+			<li class="nav-item mr-2">
+				<input class="email-capture" placeholder="Your email" type="email"
+					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><button onClick="getEmail(this)" type="submit"
+					id="email-submit" data-toggle="modal" data-target="#myModal">Get started</button>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- modal -->
+	<div class="modal" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<div class="modal-body">
+					<div class="flex-container">
+						<div class="modal-item">
+							<p class="text-center pb-5 pt-3"><a target="_blank"
+									class="btn btn-nav-prime btn-primary btn-lg px-4 shadow-lg"
+									rel="noopener noreferrer" href="https://meetings.hubspot.com/emil24"><b>Schedule
+										demo</b></a>
+						</div>
+						<div class="modal-item">
+							<p class="text-center pb-5 pt-3">or
+						</div>
+						<div class="modal-item">
+							<p class="text-center pb-5 pt-3"><a target="_blank"
+									class="btn btn-nav-prime btn-secondary btn-lg px-4 shadow-lg"
+									rel="noopener noreferrer"
+									href="https://chrome.google.com/webstore/detail/true-ai-for-zendesk/nfobgnbegdmblmlicigodlmaicopjmjb"><b>Install
+										TypeGenie</b></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- hero -->
+	<div class="container hero">
+		<div class="row h-75">
+			<div class="col-lg-5 my-auto mr-1">
+				<h1>Faster <i>and</i> friendlier
+					<br>customer service.</h1>
+				<p class="mb-5">Your customer service team are everyday heroes. TypeGenie's augmented writing technology
+					gives them super powers.</p>
+				<script>
+					document.write(getStartedBox)
+				</script>
+
+			</div>
+
+			<div class="col-lg-6 my-auto">
+				<img src="i/typegenie.gif" class="shadow-lg mt-5 w-100" alt=""></div>
+
+		</div>
+		<div class="row w-100">
+			<small class="text-center logo-banner-title">Helping leaders in
+				customer service</small></p>
+			<div class="logo_banner"></div>
+		</div>
+
+	</div>
+
+
+	<!-- benefits -->
+	<div class="bg-light">
+		<div class="container section">
+			<h1 class="text-center">Improve productivity <i>and</i> quality</h1>
+			<div class="row mt-6">
+
+				<div class="col-md-6 mt-4">
+					<h2>Reduce average handling time</h2>
+					<p>Spend less time writing tickets. Give more time both to your customers and service team.</p>
+				</div>
+				<div class="col-md-6 text-right">
+					<img src="i/aht-saving.svg" style="width: 350px;" class="">
+				</div>
+			</div>
+			<div class="row mt-6">
+
+				<div class="col-md-6">
+					<img src="i/smile-2072907_640.jpg" class="w-75 rounded shadow">
+				</div>
+				<div class="col-md-6 mt-4">
+					<h2>Save $180 / service rep / month</h2>
+					<p>With TypeGenie, you eliminate repetitive writing.
+						You also avoid having to search for long-lost Zendesk macros.
+						Or those text snippets that service reps keep in their notepads.
+						That's a lot of saved time.
+					</p>
+					<div><button class="btn btn-secondary">Calculate my ROI >></button></div>
+				</div>
+			</div>
+			<div class="row mt-6">
+
+				<div class="col-md-6 mt-4">
+					<h2>Make your brand tone consistent</h2>
+					<p>A uniform tone of voice is crucial for a brand. When agents use recommended
+						wordings, you encourage a consistent style across service agents.
+					</p>
+				</div>
+				<div class="col-md-6 text-right">
+					<img src="i/laptop-820274_960_720.jpg" class="w-75 rounded shadow">
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center" style="margin: 0 0 80px 0;">
+			<script>
+				document.write(getStartedBox)
+			</script>
+		</div>
+		&nbsp;
+	</div>
+
+
+	<!--
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="card case-card shadow-lg">
+					<div class="card-body">
+						<p class="card-text">“TypeGenie effortlessly integrates with our current CRM platform, enabling
+							agents to access standardized, time-tested conversational snippets with the tap of a button,
+							enabling faster communication and more consistency in tone and content.”</p>
+						<p class="card-text" style="text-align: right;">
+							<small><i>- Colin Crowley – VP of Customer experience</i></small>
+						</p>
+						<img class="card-img-top" src="freshly-logo.png" alt="Card image">
+						<div>
+							<a class="case-study-link" href="#">Read full story >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6">
+				<div class="case-card card shadow-lg">
+					<div class="card-body">
+						<p class="card-text">We see a very clear relationship in the usage of TypeGenie and our agents’
+							productivity, with each being 5-15% more productive
+						</p>
+						<p class="card-text" style="text-align: right;">
+							<small><i>- Bram Greijmans – Business Operations Specialist</i></small>
+						</p>
+						<img class="card-img-top" src="sendcloud-logo.png" alt="Card image">
+						<div>
+							<a class="case-study-link" #" href="#">Read full story >></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+-->
+
+
+
+
+
+
+	<div class="container section text-center">
+		<h1 class="text-center">Join customer service champions</h1>
+		<div class="w-50 wrapper">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+
+
+					<div class="carousel-item active">
+
+
+						<div class="card">
+							<div class="row no-gutters" style="height: 300px;">
+								<div class="col-md-4">
+									<img src="i/bram-sendcloud.jpeg" class="card-img" alt="...">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title text-left">5-15% more productive</h5>
+										<p class="card-text text-left">We see a very clear relationship in the usage of
+											TypeGenie and our agents’
+											productivity, with each being 5-15% more productive.</p>
+										<p class="card-text" style="text-align: right;">
+											<small><i>- Bram Greijmans – Business Operations Specialist</i></small>
+										</p>
+
+										<div class="text-right">
+											<img class="card-img-top text-right" src="i/sendcloud-logo.png"
+												alt="Card image" style="width: 150px;">
+										</div>
+										<div class="text-left">
+											<a class="case-study-link" href="#">Read full story >></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					<div class="carousel-item">
+
+
+						<div class="card">
+							<div class="row no-gutters"  style="height: 300px;">
+								<div class="col-md-4">
+									<img src="i/colin-freshly.jpeg" class="card-img" alt="...">
+								</div>
+								<div class="col-md-8">
+									<div class="card-body">
+										<h5 class="card-title text-left">More consistent tone</h5>
+										<p class="card-text text-left">TypeGenie effortlessly integrates with our CRM.
+											Standardized snippets with the tap of a button
+											enable faster communication and more consistency in tone and content.</p>
+										<p class="card-text" style="text-align: right;">
+											<small><i>- Colin Crowley – VP of Customer experience</i></small>
+										</p>
+
+										<div class="text-right">
+											<img class="card-img-top text-right" src="i/freshly-logo.png"
+												alt="Card image" style="width: 150px;">
+										</div>
+										<div class="text-left">
+											<a class="case-study-link" href="#">Read full story >></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					<!--
+		  <div class="carousel-item ">
+			  <div class="w-100" >
+			<img style="float: left;" class="d-block w-100" src="la.jpeg" alt="First slide">
+			<h1 style="float: left;">ou</h1>
+</div>
+		  </div>
+--->
+
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+
+				<div class="text-center" style="margin: 30px 0 0 0;">
+					<script>
+						document.write(getStartedBox)
+					</script>
+				</div>
+	</div>
+
+
+
+
+
+	<div class="footer">
+		<div class="container">
+
+			<div class="footer-item">©2020 TypeGenie.</div>
+			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">Privacy Policy</a>
+			</div>
+
+			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">Careers</a></div>
+			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">FAQ</a></div>
+			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">Security</a></div>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
