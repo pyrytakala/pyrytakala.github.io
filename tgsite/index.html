@@ -53,11 +53,14 @@
 	<!-- navigation -->
 	<nav class="navbar navbar-expand-sm bg-light navbar-light">
 		<a class="navbar-brand ml-3" href="#">
-			<img src="i/tg_logo.png" alt="">
+			<img src="i/tg_logo.png" style="width: 140px;" alt="">
 		</a>
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
 				<a class="nav-link" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Features</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">Pricing</a>
@@ -115,7 +118,9 @@
 					<br>customer service.</h1>
 				<p class="mb-5">Your customer service team are everyday heroes. TypeGenie's augmented writing technology
 					gives them super powers.</p>
+				<div class="get-started"></div>
 				<script>
+					$('#yourDivName').html('yourtHTML');
 					document.write(getStartedBox)
 				</script>
 
@@ -325,7 +330,7 @@
 			</div>
 		</div>
 
-				<div class="text-center" style="margin: 30px 0 0 0;">
+				<div class="text-center get-started" style="margin: 30px 0 0 0;">
 					<script>
 						document.write(getStartedBox)
 					</script>
@@ -351,5 +356,10 @@
 	</div>
 
 </body>
+
+<script>
+	$(".get-started").load("navbar.html")
+
+</script>
 
 </html>
