@@ -5,6 +5,7 @@
 	<title>TypeGenie - Faster and friendlier customer service</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="i/favicon.png"/>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,116 +13,22 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-	<script>
-		function getEmail(button) {
-			console.log("capturing email... ")
-			var email = button.previousSibling
-			if (!email.validity.patternMismatch) {
-				email = email.value
-				var HOOKURL = "https://hooks.slack.com/services/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"
-				var body = JSON.stringify({
-					"text": "New website signup: " + email
-				})
-				var xhttp = new XMLHttpRequest();
-				xhttp.open("POST", HOOKURL, true);
-				xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-				// xhttp.send(body);
-				console.log("capturing email... DONE")
-			}
-		}
-	</script>
-
-	<script>
-		var getStartedBox = '<div class="wrapper"> \
-	 	  <div class="inline"><input class="email-capture" placeholder="Your email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"\
-	 	  ><button onClick="getEmail(this)" type="submit" id="email-submit" data-toggle="modal" data-target="#myModal">Get started</button>\
-	  	  </div>\
-		  <div class="child mt-2" style="text-align: center">\
-			  <small class="text-center" style="color: grey; text-align: center; width: 100%; ">\
-		  <i class="fa fa-check" style="color:grey"></i> 2-minute setup &nbsp;&nbsp; <i class="fa fa-check" style="color:grey"></i> Free 14-day trial\
-	  		</small>\
-		  </div>\
-	       </div>'
-	</script>
-
+	<script src="scripts.js"></script>
 </head>
 
 <body>
 
-
-	<!-- navigation -->
-	<nav class="navbar navbar-expand-sm bg-light navbar-light">
-		<a class="navbar-brand ml-3" href="#">
-			<img src="i/tg_logo.png" style="width: 140px;" alt="">
-		</a>
-		<ul class="navbar-nav ml-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="#">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Features</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Pricing</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Blog</a>
-			</li>
-			<li class="nav-item mr-2">
-				<input class="email-capture" placeholder="Your email" type="email"
-					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><button onClick="getEmail(this)" type="submit"
-					id="email-submit" data-toggle="modal" data-target="#myModal">Get started</button>
-			</li>
-		</ul>
-	</nav>
-
-	<!-- modal -->
-	<div class="modal" id="myModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-
-				<div class="modal-body">
-					<div class="flex-container">
-						<div class="modal-item">
-							<p class="text-center pb-5 pt-3"><a target="_blank"
-									class="btn btn-nav-prime btn-primary btn-lg px-4 shadow-lg"
-									rel="noopener noreferrer" href="https://meetings.hubspot.com/emil24"><b>Schedule
-										demo</b></a>
-						</div>
-						<div class="modal-item">
-							<p class="text-center pb-5 pt-3">or
-						</div>
-						<div class="modal-item">
-							<p class="text-center pb-5 pt-3"><a target="_blank"
-									class="btn btn-nav-prime btn-secondary btn-lg px-4 shadow-lg"
-									rel="noopener noreferrer"
-									href="https://chrome.google.com/webstore/detail/true-ai-for-zendesk/nfobgnbegdmblmlicigodlmaicopjmjb"><b>Install
-										TypeGenie</b></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
+	<div id="header"></div>
 
 	<!-- hero -->
 	<div class="container hero">
 		<div class="row h-75">
 			<div class="col-lg-5 my-auto mr-1">
-				<h1>Faster <i>and</i> friendlier
+				<h1 style="text-align: left;">Faster <i>and</i> friendlier
 					<br>customer service.</h1>
 				<p class="mb-5">Your customer service team are everyday heroes. TypeGenie's augmented writing technology
 					gives them super powers.</p>
-				<script>
-					document.write(getStartedBox)
-				</script>
-
+					<div class="get-started"></div>
 			</div>
 
 			<div class="col-lg-6 my-auto">
@@ -140,7 +47,7 @@
 	<!-- benefits -->
 	<div class="bg-light">
 		<div class="container section">
-			<h1 class="text-center">Improve productivity <i>and</i> quality</h1>
+			<h1>Improve productivity <i>and</i> quality</h1>
 			<div class="row mt-6">
 
 				<div class="col-md-6 mt-4">
@@ -181,9 +88,7 @@
 		</div>
 
 		<div class="text-center" style="margin: 0 0 80px 0;">
-			<script>
-				document.write(getStartedBox)
-			</script>
+					<div class="get-started"></div>
 		</div>
 		&nbsp;
 	</div>
@@ -228,9 +133,6 @@
 
 		</div>
 -->
-
-
-
 
 
 
@@ -329,30 +231,21 @@
 		</div>
 
 				<div class="text-center" style="margin: 30px 0 0 0;">
-					<script>
-						document.write(getStartedBox)
-					</script>
+					<div class="get-started"></div>
 				</div>
 	</div>
 
 
+	<div id="footer"></div>
 
-
-
-	<div class="footer">
-		<div class="container">
-
-			<div class="footer-item">©2020 TypeGenie.</div>
-			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">Privacy Policy</a>
-			</div>
-
-			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">Careers</a></div>
-			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">FAQ</a></div>
-			<div class="footer-item" style="float: right;"><a class="footer-link" href="#">Security</a></div>
-
-		</div>
-	</div>
 
 </body>
+
+<script>
+$(".get-started").load("get-started.html")
+$("#header").load("navbar.html")
+$("#footer").load("footer.html")
+
+</script>
 
 </html>

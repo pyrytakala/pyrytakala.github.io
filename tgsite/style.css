@@ -1,9 +1,10 @@
 :root {
-  --green: #2ebf91;
-  --purple: #5f3c9e;
+  --green: #2ECC71;
   --lpurple: #cdbfe7;
-  --grey: #ddd;
+  --purple: #5f3c9e;
   --lgrey: #f1f1f1;
+  --grey: #ddd;
+  --dgrey: #414141;
 }
 
 * {
@@ -26,6 +27,7 @@ h1 {
   font-size: 2.5em;
   margin: 40px 0px 40px 0px;
   font-weight: 700;
+  text-align: center;
 }
 
 h2 {
@@ -189,6 +191,10 @@ input.email-capture:invalid {
 
 .mt-6 {
   margin-top: 80px;
+}
+
+.mt-7 {
+  margin-top: 140px;
 }
 
 .carousel-control-next,
