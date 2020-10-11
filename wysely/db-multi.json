@@ -1,0 +1,2332 @@
+var db_multi = [
+    {
+        "Symbol": "TBD",
+        "company": "Aktia Bank Plc",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Alma Media Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "ALTEAMS",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "ALTEAMS",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Amer Sports",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "ASPOCOMP",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Basware Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Cargotec Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Caverion",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Citycon Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Cramo Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "DNA Plc",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "EFORE",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Elisa Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Finnair",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fiskars Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fortum Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fredman Group Oy",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "F-Secure Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "F",
+        "key2": "Declined to participate",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Huhtam\u00e4ki Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kemira Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D\n\nC\n\nC\n\nC",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kone Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Konecranes",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Lassila & Tikanoja",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Metso",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Metso",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "F",
+        "key2": "Declined to participate",
+        "Stamp": "Water Security 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B\n\nA-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokia Group",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Scored",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "OP Financial Group",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Oriola Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Orion Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Orion Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Outokumpu Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Outotec Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "PROTOPAJA",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "PROTOPAJA",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Ramirent",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "S Group",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "SCANFIL",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "SCANFIL",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stockmann Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Tieto Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Tokmanni",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Forests 2019",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Uponor Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Vaisala Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Valmet",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Viking Malt Group",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Viking Malt Group",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water Security 2019",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "W\u00e4rtsil\u00e4 Corporation",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Yit Oyj",
+        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Aktia Bank Plc",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Alma Media Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "ALTEAMS",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Amer Sports",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Basware Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Cargotec Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Caverion",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Citycon Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Cramo Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "DNA Plc",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Elisa Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Finnair",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fiskars Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fortum Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fortum Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Scored",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fredman Group Oy",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "F-Secure Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Huhtam\u00e4ki Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kemira Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D\n\nC\n\nC\n\nC",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kone Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Konecranes",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Lassila & Tikanoja",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Metso",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Metso",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "F",
+        "key2": "Declined to participate",
+        "Stamp": "Water 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B\n\nA-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokia Group",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Scored",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "OP Financial Group",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Oriola Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Orion Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Orion Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Outokumpu Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Outotec Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Raisio Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Ramirent",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "S Group",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sampo Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Scored",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stockmann Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Technopolis",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Tieto Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Forests 2018",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Uponor Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Vaisala Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Valmet",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Viking Malt Group",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Viking Malt Group",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "Not Available",
+        "key2": "Submitted",
+        "Stamp": "Water 2018",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "W\u00e4rtsil\u00e4 Corporation",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Yit Oyj",
+        "country": "Finland",
+        "Year": 2018.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2018",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "AM1",
+        "company": "Ahlstrom Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Aktia Bank Plc",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Alma Media Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Amer Sports",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Basware Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Cargotec Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Caverion",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Citycon Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Cramo Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "DNA Ltd",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Elisa Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "ELTEL",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Finnair",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fiskars Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fortum Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fredman Group Oy",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Huhtam\u00e4ki Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kemira Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B-\n\nB\n\nB\n\nB",
+        "key2": "Submitted",
+        "Stamp": "Forests 2017",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kone Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Konecranes",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Lassila & Tikanoja",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Water 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Metso",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B\n\nA-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Water 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokia Group",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Water 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "OP Financial Group",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Oriola Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Outokumpu Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Raisio Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "S Group",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Forests 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sponda Plc",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stockmann Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Technopolis",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Tieto Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Forests 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Water 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Uponor Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Vaisala Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Valmet",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "W\u00e4rtsil\u00e4 Corporation",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Yit Oyj",
+        "country": "Finland",
+        "Year": 2017.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2017",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "AM1",
+        "company": "Ahlstrom Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Forests 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "AM1",
+        "company": "Ahlstrom Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Alma Media Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Amer Sports",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Basware Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Caverion",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Citycon Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Elisa Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "ELTEL",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Finnair",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fiskars Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fortum Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Fredman Group Oy",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "Not scored",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Huhtam\u00e4ki Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kemira Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C-\n\nC\n\nC\n\nC",
+        "key2": "Submitted",
+        "Stamp": "Forests 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kesko Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Kone Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Konecranes",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Lassila & Tikanoja",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Forests 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Mets\u00e4 Board",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Water 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Metso",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B\n\nA-\n\nB",
+        "key2": "Submitted",
+        "Stamp": "Forests 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "NESTE",
+        "company": "Neste Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokia Group",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Nokian Tyres",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Water 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "OP Financial Group",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Outokumpu Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Raisio Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Ramirent",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "D-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "S Group",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sanoma",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "D",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Sponda Plc",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stockmann Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Stora Enso Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Terrafame Oy",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Tieto Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Forests 2016",
+        "OurScore": 5.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "UPM-Kymmene Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A-",
+        "key2": "Submitted",
+        "Stamp": "Water 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Uponor Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 4.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Vaisala Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 1.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Valmet",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "A",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 3.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "W\u00e4rtsil\u00e4 Corporation",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "B",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 2.0
+    },
+    {
+        "Symbol": "TBD",
+        "company": "Yit Oyj",
+        "country": "Finland",
+        "Year": 2016.0,
+        "Score": "C",
+        "key2": "Submitted",
+        "Stamp": "Climate Change 2016",
+        "OurScore": 5.0
+    }
+]

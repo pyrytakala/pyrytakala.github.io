@@ -1,0 +1,133 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<script src="db.json"></script>
+	<script src="db-multi.json"></script>
+	<script src="meta.json"></script>
+	<script src="utils.js"></script>
+
+</head>
+
+<body>
+
+<!-- Shared component -->
+<div class='section header'>
+	<div class='container'>
+		<div class='container' id='header'>
+			<div>
+				<div class='header-logo'>
+					<a href='index.html'>SuperGoodInvestor.com</a>
+				</div>
+				<div class='header-menu'>
+					<a href=''>About us</a> &nbsp; <a href=''>Contact</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class='section'>
+	<div class="container">
+		<div class='single-col'>
+				<h1 id='h1'></h1>
+				<div style='text-align: center;'>
+					<div id='meta-info'>
+					</div>
+				</div>
+				<div class='container-flex' id='multis'>
+
+				</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Shared component -->
+<div class='section footer'>
+	<div class='container'>
+		<div>
+			@SuperGoodInvestor
+		</div>
+	</div>
+</div>
+
+
+<script>
+
+const urlParams = new URLSearchParams(window.location.search);
+id = urlParams.get('id')
+
+function find_item(symbol) {
+	for (i=0; i<db.length; i++) {
+		if (db[i]['Symbol'] == symbol) {
+			return db[i]
+		}
+	}
+}
+
+item = find_item(id)
+
+// add heading and meta
+cols = keysToList(item)
+
+add = ''
+cols.forEach(function(key) {
+
+	document.getElementById('h1').innerHTML = item['Name']
+
+	console.log(key) 
+	console.log((key in meta_index_attributes && !(key=='Name') && !(key=='Badges')))
+
+	value = item[key]
+	if (key in meta_index_attributes && !(key=='Name') && !(key=='Badges')) {
+
+		add += "<div class='meta-item'>" + display(key, value, meta_index_attributes) + "</div>";
+	}
+
+
+//		if (col != "Name") {
+//			add += "<div class='meta-item'><span class='label'>" + col + ": </span>" + item[col] + '</div>'		
+//		}
+});
+document.getElementById('meta-info').innerHTML = add
+
+
+
+// adding multis
+
+add = ''
+function find_items(symbol) {
+	found = []
+	for (i=0; i<db_multi.length; i++) {
+		if (db_multi[i]['Symbol'] == symbol) {
+			found.push(db_multi[i])
+		}
+	}
+	return found
+}
+
+
+multis = find_items(id)
+
+multis.forEach(function(multi) {
+	cols = keysToList(multi)
+	colAdd = ''
+
+	add += "<div class='multi'>"
+	add += "<h3>" + multi["Stamp"] + "</h3>"
+	add += "<div class='star'>" + starify(multi["OurScore"]) + "</div>"
+	add += "<div>" + multi["Score"] + "</div>"
+	add += "<div>" + multi["Year"] + "</div>"
+	add += '</div>'
+});
+
+document.getElementById('multis').innerHTML = add
+
+
+
+	  
+</script>
+</body>
+</html>
