@@ -181,10 +181,6 @@ h4 {
 	border-radius: 5px;
 }
 
-#multis {
-	/*display: inline-block;*/
-}
-
 #searchBox {
 	width: 600px;
 	margin: 0 20 20 0px;
@@ -207,7 +203,7 @@ a {
 	background-color: lightgreen;
 	padding: 5px;
 	margin: 5px;
-	display: inline;
+	display: inline-block;
 	border-radius: 3px;
 	font-size: 0.8em;
 }

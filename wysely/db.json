@@ -1,193 +1,12 @@
 var db = [
     {
-        "Name": "Ahlstrom-Munksj\u00f6 Oyj",
-        "Country": "Finland",
-        "Symbol": "AM1",
-        "Currency": "EUR",
-        "ISIN": "FI4000048418",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": "Responsible, Forest 2020"
-    },
-    {
-        "Name": "Cargotec Oyj",
-        "Country": "Finland",
-        "Symbol": "CGCBV",
-        "Currency": "EUR",
-        "ISIN": "FI0009013429",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Citycon Oyj",
-        "Country": "Finland",
-        "Symbol": "CTY1S",
-        "Currency": "EUR",
-        "ISIN": "FI4000369947",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Elisa Oyj",
-        "Country": "Finland",
-        "Symbol": "ELISA",
-        "Currency": "EUR",
-        "ISIN": "FI0009007884",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": "5 stars"
-    },
-    {
-        "Name": "Fortum Oyj",
-        "Country": "Finland",
-        "Symbol": "FORTUM",
-        "Currency": "EUR",
-        "ISIN": "FI0009007132",
-        "ICB Code": 6510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fiskars Oyj Abp",
-        "Country": "Finland",
-        "Symbol": "FSKRS",
-        "Currency": "EUR",
-        "ISIN": "FI0009000400",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Huhtam\u00e4ki Oyj",
-        "Country": "Finland",
-        "Symbol": "HUH1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009000459",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Konecranes Oyj",
-        "Country": "Finland",
-        "Symbol": "KCR",
-        "Currency": "EUR",
-        "ISIN": "FI0009005870",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kemira Oyj",
-        "Country": "Finland",
-        "Symbol": "KEMIRA",
-        "Currency": "EUR",
-        "ISIN": "FI0009004824",
-        "ICB Code": 5520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kesko Oyj A",
-        "Country": "Finland",
-        "Symbol": "KESKOA",
-        "Currency": "EUR",
-        "ISIN": "FI0009007900",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
         "Name": "Kesko Oyj B",
         "Country": "Finland",
         "Symbol": "KESKOB",
         "Currency": "EUR",
         "ISIN": "FI0009000202",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "KONE Oyj",
-        "Country": "Finland",
-        "Symbol": "KNEBV",
-        "Currency": "EUR",
-        "ISIN": "FI0009013403",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kojamo Oyj",
-        "Country": "Finland",
-        "Symbol": "KOJAMO",
-        "Currency": "EUR",
-        "ISIN": "FI4000312251",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Mets\u00e4 Board Oyj A",
-        "Country": "Finland",
-        "Symbol": "METSA",
-        "Currency": "EUR",
-        "ISIN": "FI0009000640",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Mets\u00e4 Board Oyj B",
-        "Country": "Finland",
-        "Symbol": "METSB",
-        "Currency": "EUR",
-        "ISIN": "FI0009000665",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Metso Outotec Oyj",
-        "Country": "Finland",
-        "Symbol": "MOCORP",
-        "Currency": "EUR",
-        "ISIN": "FI0009014575",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nordea Bank Abp",
-        "Country": "Finland",
-        "Symbol": "NDA FI",
-        "Currency": "EUR",
-        "ISIN": "FI4000297767",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Neles Oyj",
-        "Country": "Finland",
-        "Symbol": "NELES",
-        "Currency": "EUR",
-        "ISIN": "FI4000440664",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Neste Oyj",
-        "Country": "Finland",
-        "Symbol": "NESTE",
-        "Currency": "EUR",
-        "ISIN": "FI0009013296",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Science Based targets,Corporate Knights,SAM Sustainability Yearbook",
+        "": 3.093
     },
     {
         "Name": "Nokia Oyj",
@@ -195,139 +14,8 @@ var db = [
         "Symbol": "NOKIA",
         "Currency": "EUR",
         "ISIN": "FI0009000681",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Orion Oyj A",
-        "Country": "Finland",
-        "Symbol": "ORNAV",
-        "Currency": "EUR",
-        "ISIN": "FI0009014369",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Orion Oyj B",
-        "Country": "Finland",
-        "Symbol": "ORNBV",
-        "Currency": "EUR",
-        "ISIN": "FI0009014377",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Outokumpu Oyj",
-        "Country": "Finland",
-        "Symbol": "OUT1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009002422",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sanoma Oyj",
-        "Country": "Finland",
-        "Symbol": "SAA1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009007694",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sampo Oyj A",
-        "Country": "Finland",
-        "Symbol": "SAMPO",
-        "Currency": "EUR",
-        "ISIN": "FI0009003305",
-        "ICB Code": 3030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SSAB A",
-        "Country": "Finland",
-        "Symbol": "SSABAH",
-        "Currency": "EUR",
-        "ISIN": "SE0000171100",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SSAB B",
-        "Country": "Finland",
-        "Symbol": "SSABBH",
-        "Currency": "EUR",
-        "ISIN": "SE0000120669",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stora Enso Oyj A",
-        "Country": "Finland",
-        "Symbol": "STEAV",
-        "Currency": "EUR",
-        "ISIN": "FI0009005953",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stora Enso Oyj R",
-        "Country": "Finland",
-        "Symbol": "STERV",
-        "Currency": "EUR",
-        "ISIN": "FI0009005961",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Telia Company",
-        "Country": "Finland",
-        "Symbol": "TELIA1",
-        "Currency": "EUR",
-        "ISIN": "SE0000667925",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "TietoEVRY Oyj",
-        "Country": "Finland",
-        "Symbol": "TIETO",
-        "Currency": "EUR",
-        "ISIN": "FI0009000277",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Terveystalo Oyj",
-        "Country": "Finland",
-        "Symbol": "TTALO",
-        "Currency": "EUR",
-        "ISIN": "FI4000252127",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nokian Renkaat Oyj",
-        "Country": "Finland",
-        "Symbol": "TYRES",
-        "Currency": "EUR",
-        "ISIN": "FI0009005318",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Science Based targets,Corporate Knights,SAM Sustainability Yearbook",
+        "": 3.093
     },
     {
         "Name": "UPM-Kymmene Oyj",
@@ -335,19 +23,35 @@ var db = [
         "Symbol": "UPM",
         "Currency": "EUR",
         "ISIN": "FI0009005987",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Science Based targets,Corporate Knights,SAM Sustainability Yearbook",
+        "": 3.093
     },
     {
-        "Name": "Valmet Oyj",
+        "Name": "Nokian Renkaat Oyj",
         "Country": "Finland",
-        "Symbol": "VALMT",
+        "Symbol": "TYRES",
         "Currency": "EUR",
-        "ISIN": "FI4000074984",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009005318",
+        "Badges": "Carbon Disclosure Project,Science Based targets,SAM Sustainability Yearbook",
+        "": 2.075
+    },
+    {
+        "Name": "Outokumpu Oyj",
+        "Country": "Finland",
+        "Symbol": "OUT1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009002422",
+        "Badges": "Carbon Disclosure Project,Science Based targets,SAM Sustainability Yearbook",
+        "": 2.075
+    },
+    {
+        "Name": "Neste Oyj",
+        "Country": "Finland",
+        "Symbol": "NESTE",
+        "Currency": "EUR",
+        "ISIN": "FI0009013296",
+        "Badges": "Carbon Disclosure Project,Corporate Knights,SAM Sustainability Yearbook",
+        "": 2.071
     },
     {
         "Name": "W\u00e4rtsil\u00e4 Oyj Abp",
@@ -355,59 +59,26 @@ var db = [
         "Symbol": "WRT1V",
         "Currency": "EUR",
         "ISIN": "FI0009003727",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Corporate Knights,SAM Sustainability Yearbook",
+        "": 2.071
     },
     {
-        "Name": "YIT Oyj",
+        "Name": "KONE Oyj",
         "Country": "Finland",
-        "Symbol": "YIT",
+        "Symbol": "KNEBV",
         "Currency": "EUR",
-        "ISIN": "FI0009800643",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009013403",
+        "Badges": "Carbon Disclosure Project,Science Based targets,Corporate Knights",
+        "": 2.065
     },
     {
-        "Name": "Afarak Group Oyj",
+        "Name": "Valmet Oyj",
         "Country": "Finland",
-        "Symbol": "AFAGR",
+        "Symbol": "VALMT",
         "Currency": "EUR",
-        "ISIN": "FI0009800098",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Aktia Bank Abp",
-        "Country": "Finland",
-        "Symbol": "AKTIA",
-        "Currency": "EUR",
-        "ISIN": "FI4000058870",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "\u00c5landsbanken Abp A",
-        "Country": "Finland",
-        "Symbol": "ALBAV",
-        "Currency": "EUR",
-        "ISIN": "FI0009000103",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "\u00c5landsbanken Abp B",
-        "Country": "Finland",
-        "Symbol": "ALBBV",
-        "Currency": "EUR",
-        "ISIN": "FI0009001127",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI4000074984",
+        "Badges": "Carbon Disclosure Project,SAM Sustainability Yearbook",
+        "": 1.053
     },
     {
         "Name": "Alma Media Oyj",
@@ -415,159 +86,35 @@ var db = [
         "Symbol": "ALMA",
         "Currency": "EUR",
         "ISIN": "FI0009013114",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
-        "Name": "Altia Oyj",
+        "Name": "Cargotec Oyj",
         "Country": "Finland",
-        "Symbol": "ALTIA",
+        "Symbol": "CGCBV",
         "Currency": "EUR",
-        "ISIN": "FI4000292438",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009013429",
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
-        "Name": "Aspo Oyj",
+        "Name": "Citycon Oyj",
         "Country": "Finland",
-        "Symbol": "ASPO",
+        "Symbol": "CTY1S",
         "Currency": "EUR",
-        "ISIN": "FI0009008072",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI4000369947",
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
-        "Name": "Atria Oyj A",
+        "Name": "Elisa Oyj",
         "Country": "Finland",
-        "Symbol": "ATRAV",
+        "Symbol": "ELISA",
         "Currency": "EUR",
-        "ISIN": "FI0009006548",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Basware Oyj",
-        "Country": "Finland",
-        "Symbol": "BAS1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009008403",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bittium Oyj",
-        "Country": "Finland",
-        "Symbol": "BITTI",
-        "Currency": "EUR",
-        "ISIN": "FI0009007264",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "CapMan Oyj",
-        "Country": "Finland",
-        "Symbol": "CAPMAN",
-        "Currency": "EUR",
-        "ISIN": "FI0009009377",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Caverion Oyj",
-        "Country": "Finland",
-        "Symbol": "CAV1V",
-        "Currency": "EUR",
-        "ISIN": "FI4000062781",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Enento Group Oyj",
-        "Country": "Finland",
-        "Symbol": "ENENTO",
-        "Currency": "EUR",
-        "ISIN": "FI4000123195",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "eQ Oyj",
-        "Country": "Finland",
-        "Symbol": "EQV1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009009617",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Etteplan Oyj",
-        "Country": "Finland",
-        "Symbol": "ETTE",
-        "Currency": "EUR",
-        "ISIN": "FI0009008650",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Evli Pankki Oyj",
-        "Country": "Finland",
-        "Symbol": "EVLI",
-        "Currency": "EUR",
-        "ISIN": "FI4000170915",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Finnair Oyj",
-        "Country": "Finland",
-        "Symbol": "FIA1S",
-        "Currency": "EUR",
-        "ISIN": "FI0009003230",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "F-Secure Oyj",
-        "Country": "Finland",
-        "Symbol": "FSC1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009801310",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "HKScan Oyj A",
-        "Country": "Finland",
-        "Symbol": "HKSAV",
-        "Currency": "EUR",
-        "ISIN": "FI0009006308",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kamux Oyj",
-        "Country": "Finland",
-        "Symbol": "KAMUX",
-        "Currency": "EUR",
-        "ISIN": "FI4000206750",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009007884",
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
         "Name": "Lassila & Tikanoja Oyj",
@@ -575,219 +122,26 @@ var db = [
         "Symbol": "LAT1V",
         "Currency": "EUR",
         "ISIN": "FI0009010854",
-        "ICB Code": 6510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
-        "Name": "Lehto Group Oyj",
+        "Name": "Mets\u00e4 Board Oyj B",
         "Country": "Finland",
-        "Symbol": "LEHTO",
+        "Symbol": "METSB",
         "Currency": "EUR",
-        "ISIN": "FI4000081138",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009000665",
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
-        "Name": "Marimekko Oyj",
+        "Name": "Stora Enso Oyj R",
         "Country": "Finland",
-        "Symbol": "MMO1V",
+        "Symbol": "STERV",
         "Currency": "EUR",
-        "ISIN": "FI0009007660",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Musti Group Oyj",
-        "Country": "Finland",
-        "Symbol": "MUSTI",
-        "Currency": "EUR",
-        "ISIN": "FI4000410758",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NoHo Partners Oyj",
-        "Country": "Finland",
-        "Symbol": "NOHO",
-        "Currency": "EUR",
-        "ISIN": "FI4000064332",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oriola Oyj A",
-        "Country": "Finland",
-        "Symbol": "OKDAV",
-        "Currency": "EUR",
-        "ISIN": "FI0009014344",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oriola Oyj B",
-        "Country": "Finland",
-        "Symbol": "OKDBV",
-        "Currency": "EUR",
-        "ISIN": "FI0009014351",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Olvi Oyj A",
-        "Country": "Finland",
-        "Symbol": "OLVAS",
-        "Currency": "EUR",
-        "ISIN": "FI0009900401",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oma S\u00e4\u00e4st\u00f6pankki Oyj",
-        "Country": "Finland",
-        "Symbol": "OMASP",
-        "Currency": "EUR",
-        "ISIN": "FI4000306733",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Pihlajalinna Oyj",
-        "Country": "Finland",
-        "Symbol": "PIHLIS",
-        "Currency": "EUR",
-        "ISIN": "FI4000092556",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ponsse Oyj 1",
-        "Country": "Finland",
-        "Symbol": "PON1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009005078",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Qt Group Oyj",
-        "Country": "Finland",
-        "Symbol": "QTCOM",
-        "Currency": "EUR",
-        "ISIN": "FI4000198031",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Raisio Oyj Vaihto-osake",
-        "Country": "Finland",
-        "Symbol": "RAIVV",
-        "Currency": "EUR",
-        "ISIN": "FI0009002943",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Revenio Group Oyj",
-        "Country": "Finland",
-        "Symbol": "REG1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009010912",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Rovio Entertainment Oyj",
-        "Country": "Finland",
-        "Symbol": "ROVIO",
-        "Currency": "EUR",
-        "ISIN": "FI4000266804",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Scanfil Oyj",
-        "Country": "Finland",
-        "Symbol": "SCANFL",
-        "Currency": "EUR",
-        "ISIN": "FI4000029905",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stockmann Oyj Abp A",
-        "Country": "Finland",
-        "Symbol": "STCAS",
-        "Currency": "EUR",
-        "ISIN": "FI0009000236",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stockmann Oyj Abp B",
-        "Country": "Finland",
-        "Symbol": "STCBV",
-        "Currency": "EUR",
-        "ISIN": "FI0009000251",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Taaleri Oyj",
-        "Country": "Finland",
-        "Symbol": "TAALA",
-        "Currency": "EUR",
-        "ISIN": "FI4000062195",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "AS Tallink Grupp FDR",
-        "Country": "Finland",
-        "Symbol": "TALLINK",
-        "Currency": "EUR",
-        "ISIN": "FI4000349378",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tikkurila Oyj",
-        "Country": "Finland",
-        "Symbol": "TIK1V",
-        "Currency": "EUR",
-        "ISIN": "FI4000008719",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Talenom Oyj",
-        "Country": "Finland",
-        "Symbol": "TNOM",
-        "Currency": "EUR",
-        "ISIN": "FI4000153580",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009005961",
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
         "Name": "Tokmanni Group Oyj",
@@ -795,49 +149,17 @@ var db = [
         "Symbol": "TOKMAN",
         "Currency": "EUR",
         "ISIN": "FI4000197934",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project,Science Based targets",
+        "": 1.047
     },
     {
-        "Name": "Uponor Oyj",
+        "Name": "Ahlstrom-Munksj\u00f6 Oyj",
         "Country": "Finland",
-        "Symbol": "UPONOR",
+        "Symbol": "AM1",
         "Currency": "EUR",
-        "ISIN": "FI0009002158",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Vaisala Oyj A",
-        "Country": "Finland",
-        "Symbol": "VAIAS",
-        "Currency": "EUR",
-        "ISIN": "FI0009900682",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Verkkokauppa.com Oyj",
-        "Country": "Finland",
-        "Symbol": "VERK",
-        "Currency": "EUR",
-        "ISIN": "FI4000049812",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Viking Line Abp",
-        "Country": "Finland",
-        "Symbol": "VIK1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009005250",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI4000048418",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
     },
     {
         "Name": "Aspocomp Group Oyj",
@@ -845,9 +167,224 @@ var db = [
         "Symbol": "ACG1V",
         "Currency": "EUR",
         "ISIN": "FI0009008080",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Basware Oyj",
+        "Country": "Finland",
+        "Symbol": "BAS1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009008403",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Caverion Oyj",
+        "Country": "Finland",
+        "Symbol": "CAV1V",
+        "Currency": "EUR",
+        "ISIN": "FI4000062781",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "F-Secure Oyj",
+        "Country": "Finland",
+        "Symbol": "FSC1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009801310",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Finnair Oyj",
+        "Country": "Finland",
+        "Symbol": "FIA1S",
+        "Currency": "EUR",
+        "ISIN": "FI0009003230",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Fiskars Oyj Abp",
+        "Country": "Finland",
+        "Symbol": "FSKRS",
+        "Currency": "EUR",
+        "ISIN": "FI0009000400",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Fortum Oyj",
+        "Country": "Finland",
+        "Symbol": "FORTUM",
+        "Currency": "EUR",
+        "ISIN": "FI0009007132",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Huhtam\u00e4ki Oyj",
+        "Country": "Finland",
+        "Symbol": "HUH1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009000459",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Kemira Oyj",
+        "Country": "Finland",
+        "Symbol": "KEMIRA",
+        "Currency": "EUR",
+        "ISIN": "FI0009004824",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Konecranes Oyj",
+        "Country": "Finland",
+        "Symbol": "KCR",
+        "Currency": "EUR",
+        "ISIN": "FI0009005870",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Oriola Oyj B",
+        "Country": "Finland",
+        "Symbol": "OKDBV",
+        "Currency": "EUR",
+        "ISIN": "FI0009014351",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Orion Oyj B",
+        "Country": "Finland",
+        "Symbol": "ORNBV",
+        "Currency": "EUR",
+        "ISIN": "FI0009014377",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Raisio Oyj Vaihto-osake",
+        "Country": "Finland",
+        "Symbol": "RAIVV",
+        "Currency": "EUR",
+        "ISIN": "FI0009002943",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Sampo Oyj A",
+        "Country": "Finland",
+        "Symbol": "SAMPO",
+        "Currency": "EUR",
+        "ISIN": "FI0009003305",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Sanoma Oyj",
+        "Country": "Finland",
+        "Symbol": "SAA1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009007694",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Scanfil Oyj",
+        "Country": "Finland",
+        "Symbol": "SCANFL",
+        "Currency": "EUR",
+        "ISIN": "FI4000029905",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Stockmann Oyj Abp B",
+        "Country": "Finland",
+        "Symbol": "STCBV",
+        "Currency": "EUR",
+        "ISIN": "FI0009000251",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "TietoEVRY Oyj",
+        "Country": "Finland",
+        "Symbol": "TIETO",
+        "Currency": "EUR",
+        "ISIN": "FI0009000277",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Uponor Oyj",
+        "Country": "Finland",
+        "Symbol": "UPONOR",
+        "Currency": "EUR",
+        "ISIN": "FI0009002158",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Vaisala Oyj A",
+        "Country": "Finland",
+        "Symbol": "VAIAS",
+        "Currency": "EUR",
+        "ISIN": "FI0009900682",
+        "Badges": "Carbon Disclosure Project",
+        "": 0.025
+    },
+    {
+        "Name": "Afarak Group Oyj",
+        "Country": "Finland",
+        "Symbol": "AFAGR",
+        "Currency": "EUR",
+        "ISIN": "FI0009800098",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Aktia Bank Abp",
+        "Country": "Finland",
+        "Symbol": "AKTIA",
+        "Currency": "EUR",
+        "ISIN": "FI4000058870",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "\u00c5landsbanken Abp A",
+        "Country": "Finland",
+        "Symbol": "ALBAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009000103",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "\u00c5landsbanken Abp B",
+        "Country": "Finland",
+        "Symbol": "ALBBV",
+        "Currency": "EUR",
+        "ISIN": "FI0009001127",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Altia Oyj",
+        "Country": "Finland",
+        "Symbol": "ALTIA",
+        "Currency": "EUR",
+        "ISIN": "FI4000292438",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Apetit Oyj",
@@ -855,9 +392,35 @@ var db = [
         "Symbol": "APETIT",
         "Currency": "EUR",
         "ISIN": "FI0009003503",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "AS Tallink Grupp FDR",
+        "Country": "Finland",
+        "Symbol": "TALLINK",
+        "Currency": "EUR",
+        "ISIN": "FI4000349378",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Aspo Oyj",
+        "Country": "Finland",
+        "Symbol": "ASPO",
+        "Currency": "EUR",
+        "ISIN": "FI0009008072",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Atria Oyj A",
+        "Country": "Finland",
+        "Symbol": "ATRAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009006548",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Biohit Oyj B",
@@ -865,19 +428,26 @@ var db = [
         "Symbol": "BIOBV",
         "Currency": "EUR",
         "ISIN": "FI0009005482",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
-        "Name": "Consti Oyj",
+        "Name": "Bittium Oyj",
         "Country": "Finland",
-        "Symbol": "CONSTI",
+        "Symbol": "BITTI",
         "Currency": "EUR",
-        "ISIN": "FI4000178256",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009007264",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "CapMan Oyj",
+        "Country": "Finland",
+        "Symbol": "CAPMAN",
+        "Currency": "EUR",
+        "ISIN": "FI0009009377",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Componenta Oyj",
@@ -885,9 +455,17 @@ var db = [
         "Symbol": "CTH1V",
         "Currency": "EUR",
         "ISIN": "FI0009010110",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Consti Oyj",
+        "Country": "Finland",
+        "Symbol": "CONSTI",
+        "Currency": "EUR",
+        "ISIN": "FI4000178256",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Digia Oyj",
@@ -895,9 +473,8 @@ var db = [
         "Symbol": "DIGIA",
         "Currency": "EUR",
         "ISIN": "FI0009007983",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Digitalist Group Oyj",
@@ -905,9 +482,8 @@ var db = [
         "Symbol": "DIGIGR",
         "Currency": "EUR",
         "ISIN": "FI0009008007",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Dovre Group Oyj",
@@ -915,9 +491,8 @@ var db = [
         "Symbol": "DOV1V",
         "Currency": "EUR",
         "ISIN": "FI0009008098",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "EAB Group Oyj",
@@ -925,9 +500,8 @@ var db = [
         "Symbol": "EAB",
         "Currency": "EUR",
         "ISIN": "FI4000157441",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Eezy Oyj",
@@ -935,9 +509,8 @@ var db = [
         "Symbol": "EEZY",
         "Currency": "EUR",
         "ISIN": "FI4000322326",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Elecster Oyj A",
@@ -945,9 +518,8 @@ var db = [
         "Symbol": "ELEAV",
         "Currency": "EUR",
         "ISIN": "FI0009900658",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Endomines",
@@ -955,9 +527,8 @@ var db = [
         "Symbol": "ENDOM",
         "Currency": "EUR",
         "ISIN": "SE0008294334",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Enedo Oyj",
@@ -965,9 +536,44 @@ var db = [
         "Symbol": "ENEDO",
         "Currency": "EUR",
         "ISIN": "FI4000415252",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Enento Group Oyj",
+        "Country": "Finland",
+        "Symbol": "ENENTO",
+        "Currency": "EUR",
+        "ISIN": "FI4000123195",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "eQ Oyj",
+        "Country": "Finland",
+        "Symbol": "EQV1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009009617",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Etteplan Oyj",
+        "Country": "Finland",
+        "Symbol": "ETTE",
+        "Currency": "EUR",
+        "ISIN": "FI0009008650",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Evli Pankki Oyj",
+        "Country": "Finland",
+        "Symbol": "EVLI",
+        "Currency": "EUR",
+        "ISIN": "FI4000170915",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Exel Composites Oyj",
@@ -975,9 +581,8 @@ var db = [
         "Symbol": "EXL1V",
         "Currency": "EUR",
         "ISIN": "FI0009007306",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Glaston Oyj Abp",
@@ -985,9 +590,8 @@ var db = [
         "Symbol": "GLA1V",
         "Currency": "EUR",
         "ISIN": "FI4000369657",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Harvia Oyj",
@@ -995,9 +599,17 @@ var db = [
         "Symbol": "HARVIA",
         "Currency": "EUR",
         "ISIN": "FI4000306873",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "HKScan Oyj A",
+        "Country": "Finland",
+        "Symbol": "HKSAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009006308",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Honkarakenne Oyj B",
@@ -1005,29 +617,8 @@ var db = [
         "Symbol": "HONBS",
         "Currency": "EUR",
         "ISIN": "FI0009900104",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Incap Oyj",
-        "Country": "Finland",
-        "Symbol": "ICP1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009006407",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Innofactor Plc",
-        "Country": "Finland",
-        "Symbol": "IFA1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009007637",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Ilkka-Yhtym\u00e4 Oyj 2",
@@ -1035,9 +626,26 @@ var db = [
         "Symbol": "ILK2S",
         "Currency": "EUR",
         "ISIN": "FI0009800205",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Incap Oyj",
+        "Country": "Finland",
+        "Symbol": "ICP1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009006407",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Innofactor Plc",
+        "Country": "Finland",
+        "Symbol": "IFA1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009007637",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Investors House Oyj",
@@ -1045,19 +653,17 @@ var db = [
         "Symbol": "INVEST",
         "Currency": "EUR",
         "ISIN": "FI0009900559",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
-        "Name": "Kesla Oyj A",
+        "Name": "Kamux Oyj",
         "Country": "Finland",
-        "Symbol": "KELAS",
+        "Symbol": "KAMUX",
         "Currency": "EUR",
-        "ISIN": "FI0009900237",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI4000206750",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Keskisuomalainen Oyj A",
@@ -1065,9 +671,53 @@ var db = [
         "Symbol": "KSLAV",
         "Currency": "EUR",
         "ISIN": "FI0009007546",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Kesko Oyj A",
+        "Country": "Finland",
+        "Symbol": "KESKOA",
+        "Currency": "EUR",
+        "ISIN": "FI0009007900",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Kesla Oyj A",
+        "Country": "Finland",
+        "Symbol": "KELAS",
+        "Currency": "EUR",
+        "ISIN": "FI0009900237",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Kojamo Oyj",
+        "Country": "Finland",
+        "Symbol": "KOJAMO",
+        "Currency": "EUR",
+        "ISIN": "FI4000312251",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Lehto Group Oyj",
+        "Country": "Finland",
+        "Symbol": "LEHTO",
+        "Currency": "EUR",
+        "ISIN": "FI4000081138",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Marimekko Oyj",
+        "Country": "Finland",
+        "Symbol": "MMO1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009007660",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Martela Oyj A",
@@ -1075,9 +725,44 @@ var db = [
         "Symbol": "MARAS",
         "Currency": "EUR",
         "ISIN": "FI0009900385",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Mets\u00e4 Board Oyj A",
+        "Country": "Finland",
+        "Symbol": "METSA",
+        "Currency": "EUR",
+        "ISIN": "FI0009000640",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Metso Outotec Oyj",
+        "Country": "Finland",
+        "Symbol": "MOCORP",
+        "Currency": "EUR",
+        "ISIN": "FI0009014575",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Musti Group Oyj",
+        "Country": "Finland",
+        "Symbol": "MUSTI",
+        "Currency": "EUR",
+        "ISIN": "FI4000410758",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Neles Oyj",
+        "Country": "Finland",
+        "Symbol": "NELES",
+        "Currency": "EUR",
+        "ISIN": "FI4000440664",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Neo Industrial Oyj",
@@ -1085,9 +770,8 @@ var db = [
         "Symbol": "NEO1V",
         "Currency": "EUR",
         "ISIN": "FI0009800296",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Nixu Oyj",
@@ -1095,9 +779,26 @@ var db = [
         "Symbol": "NIXU",
         "Currency": "EUR",
         "ISIN": "FI0009008387",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "NoHo Partners Oyj",
+        "Country": "Finland",
+        "Symbol": "NOHO",
+        "Currency": "EUR",
+        "ISIN": "FI4000064332",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Nordea Bank Abp",
+        "Country": "Finland",
+        "Symbol": "NDA FI",
+        "Currency": "EUR",
+        "ISIN": "FI4000297767",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Nurminen Logistics Oyj",
@@ -1105,9 +806,26 @@ var db = [
         "Symbol": "NLG1V",
         "Currency": "EUR",
         "ISIN": "FI0009900187",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Olvi Oyj A",
+        "Country": "Finland",
+        "Symbol": "OLVAS",
+        "Currency": "EUR",
+        "ISIN": "FI0009900401",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Oma S\u00e4\u00e4st\u00f6pankki Oyj",
+        "Country": "Finland",
+        "Symbol": "OMASP",
+        "Currency": "EUR",
+        "ISIN": "FI4000306733",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Optomed Oyj",
@@ -1115,9 +833,26 @@ var db = [
         "Symbol": "OPTOMED",
         "Currency": "EUR",
         "ISIN": "FI4000410881",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Oriola Oyj A",
+        "Country": "Finland",
+        "Symbol": "OKDAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009014344",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Orion Oyj A",
+        "Country": "Finland",
+        "Symbol": "ORNAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009014369",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Ovaro Kiinteist\u00f6sijoitus Oyj",
@@ -1125,9 +860,8 @@ var db = [
         "Symbol": "OVARO",
         "Currency": "EUR",
         "ISIN": "FI4000349113",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Panostaja Oyj",
@@ -1135,199 +869,17 @@ var db = [
         "Symbol": "PNA1V",
         "Currency": "EUR",
         "ISIN": "FI0009800379",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
-        "Name": "PunaMusta Media Oyj",
+        "Name": "Pihlajalinna Oyj",
         "Country": "Finland",
-        "Symbol": "PUMU",
+        "Symbol": "PIHLIS",
         "Currency": "EUR",
-        "ISIN": "FI0009900468",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "QPR Software Oyj",
-        "Country": "Finland",
-        "Symbol": "QPR1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009008668",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Rapala VMC Oyj",
-        "Country": "Finland",
-        "Symbol": "RAP1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009007355",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Raute Oyj A",
-        "Country": "Finland",
-        "Symbol": "RAUTE",
-        "Currency": "EUR",
-        "ISIN": "FI0009004741",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Robit Oyj",
-        "Country": "Finland",
-        "Symbol": "ROBIT",
-        "Currency": "EUR",
-        "ISIN": "FI4000150016",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Saga Furs Oyj C",
-        "Country": "Finland",
-        "Symbol": "SAGCV",
-        "Currency": "EUR",
-        "ISIN": "FI0009800551",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sievi Capital Oyj",
-        "Country": "Finland",
-        "Symbol": "SIEVI",
-        "Currency": "EUR",
-        "ISIN": "FI0009008924",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Siili Solutions Oyj",
-        "Country": "Finland",
-        "Symbol": "SIILI",
-        "Currency": "EUR",
-        "ISIN": "FI4000043435",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Solteq Oyj",
-        "Country": "Finland",
-        "Symbol": "SOLTEQ",
-        "Currency": "EUR",
-        "ISIN": "FI0009007991",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Soprano Oyj",
-        "Country": "Finland",
-        "Symbol": "SOPRA",
-        "Currency": "EUR",
-        "ISIN": "FI0009012793",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sotkamo Silver AB",
-        "Country": "Finland",
-        "Symbol": "SOSI1",
-        "Currency": "EUR",
-        "ISIN": "SE0001057910",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SRV Yhti\u00f6t Oyj",
-        "Country": "Finland",
-        "Symbol": "SRV1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009015309",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SSH Communications Security",
-        "Country": "Finland",
-        "Symbol": "SSH1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009008270",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Suominen Oyj",
-        "Country": "Finland",
-        "Symbol": "SUY1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009010862",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tecnotree Oyj",
-        "Country": "Finland",
-        "Symbol": "TEM1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009010227",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Teleste Oyj",
-        "Country": "Finland",
-        "Symbol": "TLT1V",
-        "Currency": "EUR",
-        "ISIN": "FI0009007728",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Trainers\u00b4 House Oyj",
-        "Country": "Finland",
-        "Symbol": "TRH1V",
-        "Currency": "EUR",
-        "ISIN": "FI4000390885",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tulikivi Oyj A",
-        "Country": "Finland",
-        "Symbol": "TULAV",
-        "Currency": "EUR",
-        "ISIN": "FI0009900583",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "United Bankers Oyj",
-        "Country": "Finland",
-        "Symbol": "UNIAV",
-        "Currency": "EUR",
-        "ISIN": "FI4000081427",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI4000092556",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Plc Uutechnic Group Oyj",
@@ -1335,9 +887,296 @@ var db = [
         "Symbol": "UUTEC",
         "Currency": "EUR",
         "ISIN": "FI0009900708",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Ponsse Oyj 1",
+        "Country": "Finland",
+        "Symbol": "PON1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009005078",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "PunaMusta Media Oyj",
+        "Country": "Finland",
+        "Symbol": "PUMU",
+        "Currency": "EUR",
+        "ISIN": "FI0009900468",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "QPR Software Oyj",
+        "Country": "Finland",
+        "Symbol": "QPR1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009008668",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Qt Group Oyj",
+        "Country": "Finland",
+        "Symbol": "QTCOM",
+        "Currency": "EUR",
+        "ISIN": "FI4000198031",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Rapala VMC Oyj",
+        "Country": "Finland",
+        "Symbol": "RAP1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009007355",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Raute Oyj A",
+        "Country": "Finland",
+        "Symbol": "RAUTE",
+        "Currency": "EUR",
+        "ISIN": "FI0009004741",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Revenio Group Oyj",
+        "Country": "Finland",
+        "Symbol": "REG1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009010912",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Robit Oyj",
+        "Country": "Finland",
+        "Symbol": "ROBIT",
+        "Currency": "EUR",
+        "ISIN": "FI4000150016",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Rovio Entertainment Oyj",
+        "Country": "Finland",
+        "Symbol": "ROVIO",
+        "Currency": "EUR",
+        "ISIN": "FI4000266804",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Saga Furs Oyj C",
+        "Country": "Finland",
+        "Symbol": "SAGCV",
+        "Currency": "EUR",
+        "ISIN": "FI0009800551",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Sievi Capital Oyj",
+        "Country": "Finland",
+        "Symbol": "SIEVI",
+        "Currency": "EUR",
+        "ISIN": "FI0009008924",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Siili Solutions Oyj",
+        "Country": "Finland",
+        "Symbol": "SIILI",
+        "Currency": "EUR",
+        "ISIN": "FI4000043435",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Solteq Oyj",
+        "Country": "Finland",
+        "Symbol": "SOLTEQ",
+        "Currency": "EUR",
+        "ISIN": "FI0009007991",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Soprano Oyj",
+        "Country": "Finland",
+        "Symbol": "SOPRA",
+        "Currency": "EUR",
+        "ISIN": "FI0009012793",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Sotkamo Silver AB",
+        "Country": "Finland",
+        "Symbol": "SOSI1",
+        "Currency": "EUR",
+        "ISIN": "SE0001057910",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "SRV Yhti\u00f6t Oyj",
+        "Country": "Finland",
+        "Symbol": "SRV1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009015309",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "SSAB A",
+        "Country": "Finland",
+        "Symbol": "SSABAH",
+        "Currency": "EUR",
+        "ISIN": "SE0000171100",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "SSAB B",
+        "Country": "Finland",
+        "Symbol": "SSABBH",
+        "Currency": "EUR",
+        "ISIN": "SE0000120669",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "SSH Communications Security",
+        "Country": "Finland",
+        "Symbol": "SSH1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009008270",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Stockmann Oyj Abp A",
+        "Country": "Finland",
+        "Symbol": "STCAS",
+        "Currency": "EUR",
+        "ISIN": "FI0009000236",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Stora Enso Oyj A",
+        "Country": "Finland",
+        "Symbol": "STEAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009005953",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Suominen Oyj",
+        "Country": "Finland",
+        "Symbol": "SUY1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009010862",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Taaleri Oyj",
+        "Country": "Finland",
+        "Symbol": "TAALA",
+        "Currency": "EUR",
+        "ISIN": "FI4000062195",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Talenom Oyj",
+        "Country": "Finland",
+        "Symbol": "TNOM",
+        "Currency": "EUR",
+        "ISIN": "FI4000153580",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Tecnotree Oyj",
+        "Country": "Finland",
+        "Symbol": "TEM1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009010227",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Teleste Oyj",
+        "Country": "Finland",
+        "Symbol": "TLT1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009007728",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Telia Company",
+        "Country": "Finland",
+        "Symbol": "TELIA1",
+        "Currency": "EUR",
+        "ISIN": "SE0000667925",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Terveystalo Oyj",
+        "Country": "Finland",
+        "Symbol": "TTALO",
+        "Currency": "EUR",
+        "ISIN": "FI4000252127",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Tikkurila Oyj",
+        "Country": "Finland",
+        "Symbol": "TIK1V",
+        "Currency": "EUR",
+        "ISIN": "FI4000008719",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Trainers\u00b4 House Oyj",
+        "Country": "Finland",
+        "Symbol": "TRH1V",
+        "Currency": "EUR",
+        "ISIN": "FI4000390885",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Tulikivi Oyj A",
+        "Country": "Finland",
+        "Symbol": "TULAV",
+        "Currency": "EUR",
+        "ISIN": "FI0009900583",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "United Bankers Oyj",
+        "Country": "Finland",
+        "Symbol": "UNIAV",
+        "Currency": "EUR",
+        "ISIN": "FI4000081427",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Valoe Oyj",
@@ -1345,1349 +1184,26 @@ var db = [
         "Symbol": "VALOE",
         "Currency": "EUR",
         "ISIN": "FI0009006951",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
     },
     {
-        "Name": "Wulff-Yhti\u00f6t Oyj",
+        "Name": "Verkkokauppa.com Oyj",
         "Country": "Finland",
-        "Symbol": "WUF1V",
+        "Symbol": "VERK",
         "Currency": "EUR",
-        "ISIN": "FI0009008452",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI4000049812",
+        "Badges": "",
+        "": 0.0
     },
     {
-        "Name": "Yleiselektroniikka Oyj",
+        "Name": "Viking Line Abp",
         "Country": "Finland",
-        "Symbol": "YEINT",
+        "Symbol": "VIK1V",
         "Currency": "EUR",
-        "ISIN": "FI0009900724",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "TRATON",
-        "Country": "Sweden",
-        "Symbol": "8TRA",
-        "Currency": "SEK",
-        "ISIN": "DE000TRAT0N7",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "AAK",
-        "Country": "Sweden",
-        "Symbol": "AAK",
-        "Currency": "SEK",
-        "ISIN": "SE0011337708",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "ABB Ltd",
-        "Country": "Sweden",
-        "Symbol": "ABB",
-        "Currency": "SEK",
-        "ISIN": "CH0012221716",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Addtech B",
-        "Country": "Sweden",
-        "Symbol": "ADDT B",
-        "Currency": "SEK",
-        "ISIN": "SE0014781795",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "\u00c5F P\u00f6yry B",
-        "Country": "Sweden",
-        "Symbol": "AF B",
-        "Currency": "SEK",
-        "ISIN": "SE0005999836",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Alfa Laval",
-        "Country": "Sweden",
-        "Symbol": "ALFA",
-        "Currency": "SEK",
-        "ISIN": "SE0000695876",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Autoliv SDB",
-        "Country": "Sweden",
-        "Symbol": "ALIV SDB",
-        "Currency": "SEK",
-        "ISIN": "SE0000382335",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ahlstrom-Munksj\u00f6 Oyj",
-        "Country": "Sweden",
-        "Symbol": "AM1S",
-        "Currency": "SEK",
-        "ISIN": "FI4000048418",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Arion Banki SDB",
-        "Country": "Sweden",
-        "Symbol": "ARION SDB",
-        "Currency": "SEK",
-        "ISIN": "SE0010413567",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Arjo B",
-        "Country": "Sweden",
-        "Symbol": "ARJO B",
-        "Currency": "SEK",
-        "ISIN": "SE0010468116",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "ASSA ABLOY B",
-        "Country": "Sweden",
-        "Symbol": "ASSA B",
-        "Currency": "SEK",
-        "ISIN": "SE0007100581",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Atlas Copco A",
-        "Country": "Sweden",
-        "Symbol": "ATCO A",
-        "Currency": "SEK",
-        "ISIN": "SE0011166610",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Atlas Copco B",
-        "Country": "Sweden",
-        "Symbol": "ATCO B",
-        "Currency": "SEK",
-        "ISIN": "SE0011166628",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Atrium Ljungberg B",
-        "Country": "Sweden",
-        "Symbol": "ATRLJ B",
-        "Currency": "SEK",
-        "ISIN": "SE0000191827",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Attendo",
-        "Country": "Sweden",
-        "Symbol": "ATT",
-        "Currency": "SEK",
-        "ISIN": "SE0007666110",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Axfood",
-        "Country": "Sweden",
-        "Symbol": "AXFO",
-        "Currency": "SEK",
-        "ISIN": "SE0006993770",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Avanza Bank Holding",
-        "Country": "Sweden",
-        "Symbol": "AZA",
-        "Currency": "SEK",
-        "ISIN": "SE0012454072",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "AstraZeneca",
-        "Country": "Sweden",
-        "Symbol": "AZN",
-        "Currency": "SEK",
-        "ISIN": "GB0009895292",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fast. Balder B",
-        "Country": "Sweden",
-        "Symbol": "BALD B",
-        "Currency": "SEK",
-        "ISIN": "SE0000455057",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Beijer Ref B",
-        "Country": "Sweden",
-        "Symbol": "BEIJ B",
-        "Currency": "SEK",
-        "ISIN": "SE0011116508",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Betsson B",
-        "Country": "Sweden",
-        "Symbol": "BETS B",
-        "Currency": "SEK",
-        "ISIN": "SE0014186532",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BillerudKorsn\u00e4s",
-        "Country": "Sweden",
-        "Symbol": "BILL",
-        "Currency": "SEK",
-        "ISIN": "SE0000862997",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Boliden",
-        "Country": "Sweden",
-        "Symbol": "BOL",
-        "Currency": "SEK",
-        "ISIN": "SE0012455673",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bonava A",
-        "Country": "Sweden",
-        "Symbol": "BONAV A",
-        "Currency": "SEK",
-        "ISIN": "SE0008091573",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bonava B",
-        "Country": "Sweden",
-        "Symbol": "BONAV B",
-        "Currency": "SEK",
-        "ISIN": "SE0008091581",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bravida Holding",
-        "Country": "Sweden",
-        "Symbol": "BRAV",
-        "Currency": "SEK",
-        "ISIN": "SE0007491303",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Castellum",
-        "Country": "Sweden",
-        "Symbol": "CAST",
-        "Currency": "SEK",
-        "ISIN": "SE0000379190",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Dometic Group",
-        "Country": "Sweden",
-        "Symbol": "DOM",
-        "Currency": "SEK",
-        "ISIN": "SE0007691613",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Elekta B",
-        "Country": "Sweden",
-        "Symbol": "EKTA B",
-        "Currency": "SEK",
-        "ISIN": "SE0000163628",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Electrolux A",
-        "Country": "Sweden",
-        "Symbol": "ELUX A",
-        "Currency": "SEK",
-        "ISIN": "SE0000103806",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Electrolux B",
-        "Country": "Sweden",
-        "Symbol": "ELUX B",
-        "Currency": "SEK",
-        "ISIN": "SE0000103814",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Epiroc A",
-        "Country": "Sweden",
-        "Symbol": "EPI A",
-        "Currency": "SEK",
-        "ISIN": "SE0011166933",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Epiroc B",
-        "Country": "Sweden",
-        "Symbol": "EPI B",
-        "Currency": "SEK",
-        "ISIN": "SE0011166941",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Electrolux Professional B",
-        "Country": "Sweden",
-        "Symbol": "EPRO B",
-        "Currency": "SEK",
-        "ISIN": "SE0013747870",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "EQT",
-        "Country": "Sweden",
-        "Symbol": "EQT",
-        "Currency": "SEK",
-        "ISIN": "SE0012853455",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ericsson A",
-        "Country": "Sweden",
-        "Symbol": "ERIC A",
-        "Currency": "SEK",
-        "ISIN": "SE0000108649",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ericsson B",
-        "Country": "Sweden",
-        "Symbol": "ERIC B",
-        "Currency": "SEK",
-        "ISIN": "SE0000108656",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Essity A",
-        "Country": "Sweden",
-        "Symbol": "ESSITY A",
-        "Currency": "SEK",
-        "ISIN": "SE0009922156",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Essity B",
-        "Country": "Sweden",
-        "Symbol": "ESSITY B",
-        "Currency": "SEK",
-        "ISIN": "SE0009922164",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Evolution Gaming Group",
-        "Country": "Sweden",
-        "Symbol": "EVO",
-        "Currency": "SEK",
-        "ISIN": "SE0012673267",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fabege",
-        "Country": "Sweden",
-        "Symbol": "FABG",
-        "Currency": "SEK",
-        "ISIN": "SE0011166974",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fenix Outdoor International B",
-        "Country": "Sweden",
-        "Symbol": "FOI B",
-        "Currency": "SEK",
-        "ISIN": "CH0242214887",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fastpartner A",
-        "Country": "Sweden",
-        "Symbol": "FPAR A",
-        "Currency": "SEK",
-        "ISIN": "SE0013512506",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fastpartner D",
-        "Country": "Sweden",
-        "Symbol": "FPAR D",
-        "Currency": "SEK",
-        "ISIN": "SE0013512514",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fastpartner Pref",
-        "Country": "Sweden",
-        "Symbol": "FPAR PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0011309236",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Getinge B",
-        "Country": "Sweden",
-        "Symbol": "GETI B",
-        "Currency": "SEK",
-        "ISIN": "SE0000202624",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hexagon B",
-        "Country": "Sweden",
-        "Symbol": "HEXA B",
-        "Currency": "SEK",
-        "ISIN": "SE0000103699",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hennes & Mauritz B",
-        "Country": "Sweden",
-        "Symbol": "HM B",
-        "Currency": "SEK",
-        "ISIN": "SE0000106270",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Holmen A",
-        "Country": "Sweden",
-        "Symbol": "HOLM A",
-        "Currency": "SEK",
-        "ISIN": "SE0011090000",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Holmen B",
-        "Country": "Sweden",
-        "Symbol": "HOLM B",
-        "Currency": "SEK",
-        "ISIN": "SE0011090018",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "HEXPOL B",
-        "Country": "Sweden",
-        "Symbol": "HPOL B",
-        "Currency": "SEK",
-        "ISIN": "SE0007074281",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hufvudstaden A",
-        "Country": "Sweden",
-        "Symbol": "HUFV A",
-        "Currency": "SEK",
-        "ISIN": "SE0000170375",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Husqvarna A",
-        "Country": "Sweden",
-        "Symbol": "HUSQ A",
-        "Currency": "SEK",
-        "ISIN": "SE0001662222",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Husqvarna B",
-        "Country": "Sweden",
-        "Symbol": "HUSQ B",
-        "Currency": "SEK",
-        "ISIN": "SE0001662230",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "ICA Gruppen",
-        "Country": "Sweden",
-        "Symbol": "ICA",
-        "Currency": "SEK",
-        "ISIN": "SE0000652216",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Indutrade",
-        "Country": "Sweden",
-        "Symbol": "INDT",
-        "Currency": "SEK",
-        "ISIN": "SE0001515552",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Industriv\u00e4rden A",
-        "Country": "Sweden",
-        "Symbol": "INDU A",
-        "Currency": "SEK",
-        "ISIN": "SE0000190126",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Industriv\u00e4rden C",
-        "Country": "Sweden",
-        "Symbol": "INDU C",
-        "Currency": "SEK",
-        "ISIN": "SE0000107203",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Intrum",
-        "Country": "Sweden",
-        "Symbol": "INTRUM",
-        "Currency": "SEK",
-        "ISIN": "SE0000936478",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Investor A",
-        "Country": "Sweden",
-        "Symbol": "INVE A",
-        "Currency": "SEK",
-        "ISIN": "SE0000107401",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Investor B",
-        "Country": "Sweden",
-        "Symbol": "INVE B",
-        "Currency": "SEK",
-        "ISIN": "SE0000107419",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "JM",
-        "Country": "Sweden",
-        "Symbol": "JM",
-        "Currency": "SEK",
-        "ISIN": "SE0000806994",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kindred Group",
-        "Country": "Sweden",
-        "Symbol": "KIND SDB",
-        "Currency": "SEK",
-        "ISIN": "SE0007871645",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kinnevik A",
-        "Country": "Sweden",
-        "Symbol": "KINV A",
-        "Currency": "SEK",
-        "ISIN": "SE0014684510",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kinnevik B",
-        "Country": "Sweden",
-        "Symbol": "KINV B",
-        "Currency": "SEK",
-        "ISIN": "SE0014684528",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kungsleden",
-        "Country": "Sweden",
-        "Symbol": "KLED",
-        "Currency": "SEK",
-        "ISIN": "SE0000549412",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kl\u00f6vern A",
-        "Country": "Sweden",
-        "Symbol": "KLOV A",
-        "Currency": "SEK",
-        "ISIN": "SE0006593901",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kl\u00f6vern B",
-        "Country": "Sweden",
-        "Symbol": "KLOV B",
-        "Currency": "SEK",
-        "ISIN": "SE0006593919",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Kl\u00f6vern pref",
-        "Country": "Sweden",
-        "Symbol": "KLOV PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0006593927",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Latour B",
-        "Country": "Sweden",
-        "Symbol": "LATO B",
-        "Currency": "SEK",
-        "ISIN": "SE0010100958",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lifco B",
-        "Country": "Sweden",
-        "Symbol": "LIFCO B",
-        "Currency": "SEK",
-        "ISIN": "SE0006370730",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Loomis",
-        "Country": "Sweden",
-        "Symbol": "LOOMIS",
-        "Currency": "SEK",
-        "ISIN": "SE0014504817",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lundin Mining Corporation",
-        "Country": "Sweden",
-        "Symbol": "LUMI",
-        "Currency": "SEK",
-        "ISIN": "CA5503721063",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lundbergf\u00f6retagen B",
-        "Country": "Sweden",
-        "Symbol": "LUND B",
-        "Currency": "SEK",
-        "ISIN": "SE0000108847",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lundin Energy",
-        "Country": "Sweden",
-        "Symbol": "LUNE",
-        "Currency": "SEK",
-        "ISIN": "SE0000825820",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Medicover B",
-        "Country": "Sweden",
-        "Symbol": "MCOV B",
-        "Currency": "SEK",
-        "ISIN": "SE0009778848",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Modern Times Group A",
-        "Country": "Sweden",
-        "Symbol": "MTG A",
-        "Currency": "SEK",
-        "ISIN": "SE0000412363",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Modern Times Group B",
-        "Country": "Sweden",
-        "Symbol": "MTG B",
-        "Currency": "SEK",
-        "ISIN": "SE0000412371",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Mycronic",
-        "Country": "Sweden",
-        "Symbol": "MYCR",
-        "Currency": "SEK",
-        "ISIN": "SE0000375115",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NCC A",
-        "Country": "Sweden",
-        "Symbol": "NCC A",
-        "Currency": "SEK",
-        "ISIN": "SE0000118952",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NCC B",
-        "Country": "Sweden",
-        "Symbol": "NCC B",
-        "Currency": "SEK",
-        "ISIN": "SE0000117970",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nordea Bank Abp",
-        "Country": "Sweden",
-        "Symbol": "NDA SE",
-        "Currency": "SEK",
-        "ISIN": "FI4000297767",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nordic Entertainment Group A",
-        "Country": "Sweden",
-        "Symbol": "NENT A",
-        "Currency": "SEK",
-        "ISIN": "SE0012324226",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nordic Entertainment Group B",
-        "Country": "Sweden",
-        "Symbol": "NENT B",
-        "Currency": "SEK",
-        "ISIN": "SE0012116390",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NIBE Industrier B",
-        "Country": "Sweden",
-        "Symbol": "NIBE B",
-        "Currency": "SEK",
-        "ISIN": "SE0008321293",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nobia",
-        "Country": "Sweden",
-        "Symbol": "NOBI",
-        "Currency": "SEK",
-        "ISIN": "SE0000949331",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nolato B",
-        "Country": "Sweden",
-        "Symbol": "NOLA B",
-        "Currency": "SEK",
-        "ISIN": "SE0000109811",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nyfosa",
-        "Country": "Sweden",
-        "Symbol": "NYF",
-        "Currency": "SEK",
-        "ISIN": "SE0011426428",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Peab B",
-        "Country": "Sweden",
-        "Symbol": "PEAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0000106205",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Pandox B",
-        "Country": "Sweden",
-        "Symbol": "PNDX B",
-        "Currency": "SEK",
-        "ISIN": "SE0007100359",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ratos A",
-        "Country": "Sweden",
-        "Symbol": "RATO A",
-        "Currency": "SEK",
-        "ISIN": "SE0000191090",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ratos B",
-        "Country": "Sweden",
-        "Symbol": "RATO B",
-        "Currency": "SEK",
-        "ISIN": "SE0000111940",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Resurs Holding",
-        "Country": "Sweden",
-        "Symbol": "RESURS",
-        "Currency": "SEK",
-        "ISIN": "SE0007665823",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SAAB B",
-        "Country": "Sweden",
-        "Symbol": "SAAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0000112385",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sagax A",
-        "Country": "Sweden",
-        "Symbol": "SAGA A",
-        "Currency": "SEK",
-        "ISIN": "SE0004635878",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sagax B",
-        "Country": "Sweden",
-        "Symbol": "SAGA B",
-        "Currency": "SEK",
-        "ISIN": "SE0005127818",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sagax D",
-        "Country": "Sweden",
-        "Symbol": "SAGA D",
-        "Currency": "SEK",
-        "ISIN": "SE0009161052",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sagax pref",
-        "Country": "Sweden",
-        "Symbol": "SAGA PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0001629288",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sandvik",
-        "Country": "Sweden",
-        "Symbol": "SAND",
-        "Currency": "SEK",
-        "ISIN": "SE0000667891",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Samh\u00e4llsbyggnadsbo. i Norden B",
-        "Country": "Sweden",
-        "Symbol": "SBB B",
-        "Currency": "SEK",
-        "ISIN": "SE0009554454",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Samh\u00e4llsbyggnadsbo. i Norden D",
-        "Country": "Sweden",
-        "Symbol": "SBB D",
-        "Currency": "SEK",
-        "ISIN": "SE0011844091",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SCA A",
-        "Country": "Sweden",
-        "Symbol": "SCA A",
-        "Currency": "SEK",
-        "ISIN": "SE0000171886",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SCA B",
-        "Country": "Sweden",
-        "Symbol": "SCA B",
-        "Currency": "SEK",
-        "ISIN": "SE0000112724",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SEB A",
-        "Country": "Sweden",
-        "Symbol": "SEB A",
-        "Currency": "SEK",
-        "ISIN": "SE0000148884",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SEB C",
-        "Country": "Sweden",
-        "Symbol": "SEB C",
-        "Currency": "SEK",
-        "ISIN": "SE0000120784",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Securitas B",
-        "Country": "Sweden",
-        "Symbol": "SECU B",
-        "Currency": "SEK",
-        "ISIN": "SE0000163594",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sv. Handelsbanken A",
-        "Country": "Sweden",
-        "Symbol": "SHB A",
-        "Currency": "SEK",
-        "ISIN": "SE0007100599",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sv. Handelsbanken B",
-        "Country": "Sweden",
-        "Symbol": "SHB B",
-        "Currency": "SEK",
-        "ISIN": "SE0007100607",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Skanska B",
-        "Country": "Sweden",
-        "Symbol": "SKA B",
-        "Currency": "SEK",
-        "ISIN": "SE0000113250",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SKF A",
-        "Country": "Sweden",
-        "Symbol": "SKF A",
-        "Currency": "SEK",
-        "ISIN": "SE0000108201",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SKF B",
-        "Country": "Sweden",
-        "Symbol": "SKF B",
-        "Currency": "SEK",
-        "ISIN": "SE0000108227",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Swedish Orphan Biovitrum",
-        "Country": "Sweden",
-        "Symbol": "SOBI",
-        "Currency": "SEK",
-        "ISIN": "SE0000872095",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SSAB A",
-        "Country": "Sweden",
-        "Symbol": "SSAB A",
-        "Currency": "SEK",
-        "ISIN": "SE0000171100",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SSAB B",
-        "Country": "Sweden",
-        "Symbol": "SSAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0000120669",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stora Enso A",
-        "Country": "Sweden",
-        "Symbol": "STE A",
-        "Currency": "SEK",
-        "ISIN": "FI0009007603",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stora Enso R",
-        "Country": "Sweden",
-        "Symbol": "STE R",
-        "Currency": "SEK",
-        "ISIN": "FI0009007611",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SWECO A",
-        "Country": "Sweden",
-        "Symbol": "SWEC A",
-        "Currency": "SEK",
-        "ISIN": "SE0000489080",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SWECO B",
-        "Country": "Sweden",
-        "Symbol": "SWEC B",
-        "Currency": "SEK",
-        "ISIN": "SE0000489098",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Swedbank A",
-        "Country": "Sweden",
-        "Symbol": "SWED A",
-        "Currency": "SEK",
-        "ISIN": "SE0000242455",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Swedish Match",
-        "Country": "Sweden",
-        "Symbol": "SWMA",
-        "Currency": "SEK",
-        "ISIN": "SE0000310336",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tele2 A",
-        "Country": "Sweden",
-        "Symbol": "TEL2 A",
-        "Currency": "SEK",
-        "ISIN": "SE0005190220",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tele2 B",
-        "Country": "Sweden",
-        "Symbol": "TEL2 B",
-        "Currency": "SEK",
-        "ISIN": "SE0005190238",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Telia Company",
-        "Country": "Sweden",
-        "Symbol": "TELIA",
-        "Currency": "SEK",
-        "ISIN": "SE0000667925",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Thule Group",
-        "Country": "Sweden",
-        "Symbol": "THULE",
-        "Currency": "SEK",
-        "ISIN": "SE0006422390",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "TietoEVRY Oyj",
-        "Country": "Sweden",
-        "Symbol": "TIETOS",
-        "Currency": "SEK",
-        "ISIN": "FI0009000277",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Millicom Int. Cellular SDB",
-        "Country": "Sweden",
-        "Symbol": "TIGO SDB",
-        "Currency": "SEK",
-        "ISIN": "SE0001174970",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Trelleborg B",
-        "Country": "Sweden",
-        "Symbol": "TREL B",
-        "Currency": "SEK",
-        "ISIN": "SE0000114837",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Vitrolife",
-        "Country": "Sweden",
-        "Symbol": "VITR",
-        "Currency": "SEK",
-        "ISIN": "SE0011205202",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Veoneer SDB",
-        "Country": "Sweden",
-        "Symbol": "VNE SDB",
-        "Currency": "SEK",
-        "ISIN": "SE0011115963",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Volvo A",
-        "Country": "Sweden",
-        "Symbol": "VOLV A",
-        "Currency": "SEK",
-        "ISIN": "SE0000115420",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Volvo B",
-        "Country": "Sweden",
-        "Symbol": "VOLV B",
-        "Currency": "SEK",
-        "ISIN": "SE0000115446",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Wallenstam B",
-        "Country": "Sweden",
-        "Symbol": "WALL B",
-        "Currency": "SEK",
-        "ISIN": "SE0007074844",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "ISIN": "FI0009005250",
+        "Badges": "",
+        "": 0.0
     },
     {
         "Name": "Wihlborgs Fastigheter",
@@ -2695,2538 +1211,34 @@ var db = [
         "Symbol": "WIHL",
         "Currency": "SEK",
         "ISIN": "SE0011205194",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "AcadeMedia",
-        "Country": "Sweden",
-        "Symbol": "ACAD",
-        "Currency": "SEK",
-        "ISIN": "SE0007897079",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Adapteo",
-        "Country": "Sweden",
-        "Symbol": "ADAPT",
-        "Currency": "SEK",
-        "ISIN": "FI4000383898",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "AddLife B",
-        "Country": "Sweden",
-        "Symbol": "ALIF B",
-        "Currency": "SEK",
-        "ISIN": "SE0014401378",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Alimak Group",
-        "Country": "Sweden",
-        "Symbol": "ALIG",
-        "Currency": "SEK",
-        "ISIN": "SE0007158910",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ambea",
-        "Country": "Sweden",
-        "Symbol": "AMBEA",
-        "Currency": "SEK",
-        "ISIN": "SE0009663826",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Addnode Group B",
-        "Country": "Sweden",
-        "Symbol": "ANOD B",
-        "Currency": "SEK",
-        "ISIN": "SE0000472268",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Africa Oil",
-        "Country": "Sweden",
-        "Symbol": "AOI",
-        "Currency": "SEK",
-        "ISIN": "CA00829Q1019",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "AQ Group",
-        "Country": "Sweden",
-        "Symbol": "AQ",
-        "Currency": "SEK",
-        "ISIN": "SE0000772956",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Alligator Bioscience",
-        "Country": "Sweden",
-        "Symbol": "ATORX",
-        "Currency": "SEK",
-        "ISIN": "SE0000767188",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Beijer Alma B",
-        "Country": "Sweden",
-        "Symbol": "BEIA B",
-        "Currency": "SEK",
-        "ISIN": "SE0011090547",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bergman & Beving B",
-        "Country": "Sweden",
-        "Symbol": "BERG B",
-        "Currency": "SEK",
-        "ISIN": "SE0000101362",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Besqab",
-        "Country": "Sweden",
-        "Symbol": "BESQ",
-        "Currency": "SEK",
-        "ISIN": "SE0005991411",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Better Collective",
-        "Country": "Sweden",
-        "Symbol": "BETCO",
-        "Currency": "SEK",
-        "ISIN": "DK0060952240",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BHG Group",
-        "Country": "Sweden",
-        "Symbol": "BHG",
-        "Currency": "SEK",
-        "ISIN": "SE0010948588",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bilia A",
-        "Country": "Sweden",
-        "Symbol": "BILI A",
-        "Currency": "SEK",
-        "ISIN": "SE0009921588",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BioArctic B",
-        "Country": "Sweden",
-        "Symbol": "BIOA B",
-        "Currency": "SEK",
-        "ISIN": "SE0010323311",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BioGaia B",
-        "Country": "Sweden",
-        "Symbol": "BIOG B",
-        "Currency": "SEK",
-        "ISIN": "SE0000470395",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Biotage",
-        "Country": "Sweden",
-        "Symbol": "BIOT",
-        "Currency": "SEK",
-        "ISIN": "SE0000454746",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Byggmax Group",
-        "Country": "Sweden",
-        "Symbol": "BMAX",
-        "Currency": "SEK",
-        "ISIN": "SE0003303627",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Boozt",
-        "Country": "Sweden",
-        "Symbol": "BOOZT",
-        "Currency": "SEK",
-        "ISIN": "SE0009888738",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BTS Group B",
-        "Country": "Sweden",
-        "Symbol": "BTS B",
-        "Currency": "SEK",
-        "ISIN": "SE0000805426",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bufab",
-        "Country": "Sweden",
-        "Symbol": "BUFAB",
-        "Currency": "SEK",
-        "ISIN": "SE0005677135",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bulten",
-        "Country": "Sweden",
-        "Symbol": "BULTEN",
-        "Currency": "SEK",
-        "ISIN": "SE0003849223",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bure Equity",
-        "Country": "Sweden",
-        "Symbol": "BURE",
-        "Currency": "SEK",
-        "ISIN": "SE0000195810",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Calliditas Therapeutics",
-        "Country": "Sweden",
-        "Symbol": "CALTX",
-        "Currency": "SEK",
-        "ISIN": "SE0010441584",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Camurus",
-        "Country": "Sweden",
-        "Symbol": "CAMX",
-        "Currency": "SEK",
-        "ISIN": "SE0007692850",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Catella A",
-        "Country": "Sweden",
-        "Symbol": "CAT A",
-        "Currency": "SEK",
-        "ISIN": "SE0000188500",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Catella B",
-        "Country": "Sweden",
-        "Symbol": "CAT B",
-        "Currency": "SEK",
-        "ISIN": "SE0000188518",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Catena",
-        "Country": "Sweden",
-        "Symbol": "CATE",
-        "Currency": "SEK",
-        "ISIN": "SE0001664707",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Cavotec",
-        "Country": "Sweden",
-        "Symbol": "CCC",
-        "Currency": "SEK",
-        "ISIN": "CH0136071542",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "CellaVision",
-        "Country": "Sweden",
-        "Symbol": "CEVI",
-        "Currency": "SEK",
-        "ISIN": "SE0000683484",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Cloetta B",
-        "Country": "Sweden",
-        "Symbol": "CLA B",
-        "Currency": "SEK",
-        "ISIN": "SE0002626861",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Clas Ohlson B",
-        "Country": "Sweden",
-        "Symbol": "CLAS B",
-        "Currency": "SEK",
-        "ISIN": "SE0000584948",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "CELLINK B",
-        "Country": "Sweden",
-        "Symbol": "CLNK B",
-        "Currency": "SEK",
-        "ISIN": "SE0013647385",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Concentric",
-        "Country": "Sweden",
-        "Symbol": "COIC",
-        "Currency": "SEK",
-        "ISIN": "SE0003950864",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Collector",
-        "Country": "Sweden",
-        "Symbol": "COLL",
-        "Currency": "SEK",
-        "ISIN": "SE0007048020",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Coor Service Management Hold.",
-        "Country": "Sweden",
-        "Symbol": "COOR",
-        "Currency": "SEK",
-        "ISIN": "SE0007158829",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Corem Property Group A",
-        "Country": "Sweden",
-        "Symbol": "CORE A",
-        "Currency": "SEK",
-        "ISIN": "SE0010714279",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Corem Property Group B",
-        "Country": "Sweden",
-        "Symbol": "CORE B",
-        "Currency": "SEK",
-        "ISIN": "SE0010714287",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Corem Property Group Pref",
-        "Country": "Sweden",
-        "Symbol": "CORE PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0010714311",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Creades A",
-        "Country": "Sweden",
-        "Symbol": "CRED A",
-        "Currency": "SEK",
-        "ISIN": "SE0004390516",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Catena Media",
-        "Country": "Sweden",
-        "Symbol": "CTM",
-        "Currency": "SEK",
-        "ISIN": "MT0001000109",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Di\u00f6s Fastigheter",
-        "Country": "Sweden",
-        "Symbol": "DIOS",
-        "Currency": "SEK",
-        "ISIN": "SE0001634262",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Duni",
-        "Country": "Sweden",
-        "Symbol": "DUNI",
-        "Currency": "SEK",
-        "ISIN": "SE0000616716",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Dustin Group",
-        "Country": "Sweden",
-        "Symbol": "DUST",
-        "Currency": "SEK",
-        "ISIN": "SE0006625471",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Eastnine",
-        "Country": "Sweden",
-        "Symbol": "EAST",
-        "Currency": "SEK",
-        "ISIN": "SE0002158568",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Elanders B",
-        "Country": "Sweden",
-        "Symbol": "ELAN B",
-        "Currency": "SEK",
-        "ISIN": "SE0000119299",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Eltel",
-        "Country": "Sweden",
-        "Symbol": "ELTEL",
-        "Currency": "SEK",
-        "ISIN": "SE0006509949",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Enea",
-        "Country": "Sweden",
-        "Symbol": "ENEA",
-        "Currency": "SEK",
-        "ISIN": "SE0009697220",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Internationella Engelska Skola",
-        "Country": "Sweden",
-        "Symbol": "ENG",
-        "Currency": "SEK",
-        "ISIN": "SE0008585525",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "EnQuest PLC",
-        "Country": "Sweden",
-        "Symbol": "ENQ",
-        "Currency": "SEK",
-        "ISIN": "GB00B635TG28",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Eolus Vind B",
-        "Country": "Sweden",
-        "Symbol": "EOLU B",
-        "Currency": "SEK",
-        "ISIN": "SE0007075056",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fagerhult",
-        "Country": "Sweden",
-        "Symbol": "FAG",
-        "Currency": "SEK",
-        "ISIN": "SE0010048884",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Fingerprint Cards B",
-        "Country": "Sweden",
-        "Symbol": "FING B",
-        "Currency": "SEK",
-        "ISIN": "SE0008374250",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ferronordic",
-        "Country": "Sweden",
-        "Symbol": "FNM",
-        "Currency": "SEK",
-        "ISIN": "SE0005468717",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "G5 Entertainment",
-        "Country": "Sweden",
-        "Symbol": "G5EN",
-        "Currency": "SEK",
-        "ISIN": "SE0001824004",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Garo",
-        "Country": "Sweden",
-        "Symbol": "GARO",
-        "Currency": "SEK",
-        "ISIN": "SE0008008262",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Genova Property Group",
-        "Country": "Sweden",
-        "Symbol": "GPG",
-        "Currency": "SEK",
-        "ISIN": "SE0007184189",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Genova Property Group Pref",
-        "Country": "Sweden",
-        "Symbol": "GPG PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0007526132",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Gr\u00e4nges",
-        "Country": "Sweden",
-        "Symbol": "GRNG",
-        "Currency": "SEK",
-        "ISIN": "SE0006288015",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Gunnebo",
-        "Country": "Sweden",
-        "Symbol": "GUNN",
-        "Currency": "SEK",
-        "ISIN": "SE0000195570",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Handicare Group",
-        "Country": "Sweden",
-        "Symbol": "HANDI",
-        "Currency": "SEK",
-        "ISIN": "SE0010298109",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "HEBA B",
-        "Country": "Sweden",
-        "Symbol": "HEBA B",
-        "Currency": "SEK",
-        "ISIN": "SE0012676336",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "HiQ International",
-        "Country": "Sweden",
-        "Symbol": "HIQ",
-        "Currency": "SEK",
-        "ISIN": "SE0012454619",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Haldex",
-        "Country": "Sweden",
-        "Symbol": "HLDX",
-        "Currency": "SEK",
-        "ISIN": "SE0000105199",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "HMS Networks",
-        "Country": "Sweden",
-        "Symbol": "HMS",
-        "Currency": "SEK",
-        "ISIN": "SE0009997018",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hansa Biopharma",
-        "Country": "Sweden",
-        "Symbol": "HNSA",
-        "Currency": "SEK",
-        "ISIN": "SE0002148817",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hoist Finance",
-        "Country": "Sweden",
-        "Symbol": "HOFI",
-        "Currency": "SEK",
-        "ISIN": "SE0006887063",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hexatronic Group",
-        "Country": "Sweden",
-        "Symbol": "HTRO",
-        "Currency": "SEK",
-        "ISIN": "SE0002367797",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Humana",
-        "Country": "Sweden",
-        "Symbol": "HUM",
-        "Currency": "SEK",
-        "ISIN": "SE0008040653",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "I.A.R Systems Group",
-        "Country": "Sweden",
-        "Symbol": "IAR B",
-        "Currency": "SEK",
-        "ISIN": "SE0005851706",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Infant Bacterial TherapeuticsB",
-        "Country": "Sweden",
-        "Symbol": "IBT B",
-        "Currency": "SEK",
-        "ISIN": "SE0008015259",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Immunovia",
-        "Country": "Sweden",
-        "Symbol": "IMMNOV",
-        "Currency": "SEK",
-        "ISIN": "SE0006091997",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Instalco",
-        "Country": "Sweden",
-        "Symbol": "INSTAL",
-        "Currency": "SEK",
-        "ISIN": "SE0009664253",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Inwido",
-        "Country": "Sweden",
-        "Symbol": "INWI",
-        "Currency": "SEK",
-        "ISIN": "SE0006220018",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "International Petroleum Corp.",
-        "Country": "Sweden",
-        "Symbol": "IPCO",
-        "Currency": "SEK",
-        "ISIN": "CA46016U1084",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "IRLAB Therapeutics A",
-        "Country": "Sweden",
-        "Symbol": "IRLAB A",
-        "Currency": "SEK",
-        "ISIN": "SE0012675361",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "ITAB Shop Concept B",
-        "Country": "Sweden",
-        "Symbol": "ITAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0008375117",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "INVISIO",
-        "Country": "Sweden",
-        "Symbol": "IVSO",
-        "Currency": "SEK",
-        "ISIN": "SE0001200015",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "John Mattson Fastighetsf\u00f6ret.",
-        "Country": "Sweden",
-        "Symbol": "JOMA",
-        "Currency": "SEK",
-        "ISIN": "SE0012481364",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Josemaria Resources",
-        "Country": "Sweden",
-        "Symbol": "JOSE",
-        "Currency": "SEK",
-        "ISIN": "CA48086P1009",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "K2A Knaust & Andersson B",
-        "Country": "Sweden",
-        "Symbol": "K2A B",
-        "Currency": "SEK",
-        "ISIN": "SE0010520254",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "K2A Knaust & Andersson Pref",
-        "Country": "Sweden",
-        "Symbol": "K2A PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0006852075",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Karnov Group",
-        "Country": "Sweden",
-        "Symbol": "KAR",
-        "Currency": "SEK",
-        "ISIN": "SE0012323715",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Karo Pharma",
-        "Country": "Sweden",
-        "Symbol": "KARO",
-        "Currency": "SEK",
-        "ISIN": "SE0007464888",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "K-Fast Holding B",
-        "Country": "Sweden",
-        "Symbol": "KFAST B",
-        "Currency": "SEK",
-        "ISIN": "SE0013382355",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Knowit",
-        "Country": "Sweden",
-        "Symbol": "KNOW",
-        "Currency": "SEK",
-        "ISIN": "SE0000421273",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lagercrantz Group B",
-        "Country": "Sweden",
-        "Symbol": "LAGR B",
-        "Currency": "SEK",
-        "ISIN": "SE0014990966",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "LeoVegas",
-        "Country": "Sweden",
-        "Symbol": "LEO",
-        "Currency": "SEK",
-        "ISIN": "SE0008091904",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lindab International",
-        "Country": "Sweden",
-        "Symbol": "LIAB",
-        "Currency": "SEK",
-        "ISIN": "SE0001852419",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lucara Diamond Corp",
-        "Country": "Sweden",
-        "Symbol": "LUC",
-        "Currency": "SEK",
-        "ISIN": "CA54928Q1081",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lundin Gold",
-        "Country": "Sweden",
-        "Symbol": "LUG",
-        "Currency": "SEK",
-        "ISIN": "CA5503711080",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Mekonomen",
-        "Country": "Sweden",
-        "Symbol": "MEKO",
-        "Currency": "SEK",
-        "ISIN": "SE0002110064",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Mips",
-        "Country": "Sweden",
-        "Symbol": "MIPS",
-        "Currency": "SEK",
-        "ISIN": "SE0009216278",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Momentum Group B",
-        "Country": "Sweden",
-        "Symbol": "MMGR B",
-        "Currency": "SEK",
-        "ISIN": "SE0009922305",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Midsona A",
-        "Country": "Sweden",
-        "Symbol": "MSON A",
-        "Currency": "SEK",
-        "ISIN": "SE0000565210",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Midsona B",
-        "Country": "Sweden",
-        "Symbol": "MSON B",
-        "Currency": "SEK",
-        "ISIN": "SE0000565228",
-        "ICB Code": 4520.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Munters Group",
-        "Country": "Sweden",
-        "Symbol": "MTRS",
-        "Currency": "SEK",
-        "ISIN": "SE0009806607",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NetEnt B",
-        "Country": "Sweden",
-        "Symbol": "NET B",
-        "Currency": "SEK",
-        "ISIN": "SE0014186656",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "New Wave B",
-        "Country": "Sweden",
-        "Symbol": "NEWA B",
-        "Currency": "SEK",
-        "ISIN": "SE0000426546",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nederman Holding",
-        "Country": "Sweden",
-        "Symbol": "NMAN",
-        "Currency": "SEK",
-        "ISIN": "SE0011204510",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nobina",
-        "Country": "Sweden",
-        "Symbol": "NOBINA",
-        "Currency": "SEK",
-        "ISIN": "SE0007185418",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NP3 Fastigheter",
-        "Country": "Sweden",
-        "Symbol": "NP3",
-        "Currency": "SEK",
-        "ISIN": "SE0006342333",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NP3 Fastigheter Pref",
-        "Country": "Sweden",
-        "Symbol": "NP3 PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0010820514",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nordic Waterproofing Holding",
-        "Country": "Sweden",
-        "Symbol": "NWG",
-        "Currency": "SEK",
-        "ISIN": "DK0060738409",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oasmia Pharmaceutical",
-        "Country": "Sweden",
-        "Symbol": "OASM",
-        "Currency": "SEK",
-        "ISIN": "SE0000722365",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "OEM International B",
-        "Country": "Sweden",
-        "Symbol": "OEM B",
-        "Currency": "SEK",
-        "ISIN": "SE0005876968",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oncopeptides",
-        "Country": "Sweden",
-        "Symbol": "ONCO",
-        "Currency": "SEK",
-        "ISIN": "SE0009414576",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Opus Group",
-        "Country": "Sweden",
-        "Symbol": "OPUS",
-        "Currency": "SEK",
-        "ISIN": "SE0001696683",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "\u00d6resund",
-        "Country": "Sweden",
-        "Symbol": "ORES",
-        "Currency": "SEK",
-        "ISIN": "SE0008321608",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Orexo",
-        "Country": "Sweden",
-        "Symbol": "ORX",
-        "Currency": "SEK",
-        "ISIN": "SE0000736415",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Proact IT Group",
-        "Country": "Sweden",
-        "Symbol": "PACT",
-        "Currency": "SEK",
-        "ISIN": "SE0000412991",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Platzer Fastigheter Holding B",
-        "Country": "Sweden",
-        "Symbol": "PLAZ B",
-        "Currency": "SEK",
-        "ISIN": "SE0004977692",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Probi",
-        "Country": "Sweden",
-        "Symbol": "PROB",
-        "Currency": "SEK",
-        "ISIN": "SE0001280355",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Q-Linea",
-        "Country": "Sweden",
-        "Symbol": "QLINEA",
-        "Currency": "SEK",
-        "ISIN": "SE0011527845",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Qliro Group",
-        "Country": "Sweden",
-        "Symbol": "QLRO",
-        "Currency": "SEK",
-        "ISIN": "SE0003652163",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "RaySearch Laboratories B",
-        "Country": "Sweden",
-        "Symbol": "RAY B",
-        "Currency": "SEK",
-        "ISIN": "SE0000135485",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Readly International",
-        "Country": "Sweden",
-        "Symbol": "READ",
-        "Currency": "SEK",
-        "ISIN": "SE0014855292",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Recipharm B",
-        "Country": "Sweden",
-        "Symbol": "RECI B",
-        "Currency": "SEK",
-        "ISIN": "SE0005757267",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Rottneros",
-        "Country": "Sweden",
-        "Symbol": "RROS",
-        "Currency": "SEK",
-        "ISIN": "SE0000112252",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SAS",
-        "Country": "Sweden",
-        "Symbol": "SAS",
-        "Currency": "SEK",
-        "ISIN": "SE0003366871",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Scandi Standard",
-        "Country": "Sweden",
-        "Symbol": "SCST",
-        "Currency": "SEK",
-        "ISIN": "SE0005999760",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SECTRA B",
-        "Country": "Sweden",
-        "Symbol": "SECT B",
-        "Currency": "SEK",
-        "ISIN": "SE0014609061",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Scandic Hotels Group",
-        "Country": "Sweden",
-        "Symbol": "SHOT",
-        "Currency": "SEK",
-        "ISIN": "SE0007640156",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sinch",
-        "Country": "Sweden",
-        "Symbol": "SINCH",
-        "Currency": "SEK",
-        "ISIN": "SE0007439112",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SkiStar B",
-        "Country": "Sweden",
-        "Symbol": "SKIS B",
-        "Currency": "SEK",
-        "ISIN": "SE0012141687",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stend\u00f6rren Fastigheter B",
-        "Country": "Sweden",
-        "Symbol": "STEF B",
-        "Currency": "SEK",
-        "ISIN": "SE0006543344",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Svolder A",
-        "Country": "Sweden",
-        "Symbol": "SVOL A",
-        "Currency": "SEK",
-        "ISIN": "SE0010663302",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Svolder B",
-        "Country": "Sweden",
-        "Symbol": "SVOL B",
-        "Currency": "SEK",
-        "ISIN": "SE0010663310",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Systemair",
-        "Country": "Sweden",
-        "Symbol": "SYSR",
-        "Currency": "SEK",
-        "ISIN": "SE0002133975",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tethys Oil",
-        "Country": "Sweden",
-        "Symbol": "TETY",
-        "Currency": "SEK",
-        "ISIN": "SE0014399424",
-        "ICB Code": 6010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "TF Bank",
-        "Country": "Sweden",
-        "Symbol": "TFBANK",
-        "Currency": "SEK",
-        "ISIN": "SE0007331608",
-        "ICB Code": 3010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Tobii",
-        "Country": "Sweden",
-        "Symbol": "TOBII",
-        "Currency": "SEK",
-        "ISIN": "SE0002591420",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Traction B",
-        "Country": "Sweden",
-        "Symbol": "TRAC B",
-        "Currency": "SEK",
-        "ISIN": "SE0000391716",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Troax Group",
-        "Country": "Sweden",
-        "Symbol": "TROAX",
-        "Currency": "SEK",
-        "ISIN": "SE0012729366",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "VBG GROUP B",
-        "Country": "Sweden",
-        "Symbol": "VBG B",
-        "Currency": "SEK",
-        "ISIN": "SE0000115107",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Vitec Software Group B",
-        "Country": "Sweden",
-        "Symbol": "VIT B",
-        "Currency": "SEK",
-        "ISIN": "SE0007871363",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "VNV Global",
-        "Country": "Sweden",
-        "Symbol": "VNV",
-        "Currency": "SEK",
-        "ISIN": "SE0014428835",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Volati",
-        "Country": "Sweden",
-        "Symbol": "VOLO",
-        "Currency": "SEK",
-        "ISIN": "SE0009143662",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Volati Pref",
-        "Country": "Sweden",
-        "Symbol": "VOLO PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0009143670",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "XANO Industri B",
-        "Country": "Sweden",
-        "Symbol": "XANO B",
-        "Currency": "SEK",
-        "ISIN": "SE0012674232",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Xvivo Perfusion",
-        "Country": "Sweden",
-        "Symbol": "XVIVO",
-        "Currency": "SEK",
-        "ISIN": "SE0004840718",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Abliva",
-        "Country": "Sweden",
-        "Symbol": "ABLI",
-        "Currency": "SEK",
-        "ISIN": "SE0002575340",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ascelia Pharma",
-        "Country": "Sweden",
-        "Symbol": "ACE",
-        "Currency": "SEK",
-        "ISIN": "SE0010573113",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Active Biotech",
-        "Country": "Sweden",
-        "Symbol": "ACTI",
-        "Currency": "SEK",
-        "ISIN": "SE0001137985",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Agromino",
-        "Country": "Sweden",
-        "Symbol": "AGRO",
-        "Currency": "SEK",
-        "ISIN": "DK0060823516",
-        "ICB Code": 4510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Anoto Group",
-        "Country": "Sweden",
-        "Symbol": "ANOT",
-        "Currency": "SEK",
-        "ISIN": "SE0010415281",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Arise",
-        "Country": "Sweden",
-        "Symbol": "ARISE",
-        "Currency": "SEK",
-        "ISIN": "SE0002095604",
-        "ICB Code": 6510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Arctic Paper",
-        "Country": "Sweden",
-        "Symbol": "ARP",
-        "Currency": "SEK",
-        "ISIN": "PLARTPR00012",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Actic Group",
-        "Country": "Sweden",
-        "Symbol": "ATIC",
-        "Currency": "SEK",
-        "ISIN": "SE0009269467",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "A3 Allm\u00e4nna IT- och Telekom.",
-        "Country": "Sweden",
-        "Symbol": "ATRE",
-        "Currency": "SEK",
-        "ISIN": "SE0001625534",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "B3 Consulting Group",
-        "Country": "Sweden",
-        "Symbol": "B3",
-        "Currency": "SEK",
-        "ISIN": "SE0008347660",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bactiguard Holding B",
-        "Country": "Sweden",
-        "Symbol": "BACTI B",
-        "Currency": "SEK",
-        "ISIN": "SE0005878741",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Balco Group",
-        "Country": "Sweden",
-        "Symbol": "BALCO",
-        "Currency": "SEK",
-        "ISIN": "SE0010323998",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BE Group",
-        "Country": "Sweden",
-        "Symbol": "BEGR",
-        "Currency": "SEK",
-        "ISIN": "SE0008321921",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Beijer Electronics Group",
-        "Country": "Sweden",
-        "Symbol": "BELE",
-        "Currency": "SEK",
-        "ISIN": "SE0000671711",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BioInvent International",
-        "Country": "Sweden",
-        "Symbol": "BINV",
-        "Currency": "SEK",
-        "ISIN": "SE0000789711",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "BONESUPPORT HOLDING",
-        "Country": "Sweden",
-        "Symbol": "BONEX",
-        "Currency": "SEK",
-        "ISIN": "SE0009858152",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bong",
-        "Country": "Sweden",
-        "Symbol": "BONG",
-        "Currency": "SEK",
-        "ISIN": "SE0000396061",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bj\u00f6rn Borg",
-        "Country": "Sweden",
-        "Symbol": "BORG",
-        "Currency": "SEK",
-        "ISIN": "SE0012455350",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Boule Diagnostics",
-        "Country": "Sweden",
-        "Symbol": "BOUL",
-        "Currency": "SEK",
-        "ISIN": "SE0011231158",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Bergs Timber B",
-        "Country": "Sweden",
-        "Symbol": "BRG B",
-        "Currency": "SEK",
-        "ISIN": "SE0000101297",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Brinova Fastigheter B",
-        "Country": "Sweden",
-        "Symbol": "BRIN B",
-        "Currency": "SEK",
-        "ISIN": "SE0008347652",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Cantargia",
-        "Country": "Sweden",
-        "Symbol": "CANTA",
-        "Currency": "SEK",
-        "ISIN": "SE0006371126",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Christian Berner Tech Trade B",
-        "Country": "Sweden",
-        "Symbol": "CBTT B",
-        "Currency": "SEK",
-        "ISIN": "SE0006143129",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Concordia Maritime B",
-        "Country": "Sweden",
-        "Symbol": "CCOR B",
-        "Currency": "SEK",
-        "ISIN": "SE0000102824",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Consilium B",
-        "Country": "Sweden",
-        "Symbol": "CONS B",
-        "Currency": "SEK",
-        "ISIN": "SE0000236382",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "C-RAD B",
-        "Country": "Sweden",
-        "Symbol": "CRAD B",
-        "Currency": "SEK",
-        "ISIN": "SE0002016352",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "CTT Systems",
-        "Country": "Sweden",
-        "Symbol": "CTT",
-        "Currency": "SEK",
-        "ISIN": "SE0000418923",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Dedicare B",
-        "Country": "Sweden",
-        "Symbol": "DEDI",
-        "Currency": "SEK",
-        "ISIN": "SE0003909282",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "DORO",
-        "Country": "Sweden",
-        "Symbol": "DORO",
-        "Currency": "SEK",
-        "ISIN": "SE0000215493",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Duroc B",
-        "Country": "Sweden",
-        "Symbol": "DURC B",
-        "Currency": "SEK",
-        "ISIN": "SE0000331266",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Edgeware",
-        "Country": "Sweden",
-        "Symbol": "EDGE",
-        "Currency": "SEK",
-        "ISIN": "SE0009268360",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Electra Gruppen",
-        "Country": "Sweden",
-        "Symbol": "ELEC",
-        "Currency": "SEK",
-        "ISIN": "SE0001572520",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Elos Medtech B",
-        "Country": "Sweden",
-        "Symbol": "ELOS B",
-        "Currency": "SEK",
-        "ISIN": "SE0000120776",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Empir Group B",
-        "Country": "Sweden",
-        "Symbol": "EMPIR B",
-        "Currency": "SEK",
-        "ISIN": "SE0010769182",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Endomines",
-        "Country": "Sweden",
-        "Symbol": "ENDO",
-        "Currency": "SEK",
-        "ISIN": "SE0008294334",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Eniro",
-        "Country": "Sweden",
-        "Symbol": "ENRO",
-        "Currency": "SEK",
-        "ISIN": "SE0011256312",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Eniro pref",
-        "Country": "Sweden",
-        "Symbol": "ENRO PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0004633956",
-        "ICB Code": 4030.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Episurf B",
-        "Country": "Sweden",
-        "Symbol": "EPIS B",
-        "Currency": "SEK",
-        "ISIN": "SE0003491562",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Etrion",
-        "Country": "Sweden",
-        "Symbol": "ETX",
-        "Currency": "SEK",
-        "ISIN": "CA29786T1057",
-        "ICB Code": 6510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "eWork Group",
-        "Country": "Sweden",
-        "Symbol": "EWRK",
-        "Currency": "SEK",
-        "ISIN": "SE0002402701",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Feelgood Svenska",
-        "Country": "Sweden",
-        "Symbol": "FEEL",
-        "Currency": "SEK",
-        "ISIN": "SE0000381840",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "FM Mattsson Mora Group B",
-        "Country": "Sweden",
-        "Symbol": "FMM B",
-        "Currency": "SEK",
-        "ISIN": "SE0001116021",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "FormPipe Software",
-        "Country": "Sweden",
-        "Symbol": "FPIP",
-        "Currency": "SEK",
-        "ISIN": "SE0001338039",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "GHP Specialty Care",
-        "Country": "Sweden",
-        "Symbol": "GHP",
-        "Currency": "SEK",
-        "ISIN": "SE0002579912",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Gaming Innovation Group",
-        "Country": "Sweden",
-        "Symbol": "GIGSEK",
-        "Currency": "SEK",
-        "ISIN": "US36467X2062",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Green Landscaping Group",
-        "Country": "Sweden",
-        "Symbol": "GREEN",
-        "Currency": "SEK",
-        "ISIN": "SE0010985028",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Hanza Holding",
-        "Country": "Sweden",
-        "Symbol": "HANZA",
-        "Currency": "SEK",
-        "ISIN": "SE0005878543",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Havsfrun Investment B",
-        "Country": "Sweden",
-        "Symbol": "HAV B",
-        "Currency": "SEK",
-        "ISIN": "SE0000312043",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Immunicum",
-        "Country": "Sweden",
-        "Symbol": "IMMU",
-        "Currency": "SEK",
-        "ISIN": "SE0005003654",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "IRRAS",
-        "Country": "Sweden",
-        "Symbol": "IRRAS",
-        "Currency": "SEK",
-        "ISIN": "SE0008321202",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Image Systems",
-        "Country": "Sweden",
-        "Symbol": "IS",
-        "Currency": "SEK",
-        "ISIN": "SE0006421871",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "KABE Group B",
-        "Country": "Sweden",
-        "Symbol": "KABE B",
-        "Currency": "SEK",
-        "ISIN": "SE0000107724",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Karolinska Development B",
-        "Country": "Sweden",
-        "Symbol": "KDEV",
-        "Currency": "SEK",
-        "ISIN": "SE0002190926",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lammhults Design Group B",
-        "Country": "Sweden",
-        "Symbol": "LAMM B",
-        "Currency": "SEK",
-        "ISIN": "SE0000386138",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Lime Technologies",
-        "Country": "Sweden",
-        "Symbol": "LIME",
-        "Currency": "SEK",
-        "ISIN": "SE0011870195",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Magnolia Bostad",
-        "Country": "Sweden",
-        "Symbol": "MAG",
-        "Currency": "SEK",
-        "ISIN": "SE0007074505",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "MedCap",
-        "Country": "Sweden",
-        "Symbol": "MCAP",
-        "Currency": "SEK",
-        "ISIN": "SE0009160872",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Malmbergs Elektriska B",
-        "Country": "Sweden",
-        "Symbol": "MEAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0000507659",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Midway A",
-        "Country": "Sweden",
-        "Symbol": "MIDW A",
-        "Currency": "SEK",
-        "ISIN": "SE0000122657",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Midway B",
-        "Country": "Sweden",
-        "Symbol": "MIDW B",
-        "Currency": "SEK",
-        "ISIN": "SE0000122673",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Moberg Pharma",
-        "Country": "Sweden",
-        "Symbol": "MOB",
-        "Currency": "SEK",
-        "ISIN": "SE0013121340",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Moment Group",
-        "Country": "Sweden",
-        "Symbol": "MOMENT",
-        "Currency": "SEK",
-        "ISIN": "SE0000680902",
-        "ICB Code": 4050.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Micro Systemation B",
-        "Country": "Sweden",
-        "Symbol": "MSAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0000526626",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "MultiQ International",
-        "Country": "Sweden",
-        "Symbol": "MULQ",
-        "Currency": "SEK",
-        "ISIN": "SE0000353898",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Medivir B",
-        "Country": "Sweden",
-        "Symbol": "MVIR B",
-        "Currency": "SEK",
-        "ISIN": "SE0000273294",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NAXS",
-        "Country": "Sweden",
-        "Symbol": "NAXS",
-        "Currency": "SEK",
-        "ISIN": "SE0001965369",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NCAB Group",
-        "Country": "Sweden",
-        "Symbol": "NCAB",
-        "Currency": "SEK",
-        "ISIN": "SE0011167956",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Net Insight B",
-        "Country": "Sweden",
-        "Symbol": "NETI B",
-        "Currency": "SEK",
-        "ISIN": "SE0000366098",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NGS Group",
-        "Country": "Sweden",
-        "Symbol": "NGS",
-        "Currency": "SEK",
-        "ISIN": "SE0009947708",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Nil\u00f6rngruppen B",
-        "Country": "Sweden",
-        "Symbol": "NIL B",
-        "Currency": "SEK",
-        "ISIN": "SE0007100342",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NOTE",
-        "Country": "Sweden",
-        "Symbol": "NOTE",
-        "Currency": "SEK",
-        "ISIN": "SE0001161654",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "NOVOTEK B",
-        "Country": "Sweden",
-        "Symbol": "NTEK B",
-        "Currency": "SEK",
-        "ISIN": "SE0000567752",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Odd Molly International",
-        "Country": "Sweden",
-        "Symbol": "ODD",
-        "Currency": "SEK",
-        "ISIN": "SE0002017657",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oscar Properties Holding",
-        "Country": "Sweden",
-        "Symbol": "OP",
-        "Currency": "SEK",
-        "ISIN": "SE0005095601",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oscar Properties Holding PREF",
-        "Country": "Sweden",
-        "Symbol": "OP PREF",
-        "Currency": "SEK",
-        "ISIN": "SE0006992335",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Oscar Properties Holding PREFB",
-        "Country": "Sweden",
-        "Symbol": "OP PREFB",
-        "Currency": "SEK",
-        "ISIN": "SE0008041248",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ortivus A",
-        "Country": "Sweden",
-        "Symbol": "ORTI A",
-        "Currency": "SEK",
-        "ISIN": "SE0000188930",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Ortivus B",
-        "Country": "Sweden",
-        "Symbol": "ORTI B",
-        "Currency": "SEK",
-        "ISIN": "SE0000123085",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Projektengagemang Sweden B",
-        "Country": "Sweden",
-        "Symbol": "PENG B",
-        "Currency": "SEK",
-        "ISIN": "SE0011337666",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "PledPharma",
-        "Country": "Sweden",
-        "Symbol": "PLED",
-        "Currency": "SEK",
-        "ISIN": "SE0003815604",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Poolia B",
-        "Country": "Sweden",
-        "Symbol": "POOL B",
-        "Currency": "SEK",
-        "ISIN": "SE0000567539",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Precise Biometrics",
-        "Country": "Sweden",
-        "Symbol": "PREC",
-        "Currency": "SEK",
-        "ISIN": "SE0001823303",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Prevas B",
-        "Country": "Sweden",
-        "Symbol": "PREV B",
-        "Currency": "SEK",
-        "ISIN": "SE0000356008",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Pricer B",
-        "Country": "Sweden",
-        "Symbol": "PRIC B",
-        "Currency": "SEK",
-        "ISIN": "SE0000233934",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Profilgruppen B",
-        "Country": "Sweden",
-        "Symbol": "PROF B",
-        "Currency": "SEK",
-        "ISIN": "SE0000393860",
-        "ICB Code": 5510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Qliro",
-        "Country": "Sweden",
-        "Symbol": "QLIRO",
-        "Currency": "SEK",
-        "ISIN": "SE0013719077",
-        "ICB Code": 3020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Railcare Group",
-        "Country": "Sweden",
-        "Symbol": "RAIL",
-        "Currency": "SEK",
-        "ISIN": "SE0010441139",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Rejlers B",
-        "Country": "Sweden",
-        "Symbol": "REJL B",
-        "Currency": "SEK",
-        "ISIN": "SE0000123671",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "RNB RETAIL AND BRANDS",
-        "Country": "Sweden",
-        "Symbol": "RNBS",
-        "Currency": "SEK",
-        "ISIN": "SE0005223674",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Saniona",
-        "Country": "Sweden",
-        "Symbol": "SANION",
-        "Currency": "SEK",
-        "ISIN": "SE0005794617",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Semcon",
-        "Country": "Sweden",
-        "Symbol": "SEMC",
-        "Currency": "SEK",
-        "ISIN": "SE0000379497",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Sensys Gatso Group",
-        "Country": "Sweden",
-        "Symbol": "SENS",
-        "Currency": "SEK",
-        "ISIN": "SE0000567729",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SinterCast",
-        "Country": "Sweden",
-        "Symbol": "SINT",
-        "Currency": "SEK",
-        "ISIN": "SE0000950982",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Softronic B",
-        "Country": "Sweden",
-        "Symbol": "SOF B",
-        "Currency": "SEK",
-        "ISIN": "SE0000323305",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Serneke Group B",
-        "Country": "Sweden",
-        "Symbol": "SRNKE B",
-        "Currency": "SEK",
-        "ISIN": "SE0007278841",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "SSM Holding",
-        "Country": "Sweden",
-        "Symbol": "SSM",
-        "Currency": "SEK",
-        "ISIN": "SE0009663511",
-        "ICB Code": 3510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Starbreeze A",
-        "Country": "Sweden",
-        "Symbol": "STAR A",
-        "Currency": "SEK",
-        "ISIN": "SE0007158928",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Starbreeze B",
-        "Country": "Sweden",
-        "Symbol": "STAR B",
-        "Currency": "SEK",
-        "ISIN": "SE0005992831",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Strax",
-        "Country": "Sweden",
-        "Symbol": "STRAX",
-        "Currency": "SEK",
-        "ISIN": "SE0012040459",
-        "ICB Code": 4020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Stockwik F\u00f6rvaltning",
-        "Country": "Sweden",
-        "Symbol": "STWK",
-        "Currency": "SEK",
-        "ISIN": "SE0012257970",
-        "ICB Code": 1510.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Svedbergs B",
-        "Country": "Sweden",
-        "Symbol": "SVED B",
-        "Currency": "SEK",
-        "ISIN": "SE0000407991",
-        "ICB Code": 5010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Studsvik",
-        "Country": "Sweden",
-        "Symbol": "SVIK",
-        "Currency": "SEK",
-        "ISIN": "SE0000653230",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "TradeDoubler",
-        "Country": "Sweden",
-        "Symbol": "TRAD",
-        "Currency": "SEK",
-        "ISIN": "SE0001552357",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Trention",
-        "Country": "Sweden",
-        "Symbol": "TRENT",
-        "Currency": "SEK",
-        "ISIN": "SE0008348767",
-        "ICB Code": 4010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Vicore Pharma Holding",
-        "Country": "Sweden",
-        "Symbol": "VICO",
-        "Currency": "SEK",
-        "ISIN": "SE0007577895",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Venue Retail Group B",
-        "Country": "Sweden",
-        "Symbol": "VRG B",
-        "Currency": "SEK",
-        "ISIN": "SE0000396822",
-        "ICB Code": 4040.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Viking Supply Ships B",
-        "Country": "Sweden",
-        "Symbol": "VSSAB B",
-        "Currency": "SEK",
-        "ISIN": "SE0010820613",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Wise Group",
-        "Country": "Sweden",
-        "Symbol": "WISE",
-        "Currency": "SEK",
-        "ISIN": "SE0007277876",
-        "ICB Code": 5020.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Xbrane Biopharma",
-        "Country": "Sweden",
-        "Symbol": "XBRANE",
-        "Currency": "SEK",
-        "ISIN": "SE0007789409",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "Xspray Pharma",
-        "Country": "Sweden",
-        "Symbol": "XSPRAY",
-        "Currency": "SEK",
-        "ISIN": "SE0009973563",
-        "ICB Code": 2010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
-    },
-    {
-        "Name": "ZetaDisplay",
-        "Country": "Sweden",
-        "Symbol": "ZETA",
-        "Currency": "SEK",
-        "ISIN": "SE0001105511",
-        "ICB Code": 1010.0,
-        "Industry": "TBD-industry",
-        "Badges": ""
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Wulff-Yhti\u00f6t Oyj",
+        "Country": "Finland",
+        "Symbol": "WUF1V",
+        "Currency": "EUR",
+        "ISIN": "FI0009008452",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "YIT Oyj",
+        "Country": "Finland",
+        "Symbol": "YIT",
+        "Currency": "EUR",
+        "ISIN": "FI0009800643",
+        "Badges": "",
+        "": 0.0
+    },
+    {
+        "Name": "Yleiselektroniikka Oyj",
+        "Country": "Finland",
+        "Symbol": "YEINT",
+        "Currency": "EUR",
+        "ISIN": "FI0009900724",
+        "Badges": "",
+        "": 0.0
     }
 ]

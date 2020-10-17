@@ -35,6 +35,9 @@ function badgify(badgeString) {
 }
 
 function starify(int) {
+    if (int == 'na') {
+        return "n/a"
+    }
     int = parseInt(int)
 	return "&#x1f333;".repeat(int) + "<span class='nostar'>" + "&#x1f333;".repeat(5-int) + "</span>"
 }
