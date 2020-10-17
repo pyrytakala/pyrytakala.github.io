@@ -1,9 +1,10 @@
 import excel2json, os
 
+BASE = '/Users/pyry/Google Drive/g/pyrytakala.github.io/wysely/'
 
-xlsx_url = '/Users/pyry/Google Drive/projects/recruiter list/db.xlsx'
-temp_json = "/Users/pyry/Google Drive/projects/recruiter list/Sheet1.json"
-json_url = "/Users/pyry/Google Drive/projects/recruiter list/db.json"
+xlsx_url = BASE + "db.xlsx"
+temp_json = BASE + "Sheet1.json"
+json_url = BASE + "db.json"
 
 excel2json.convert_from_file(xlsx_url)
 os.rename(temp_json, json_url)
@@ -26,9 +27,9 @@ f.close()
 ## pt 2
 
 
-xlsx_url = '/Users/pyry/Google Drive/projects/recruiter list/db-multi.xlsx'
-temp_json = "/Users/pyry/Google Drive/projects/recruiter list/Sheet1.json"
-json_url = "/Users/pyry/Google Drive/projects/recruiter list/db-multi.json"
+xlsx_url = BASE + "db-multi.xlsx"
+temp_json = BASE + "Sheet1.json"
+json_url = BASE + "db-multi.json"
 
 
 excel2json.convert_from_file(xlsx_url)

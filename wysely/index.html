@@ -114,6 +114,7 @@ function renderResultTable() {
 		// rows
 		results.forEach(function(e) {
 			add += '<div class="result"><a href="item.html?id=' + e['Symbol'] + '">'
+
 			for (const [key, value] of Object.entries(e)) {
 
 				if (key in meta_index_attributes) {

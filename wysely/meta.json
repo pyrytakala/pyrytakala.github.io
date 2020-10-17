@@ -3,5 +3,5 @@ var meta_filters = new Set(["Country", "Currency"])
 var meta_index_attributes = {"Name": "title",
                              "Country": "flag",
                              "Symbol": "normal",
-                             "Industry": "normal",
+                             //"Industry": "normal",
                              "Badges": "badges"}
