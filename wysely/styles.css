@@ -10,6 +10,7 @@ body {
 .section {
 	margin: 0px;
 	padding: 0px;
+	width: 100%;
 }
 
 .section.big {
@@ -36,12 +37,7 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero-text {
-	position: absolute;
-	top: 120px;
-	left: 40px;
 
-}
 
 h1 {
 	font-weight: 500;
@@ -57,10 +53,38 @@ h3 {
 }
 
 
+.hero-text {
+	position: absolute;
+	top: 120px;
+	left: 40px;
+}
+
 .hero-text h1 {
 	font-weight: 700;
 	margin: 30 0 30 0px;
 }
+
+
+
+@media only screen and (max-width: 1000px) {
+	.hero-text {
+		max-width: 50%;
+		top: 30px;
+		left: 15px;
+		
+	}
+	
+	.hero-text h1 {
+		font-weight: 700;
+		margin: 30 0 30 0px;
+		text-align: left;
+	}
+}
+
+
+
+
+
 
 h4 {
 	font-weight: 500;
@@ -243,7 +267,7 @@ a {
 	height: 50px;
 	line-height: 50px; /* fixes text to center*/
 	padding: 10 10 10 10px;
-	margin: 50 0 0 0px;
+	margin: 0 0 0 0px;
 	border: 0px;
 	color: white;
 	text-transform: capitalize;
@@ -269,8 +293,12 @@ a {
 		font-size: 32px;
 	}
 	
+	p {
+		font-size: 16px;
+	}
+
 	h3 {
-		font-size: 14px;
+		font-size: 20px;
 	}
 
 	h4 {
@@ -286,9 +314,7 @@ a {
 		margin: 10 10 10 10px;
 	}
 
-	.hero-text {
-		position: static;
-	}
+
 
 
 }
