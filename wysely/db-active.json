@@ -1,618 +1,594 @@
 var db_active = [
     {
         "Symbol": "AKTAV",
-        "company": "Aktia Bank Plc",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "ALMA",
-        "company": "Alma Media Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A-",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "--notlisted--",
-        "company": "Amer Sports",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "D",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 2.0,
+        "OurScore": 4.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "BAS1V",
-        "company": "Basware Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "C",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 3.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "CGCBV",
-        "company": "Cargotec Corporation",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "C",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 3.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "CAV1V",
-        "company": "Caverion",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "C",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 3.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "CTY1S",
-        "company": "Citycon Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "CRA1V",
-        "company": "Cramo Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "C",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 3.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "--notlisted--",
-        "company": "DNA Plc",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "ELISA",
-        "company": "Elisa Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "A-",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "FIA1S",
-        "company": "Finnair",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "FSKRS",
-        "company": "Fiskars Corporation",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "A-",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "FORTUM",
-        "company": "Fortum Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "--notlisted--",
-        "company": "Fredman Group Oy",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "D",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
         "OurScore": 2.0,
         "Program": "Carbon Disclosure Project"
     },
     {
-        "Symbol": "FSC1V",
-        "company": "F-Secure Oyj",
-        "country": "Finland",
+        "Symbol": "CGCBV",
         "Year": 2019.0,
-        "Score": "F",
-        "key2": "Declined to participate",
+        "Score": "C",
         "Stamp": "Climate Change 2019",
-        "OurScore": 1.0,
+        "OurScore": 2.0,
         "Program": "Carbon Disclosure Project"
     },
     {
-        "Symbol": "HUH1V",
-        "company": "Huhtam\u00e4ki Oyj",
-        "country": "Finland",
+        "Symbol": "CAV1V",
         "Year": 2019.0,
         "Score": "C",
-        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "CTY1S",
+        "Year": 2019.0,
+        "Score": "B",
         "Stamp": "Climate Change 2019",
         "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
-        "Symbol": "KEMIRA",
-        "company": "Kemira Corporation",
-        "country": "Finland",
+        "Symbol": "CRA1V",
         "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
+        "Score": "C",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "ELISA",
+        "Year": 2019.0,
+        "Score": "A-",
         "Stamp": "Climate Change 2019",
         "OurScore": 4.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "FIA1S",
+        "Year": 2019.0,
+        "Score": "B",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "FSKRS",
+        "Year": 2019.0,
+        "Score": "A-",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 4.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "FORTUM",
+        "Year": 2019.0,
+        "Score": "B",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "FSC1V",
+        "Year": 2019.0,
+        "Score": "F",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 0.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "HUH1V",
+        "Year": 2019.0,
+        "Score": "C",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "KEMIRA",
+        "Year": 2019.0,
+        "Score": "B",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "KESKOB",
-        "company": "Kesko Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "KNEBV",
-        "company": "Kone Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
         "OurScore": 5.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "KCR",
-        "company": "Konecranes",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "LAT1V",
-        "company": "Lassila & Tikanoja",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A-",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
+        "OurScore": 4.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "METSB",
-        "company": "Mets\u00e4 Board Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A-",
-        "key2": "Submitted",
         "Stamp": "Forests 2019",
-        "OurScore": 5.0,
+        "OurScore": 4.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "METSB",
-        "company": "Mets\u00e4 Board Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
         "OurScore": 5.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "METSB",
-        "company": "Mets\u00e4 Board Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A-",
-        "key2": "Submitted",
         "Stamp": "Water Security 2019",
-        "OurScore": 5.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "METSO",
-        "company": "Metso",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
         "OurScore": 4.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "METSO",
-        "company": "Metso",
-        "country": "Finland",
+        "Year": 2019.0,
+        "Score": "B",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "METSO",
         "Year": 2019.0,
         "Score": "F",
-        "key2": "Declined to participate",
         "Stamp": "Water Security 2019",
-        "OurScore": 1.0,
+        "OurScore": 0.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "NESTE",
-        "company": "Neste Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A-",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
+        "OurScore": 4.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "NESTE",
-        "company": "Neste Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Water Security 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "NOKIA",
-        "company": "Nokia Group",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A-",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
+        "OurScore": 4.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "TYRES",
-        "company": "Nokian Tyres",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "Not Scored",
-        "key2": "Submitted",
         "Stamp": "Forests 2019",
         "OurScore": "na",
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "TYRES",
-        "company": "Nokian Tyres",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "TYRES",
-        "company": "Nokian Tyres",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B-",
-        "key2": "Submitted",
         "Stamp": "Water Security 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "--notlisted--",
-        "company": "OP Financial Group",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "A-",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "OKDBV",
-        "company": "Oriola Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "ORNBV",
-        "company": "Orion Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "D",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 2.0,
+        "OurScore": 1.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "ORNBV",
-        "company": "Orion Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "D",
-        "key2": "Submitted",
         "Stamp": "Water Security 2019",
-        "OurScore": 2.0,
+        "OurScore": 1.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "OUT1V",
-        "company": "Outokumpu Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "C",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 3.0,
+        "OurScore": 2.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "OTE1V",
-        "company": "Outotec Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "RMR1V",
-        "company": "Ramirent",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "D",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 2.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "--notlisted--",
-        "company": "S Group",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "A-",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
+        "OurScore": 1.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "SAA1V",
-        "company": "Sanoma",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "C",
-        "key2": "Submitted",
         "Stamp": "Forests 2019",
-        "OurScore": 3.0,
+        "OurScore": 2.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "SAA1V",
-        "company": "Sanoma",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "D",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 2.0,
+        "OurScore": 1.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "STCBV",
-        "company": "Stockmann Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "STERV",
-        "company": "Stora Enso Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "A-",
-        "key2": "Submitted",
-        "Stamp": "Forests 2019",
-        "OurScore": 5.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "STERV",
-        "company": "Stora Enso Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "A",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 5.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "STERV",
-        "company": "Stora Enso Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Water Security 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "TIETO",
-        "company": "Tieto Oyj",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "B",
-        "key2": "Submitted",
-        "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
-        "Program": "Carbon Disclosure Project"
-    },
-    {
-        "Symbol": "TOKMAN",
-        "company": "Tokmanni",
-        "country": "Finland",
-        "Year": 2019.0,
-        "Score": "C",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
         "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
-        "Symbol": "UPM",
-        "company": "UPM-Kymmene Corporation",
-        "country": "Finland",
+        "Symbol": "STERV",
+        "Year": 2019.0,
+        "Score": "A-",
+        "Stamp": "Forests 2019",
+        "OurScore": 4.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "STERV",
         "Year": 2019.0,
         "Score": "A",
-        "key2": "Submitted",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 5.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "STERV",
+        "Year": 2019.0,
+        "Score": "B",
+        "Stamp": "Water Security 2019",
+        "OurScore": 3.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "TIETO",
+        "Year": 2019.0,
+        "Score": "B",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 3.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "TOKMAN",
+        "Year": 2019.0,
+        "Score": "C",
+        "Stamp": "Climate Change 2019",
+        "OurScore": 2.0,
+        "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "UPM",
+        "Year": 2019.0,
+        "Score": "A",
         "Stamp": "Forests 2019",
         "OurScore": 5.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "UPM",
-        "company": "UPM-Kymmene Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
         "OurScore": 5.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "UPM",
-        "company": "UPM-Kymmene Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A",
-        "key2": "Submitted",
         "Stamp": "Water Security 2019",
         "OurScore": 5.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "UPONOR",
-        "company": "Uponor Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "VAIAS",
-        "company": "Vaisala Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "B",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 4.0,
+        "OurScore": 3.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "VALMT",
-        "company": "Valmet",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "A",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
         "OurScore": 5.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "WRT1V",
-        "company": "W\u00e4rtsil\u00e4 Corporation",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "C",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 3.0,
+        "OurScore": 2.0,
         "Program": "Carbon Disclosure Project"
     },
     {
         "Symbol": "YTY1V",
-        "company": "Yit Oyj",
-        "country": "Finland",
         "Year": 2019.0,
         "Score": "D",
-        "key2": "Submitted",
         "Stamp": "Climate Change 2019",
-        "OurScore": 2.0,
+        "OurScore": 1.0,
         "Program": "Carbon Disclosure Project"
+    },
+    {
+        "Symbol": "ELISA",
+        "Year": 2017.0,
+        "Score": "1.5C",
+        "Stamp": "Targets Set",
+        "OurScore": 4.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "KESKOB",
+        "Year": 2017.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "METSB",
+        "Year": 2019.0,
+        "Score": "1.5C",
+        "Stamp": "Targets Set",
+        "OurScore": 4.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "NOKIA",
+        "Year": 2017.0,
+        "Score": "Well-below 2C",
+        "Stamp": "Targets Set",
+        "OurScore": 5.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "OUT1V",
+        "Year": 2019.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "STERV",
+        "Year": 2017.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "UPM",
+        "Year": 2019.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "ALMA",
+        "Year": 2018.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "OTE1V",
+        "Year": 2019.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "LAT1V",
+        "Year": 2020.0,
+        "Score": "Well-below 2C",
+        "Stamp": "Targets Set",
+        "OurScore": 5.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "TYRES",
+        "Year": 2018.0,
+        "Score": "na",
+        "Stamp": "Committed",
+        "OurScore": 2.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "TOKMAN",
+        "Year": 2019.0,
+        "Score": "na",
+        "Stamp": "Committed",
+        "OurScore": 2.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "METSO",
+        "Year": 2019.0,
+        "Score": "2C",
+        "Stamp": "Targets Set",
+        "OurScore": 3.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "CTY1S",
+        "Year": 2020.0,
+        "Score": "na",
+        "Stamp": "Committed",
+        "OurScore": 2.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "CGCBV",
+        "Year": 2020.0,
+        "Score": "na",
+        "Stamp": "Committed",
+        "OurScore": 2.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "KNEBV",
+        "Year": 2020.0,
+        "Score": "na",
+        "Stamp": "Committed",
+        "OurScore": 2.0,
+        "Program": "Science Based Targets"
+    },
+    {
+        "Symbol": "KESKOB",
+        "Year": 2020.0,
+        "Score": "Bronze",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 3.0,
+        "Program": "SAM Sustainability Yearbook"
+    },
+    {
+        "Symbol": "NESTE",
+        "Year": 2020.0,
+        "Score": "Bronze",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 3.0,
+        "Program": "SAM Sustainability Yearbook"
+    },
+    {
+        "Symbol": "TYRES",
+        "Year": 2020.0,
+        "Score": "Bronze",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 3.0,
+        "Program": "SAM Sustainability Yearbook"
+    },
+    {
+        "Symbol": "OUT1V",
+        "Year": 2020.0,
+        "Score": "Member",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 2.0,
+        "Program": "SAM Sustainability Yearbook"
+    },
+    {
+        "Symbol": "UPM",
+        "Year": 2020.0,
+        "Score": "Gold",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 5.0,
+        "Program": "SAM Sustainability Yearbook"
+    },
+    {
+        "Symbol": "VALMT",
+        "Year": 2020.0,
+        "Score": "Bronze",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 3.0,
+        "Program": "SAM Sustainability Yearbook"
+    },
+    {
+        "Symbol": "WRT1V",
+        "Year": 2020.0,
+        "Score": "Member",
+        "Stamp": "SAM Sustainability Yearbook",
+        "OurScore": 2.0,
+        "Program": "SAM Sustainability Yearbook"
     }
 ]
